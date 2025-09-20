@@ -1,0 +1,259 @@
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <script src="./main.js"></script>
+        <title>Platformer Jam</title>
+    </head>
+
+    <body onload="init();">
+        <div id="homepage-bg-wrapper">    
+                <div id="background"></div>
+            </div>
+        <div class="navbar">
+            <div class="navbar-item"></div>
+        </div>
+        
+
+        
+        <div class="homepage-wrapper">
+            <div style="height : 100px; width : 100%;"></div>
+            
+            
+            <div id="title-wrapper">
+                <img id="title-text" src="./Assets/PlatjamNamePlaceholder.png">
+            </div>
+            
+            <div id = "timer-wrapper">
+                <div id="timer">
+                    0:00:00
+                </div>
+            </div>
+
+            <div id="message">
+                <p class = "message-buffer"></p>
+                <p class = "message-main">
+                No Jam Currently Active!
+                </p>
+                <br>
+                <p class = "message-sub">
+                    Next Jam: 10/31/2025
+                </p>
+                <p class = "message-sub">
+                    
+                </p>
+                <p class = "message-buffer">
+                    
+                </p>
+
+            </div>
+
+            <div id="themes-wrapper" class = "wrapper">
+                <div class="wrapper" id="main-theme-wrapper">
+                    <p class="themes-label" style="font-size:1.5rem;">Main Theme</p>
+                    <div id="main-theme" class="main-theme">???</div>
+                </div>
+                <div class="wrapper" id="sub-theme-wrapper">
+                    <p class="themes-label">Sub-Themes</p>
+                    <div class="wrapper" style="height : auto; padding : 20px;">
+                        <div id="sub-theme1" class="sub-theme">Sub-Theme 1</div><div id="sub-theme2" class="sub-theme">Sub Theme 2</div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="wrapper" id="buttons-wrapper">
+                <div class="buttons-wrapper-row">
+                    <button onclick="window.scrollTo(0, 921);" class="navigation-button">Rules & Info</button>
+                    <button class="navigation-button">Judges</button>
+                    <button class="navigation-button">Discord Server</button>
+                </div>
+                <div class="buttons-wrapper-row">
+                    <button class="navigation-button" onclick="window.open('https\:\/\/forms.gle/5hY9MBfABZU5PQ8B6'), _blank">Submit Level</button>
+                    <button class="navigation-button">Hall of Fame <br>(Coming Soon)</button>
+                </div> 
+            </div>
+
+            
+        </div>
+    </div>
+
+        <div class = "wrapper" id="rules-wrapper">
+            <div id="rules">
+
+                
+            </div>
+        </div>
+
+
+            <div class="info-wrapper" id="info" style="visibility:show;">
+                <div class="section-container">
+                    <h2 class="section-header">So, What's a Plat Jam?</h2>
+                    <p class="section-content">
+                        [Whatever we're calling this] is a Platformer Jam-Basically think of it as a mini-creator contest.
+                        <br><br>
+                        The idea is to make a simple level focused on enjoyability and uniqueness based on a given theme, rather than the absolute highest effort project possible like with a normal contests.
+                        <br><br>
+                        Because of this, Jam deadlines are very short, usually only a couple of days, meaning you'll have to make the most of your time.
+                        <br><br><br>
+                        The idea is inspired by Game Jams such as the <a href="https://gamemakerstoolkit.com/jam/" target="_blank">GMTK Game Jam</a>, which are periodic events where game developers come together to create a game under an extremely limited timeframe to create a full game based around a given theme.
+                    </p>
+                </div>
+                <div class="section-separator"></div>
+                <div class="section-container">
+                    <h2 class="section-header">Rules</h2>
+                    <br>
+                    <h3 class="section-subheader">General Level Information</h3>
+                    <p class="section-content">
+                        Your level must be a platformer (duh), with a minimum average completion time of 60 seconds.
+                    </p>
+                        <br><hr><br>
+                        <h3 class = "section-subheader">Allowed Difficulties</h3>
+                        <p class="section-content">
+                            Any difficulty from Auto to Extreme Demon is allowed for the Jam!
+                            <br><br>
+                            Just keep in mind that levels are judged mostly on their gameplay and enjoyability, so making the level too easy or too hard may greatly decrease your rating!
+                        </p>
+                        
+                        <br><hr><br>
+                        <h3 class="section-subheader">Collabs</h3>
+                        <p class="section-content">
+                            You may collab with up to two other people, for a total of three members per level. Any prizes won will be split evenly among the participants.
+                        </p>
+                        <br><hr><br>
+                        <h3 class="section-subheader">Scoring</h3>
+                        <p class="section-content">
+                            Levels will be scored as follows:
+                            <br><br>
+                        </p>
+                            <p class="section-list">
+
+                                Gameplay/Enjoyability - 50 Points<br>
+                                Originality - 25 Points<br>
+                                Theme Concept and Execution - 10 Points<br>
+                                Decoration - 10 Points<br>
+                                Personal Judge Bias - 5 Points<br>
+                            </p>
+                            <br><br>
+                            <p class = "section-content">
+                                You can see a breakdown of how points are awarded <a href="./rubric.html" target="_blank">here</a>.
+                            </p>
+
+                </div>
+            
+        </div>
+            
+
+        <div class="info-wrapper" id="judges">
+            <p class="userwrapper-label">Judges</p>
+            <div class="stafflist-wrapper">
+                <div class="user-container">
+                    <p class="user-label">Whippie37</p>
+                    <img class = "user-icon" src="./Assets/Judge Profile Pictures/whippie37.png"></img>
+                    <div class="user-socials-wrapper">
+                        <img class="user-socials" src="./Assets/gd-icon.png" onclick="window.open('https:/\/www.gdbrowser.com/u/whippie37'), _blank;"></img>
+                        <img class="user-socials" src="./Assets/twitch-icon.png" onclick="window.open('https:\/\/www.twitch.tv\/whippie37'), _blank;"></img>
+                        <img class="user-socials" src="./Assets/twitter-icon.png" onclick="window.open('https:/\/www.x.com/whippie37'), _blank;"></img>
+                        <img class="user-socials" src="./Assets/youtube-icon.png" onclick="window.open('https:/\/youtube.com/@whippie37'), _blank"></img>
+                    </div>
+                </div>
+
+                <div class="user-container">
+                    <p class="user-label">CreatorCreepy</p>
+                    <img class="user-icon"></img>
+                    <div class="user-socials-wrapper">
+
+                    </div>
+                </div>
+
+                <div class="user-container">
+                    <p class="user-label"></p>
+                    <img class="user-icon"></img>
+                    <div class="user-socials-wrapper">
+                        
+                    </div>
+                </div>
+
+                <div class="user-container">
+                    <p class="user-label"></p>
+                    <img class="user-icon"></img>
+                    <div class="user-socials-wrapper">
+                        
+                    </div>
+                </div>
+
+                <div class="user-container">
+                    <p class="user-label"></p>
+                    <img class="user-icon"></img>
+                    <div class="user-socials-wrapper">
+                        
+                    </div>
+                </div>
+
+                <div class="user-container">
+                    <p class="user-label"></p>
+                    <img class="user-icon"></img>
+                    <div class="user-socials-wrapper">
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div style="height : 8rem; width : 100%;"></div>
+            <p class="userwrapper-label">Other Staff</p>
+            <p class = "stafflist-label">Server Moderators</p>
+            <div class="stafflist-wrapper">
+                <div class="user-container">
+
+                </div>
+
+                <div class="user-container">
+
+                </div>
+
+                <div class="user-container">
+
+                </div>
+
+                <div class="user-container">
+
+                </div>
+
+                <div class="user-container">
+
+                </div>
+
+                <div class="user-container">
+
+                </div>
+            </div>
+            <div class="stafflist-wrapper">
+                <div class="user-container">
+
+                </div>
+                <div class="user-container">
+
+                </div>
+                <div class="user-container">
+
+                </div>
+                <div class="user-container">
+
+                </div>
+                <div class="user-container">
+
+                </div>
+                <div class="user-container">
+
+                </div>
+            </div>
+        </div>>
+
+        </div>
+    </body>
+</html>
