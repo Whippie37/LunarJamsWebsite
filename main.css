@@ -33,7 +33,7 @@ body {
     background-color: transparent;
     height : 1020px;
     left: 0;
-    width : 100%;
+    width : inherit;
     position : absolute;
     z-index: 0;
     padding: 0;
@@ -41,7 +41,7 @@ body {
     background-blend-mode: screen;
 }
 #homepage-bg-wrapper {
-    width : 100%;
+    width : inherit;
     height : 100%;
     margin : 0;
     white-space : nowrap;
@@ -337,7 +337,7 @@ body {
 
 .info-wrapper {
     position : absolute;
-    width : 100%;
+    width : inherit;
     height : 2080px;
     background : linear-gradient(0deg,rgba(0, 6, 24, .6) 0%, rgba(0, 6, 24, .6) 100%);
     backdrop-filter: blur(20px);
