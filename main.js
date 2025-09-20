@@ -1,5 +1,5 @@
 function init() {
-    let activeJam = true;
+    let activeJam = false;
     let backgrounds = new Array(6);
     backgrounds[0] = '\'./Assets/game_bg_01_001-uhd.png\'';
     backgrounds[1] = '\'./Assets/game_bg_02_001-uhd.png\'';
@@ -20,6 +20,20 @@ function init() {
         document.getElementById('themes-wrapper').style.height = "200px";
     }
     main();
+}
+
+
+
+function goToRulesInfo() {
+    window.scrollTo(0, 934);
+    document.getElementById("info").style.visibility = "visible";
+    document.getElementById("judges").style.visibility = "hidden";
+}
+
+function goToJudges() {
+    window.scrollTo(0, 934);
+    document.getElementById("judges").style.visibility = "visible";
+    document.getElementById("info").style.visibility = "hidden";
 }
 
 

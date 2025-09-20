@@ -12,11 +12,12 @@
 
 body {
     margin : 0;
-    padding :0;
+    padding : 0;
     width : 100%;
     overflow-x : hidden;
     background-color: black;
-
+    display: flex;
+    height : 3060px;
     scroll-behavior:auto;
 }
 
@@ -31,9 +32,11 @@ body {
 .homepage-wrapper {
     background-color: transparent;
     height : 1020px;
+    left: 0;
     width : 100%;
     position : absolute;
     z-index: 0;
+    padding: 0;
     backdrop-filter: blur(1px);
     background-blend-mode: screen;
 }
@@ -45,8 +48,9 @@ body {
     padding : 0;
     position : fixed;
     top : 0;
-    left : 0;
+    left : px;
     z-index: -2;
+    padding: 0;
     
 }
 #background {
@@ -327,25 +331,28 @@ body {
     transform : translateY(5px);
     background : linear-gradient(0deg,rgba(3, 180, 230, .6) 0%, rgba(0, 200, 255, .6) 100%);
     
-    box-shadow: 0px 0px 20px 15px rgba(86,255,255, 0.16),
-    inset 0px 0px 50px 15px rgba(86,255,255, 0.16);
+    box-shadow: 0px 0px 20px 15px rgba(86,255,255, 0.08),
+    inset 0px 0px 50px 15px rgba(86,255,255, 0.08);
 }
 
 .info-wrapper {
     position : absolute;
-    top : 1020px;
     width : 100%;
-    height : auto;
+    height : 2080px;
     background : linear-gradient(0deg,rgba(0, 6, 24, .6) 0%, rgba(0, 6, 24, .6) 100%);
     backdrop-filter: blur(20px);
     padding : 30px;
     display : grid;
     align-content : center;
     justify-content: center;
+    top : 1020px;
 }
+#info {visibility: hidden;}
+
+
 
 .section-container {
-    height : inherit;
+    height : auto;
     width : 85vw;
     border-radius : 30px;
     border : 3px solid var(--highlight-color);
@@ -369,7 +376,7 @@ body {
     text-shadow: 0px 0px 33px rgb(97, 250, 255, 0.15);
 }
 .section-separator {
-    height : 4rem;
+    height : 8rem;
 }
 .section-content {
     text-align : center;
@@ -410,7 +417,11 @@ hr {
     color : white;
     font-family : 'pusab';
     font-size : 4rem;
+    line-height: 2rem;
+    margin-top: 0;
+    padding : 0;
     text-decoration: underline;
+    user-select: none;
 }
 .stafflist-label {
     text-align: center;
@@ -418,6 +429,7 @@ hr {
     font-family : 'pusab';
     font-size : 2rem;
     text-decoration: underline;
+    user-select: none;
 }
 
 .user-container {
@@ -436,6 +448,7 @@ hr {
     text-align: center;
     margin-bottom: 0;
     font-family : Helvetica;
+    user-select: none;
 }
 .user-icon {
     width : 6.1rem;
