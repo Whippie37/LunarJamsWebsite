@@ -1,14 +1,17 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="./main.css">
+        <link rel="stylesheet" href="./mobile.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
         <script src="./main.js"></script>
-        <title>Platformer Jam</title>
+        <title>Lunar Jams</title>
     </head>
 
     <body onload="init();">
@@ -67,15 +70,14 @@
             
 
             <div class="wrapper" id="buttons-wrapper">
-                <div class="buttons-wrapper-row">
+
                     <button onclick="goToRulesInfo()" class="navigation-button">Rules & Info</button>
                     <button class="navigation-button" onclick="goToJudges()">Judges</button>
                     <button class="navigation-button" onclick="window.open('https:/\/discord.gg/fmQXzzyStg')">Discord Server</button>
-                </div>
-                <div class="buttons-wrapper-row">
+
                     <button class="navigation-button" onclick="window.open('https\:\/\/forms.gle/5hY9MBfABZU5PQ8B6'), _blank">Submit Level</button>
                     <button class="navigation-button">Hall of Fame <br>(Coming Soon)</button>
-                </div> 
+
             </div>
 
             
@@ -86,9 +88,9 @@
         
         <div class="info-wrapper" id="info" style="visibility:show;">
             <div class="section-container">
-                <h2 class="section-header">So, What's a Plat Jam?</h2>
+                <h2 class="section-header">So, What's a Lunar Jam?</h2>
                 <p class="section-content">
-                    [Whatever we're calling this] is a Platformer Jam-Basically think of it as a mini-creator contest.
+                    Lunar Jam is a Platformer Jam-Basically think of it as a mini-creator contest.
                     <br><br>
                     The idea is to make a simple level focused on enjoyability and uniqueness based on a given theme, rather than the absolute highest effort project possible like with a normal contests.
                     <br><br>
@@ -143,7 +145,6 @@
         
         
         <div class="info-wrapper" id="judges">
-            <div style="transform:translateY(-14rem);">
 
                 <p class="userwrapper-label">Judges</p>
                 <div class="stafflist-wrapper">
@@ -177,7 +178,9 @@
                         </div>
                     </div>
                     
-                    <div class="user-container">
+                    
+
+                        <div class="user-container">
                         <p class="user-label"></p>
                         <img class="user-icon"></img>
                         <div class="user-socials-wrapper">
@@ -195,7 +198,7 @@
                 </div>
                 
                 
-            </div>
+
             <div style="height : 8rem; width : 100%;"></div>
             <p class="userwrapper-label">Other Staff</p>
             <p class = "stafflist-label">Server Moderators</p>
@@ -211,48 +214,10 @@
                     </div>
                 </div>
                 
-                <div class="user-container">
-                    
-                </div>
                 
-                <div class="user-container">
-                    
-                </div>
-                
-                <div class="user-container">
-                    
-                </div>
-                
-                <div class="user-container">
-                    
-                </div>
-                
-                <div class="user-container">
-                    
-                </div>
-            </div>
-            <div class="stafflist-wrapper">
-                <div class="user-container">
-                    
-                </div>
-                <div class="user-container">
-                    
-                </div>
-                <div class="user-container">
-                    
-                </div>
-                <div class="user-container">
-                    
-                </div>
-                <div class="user-container">
-                    
-                </div>
-                <div class="user-container">
-                    
-                </div>
             </div>
             
-        </div>>
+        </div>
         
     </div>
 </body>

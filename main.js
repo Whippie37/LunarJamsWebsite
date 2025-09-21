@@ -1,5 +1,5 @@
 function init() {
-    let activeJam = false;
+    let activeJam = true;
     let backgrounds = new Array(6);
     backgrounds[0] = '\'./Assets/game_bg_01_001-uhd.png\'';
     backgrounds[1] = '\'./Assets/game_bg_02_001-uhd.png\'';
