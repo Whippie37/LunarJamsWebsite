@@ -2,223 +2,255 @@
     <head>
         <link rel="stylesheet" href="./main.css">
         <link rel="stylesheet" href="./mobile.css">
+        <link rel="stylesheet" href="./tablet.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+        <link rel="icon" href="./Assets/lunarjamlogo.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
         <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
         <script src="./main.js"></script>
-        <title>Lunar Jams</title>
+        <title>Lunar Jam</title>
     </head>
 
     <body onload="init();">
         <div id="homepage-bg-wrapper">    
             <div id="background"></div>
             </div>
-        <div class="navbar">
-            <div class="navbar-item"></div>
+        <div id="navbar" class="navbar">
+            <div  id="navbar-home" class="navbar-home">
+                <img height = "70px" width = "70px" src="./Assets/moonjamlogo2.png">
+                <p>
+                    Lunar Jam
+                </p>
+            </div>
+            <div class="navbar-container">
+                <div class="navbar-item" id="navbar-info" onclick="goToAbout()"><span class="material-symbols-outlined">info</span>About</div>
+                <div class="navbar-item" id="navbar-discord" onclick="window.open('https:/\/discord.gg/fmQXzzyStg')"><img src="./Assets/discord-icon.png" height="25px" width="25px">Discord</div>
+                <div class="navbar-item" id="navbar-submit" onclick="window.open('https\:\/\/forms.gle/5hY9MBfABZU5PQ8B6'), _blank"><span class="material-symbols-outlined">upload_file</span>Submit</div>
+                <div class="navbar-item" id="navbar-language"><span class="material-symbols-outlined">language</span>Language</div>
+            </div>
         </div>
         
 
         
         <div class="homepage-wrapper">
             
-            
-            <div id="title-wrapper">
-                <img id="title-text" src="./Assets/PlatjamNamePlaceholder.png">
-            </div>
-            
-            <div id = "timer-wrapper">
-                <div id="timer">
-                    0:00:00
-                </div>
+            <div class="homepage-section" id="homepage-section-left">
+                <!--Left Section-->
             </div>
 
-            <div id="message">
-                <p class = "message-buffer"></p>
-                <p class = "message-main">
-                No Jam Currently Active!
-                </p>
-                <br>
-                <p class = "message-sub">
-                    Next Jam: 10/31/2025
-                </p>
-                <p class = "message-sub">
+            <div class="homepage-section" id="homepage-section-right">
+                <!--Right Section-->
+
+                <div id="title-wrapper">
+                    <img class="title-text" src="Assets/PlatjamNamePlaceholder.png" id="homepage-title">
+                </div>
+                
+                <div class="wrapper" id="buttons-wrapper">
                     
-                </p>
-                <p class = "message-buffer">
-                    
-                </p>
-
-            </div>
-
-            <div id="themes-wrapper" class = "wrapper">
-                <div class="wrapper" id="main-theme-wrapper">
-                    <p class="themes-label" style="font-size:1.5rem;">Main Theme</p>
-                    <div id="main-theme" class="main-theme">???</div>
-                </div>
-                <div class="wrapper" id="sub-theme-wrapper">
-                    <p class="themes-label">Sub-Themes</p>
-                    <div class="wrapper" style="height : auto; padding : 20px;">
-                        <div id="sub-theme1" class="sub-theme">Sub-Theme 1</div><div id="sub-theme2" class="sub-theme">Sub Theme 2</div>
-                    </div>
-                </div>
-            </div>
-            
-
-            <div class="wrapper" id="buttons-wrapper">
-
-                    <button onclick="goToRulesInfo()" class="navigation-button">Rules & Info</button>
-                    <button class="navigation-button" onclick="goToJudges()">Judges</button>
+                    <button onclick="goToAbout()" class="navigation-button">About</button>
                     <button class="navigation-button" onclick="window.open('https:/\/discord.gg/fmQXzzyStg')">Discord Server</button>
-
+                    
+                    <button class="navigation-button">Previous Entries <br>(Coming Soon)</button>
                     <button class="navigation-button" onclick="window.open('https\:\/\/forms.gle/5hY9MBfABZU5PQ8B6'), _blank">Submit Level</button>
-                    <button class="navigation-button">Hall of Fame <br>(Coming Soon)</button>
+                    
+                </div>
 
+                <div style="height : 6vw; width : 0"></div>
+                
             </div>
-
             
         </div>
     </div>
 
 
-        
-        <div class="info-wrapper" id="info" style="visibility:show;">
-            <div class="section-container">
-                <h2 class="section-header">So, What's a Lunar Jam?</h2>
-                <p class="section-content">
-                    Lunar Jam is a Platformer Jam-Basically think of it as a mini-creator contest.
-                    <br><br>
-                    The idea is to make a simple level focused on enjoyability and uniqueness based on a given theme, rather than the absolute highest effort project possible like with a normal contests.
-                    <br><br>
-                    Because of this, Jam deadlines are very short, usually only a couple of days, meaning you'll have to make the most of your time.
-                    <br><br><br>
-                    The idea is inspired by Game Jams such as the <a href="https://gamemakerstoolkit.com/jam/" target="_blank">GMTK Game Jam</a>, which are periodic events where game developers come together to create a game under an extremely limited timeframe to create a full game based around a given theme.
-                </p>
-            </div>
-            <div class="section-separator"></div>
-            <div class="section-container">
-                <h2 class="section-header">Rules</h2>
-                <br>
-                <h3 class="section-subheader">General Level Information</h3>
-                <p class="section-content">
-                    Your level must be a platformer (duh), with a minimum average completion time of 60 seconds.
-                </p>
-                <br><hr><br>
-                <h3 class = "section-subheader">Allowed Difficulties</h3>
-                <p class="section-content">
-                    Any difficulty from Auto to Extreme Demon is allowed for the Jam!
-                    <br><br>
-                    Just keep in mind that levels are judged mostly on their gameplay and enjoyability, so making the level too easy or too hard may greatly decrease your rating!
-                </p>
-                
-                <br><hr><br>
-                <h3 class="section-subheader">Collabs</h3>
-                <p class="section-content">
-                    You may collab with up to two other people, for a total of three members per level. Any prizes won will be split evenly among the participants.
-                </p>
-                <br><hr><br>
-                <h3 class="section-subheader">Scoring</h3>
-                <p class="section-content">
-                    Levels will be scored as follows:
-                    <br><br>
-                </p>
-                <p class="section-list">
-                    
-                    Gameplay/Enjoyability - 50 Points<br>
-                    Originality - 25 Points<br>
-                    Theme Concept and Execution - 10 Points<br>
-                    Decoration - 10 Points<br>
-                    Personal Judge Bias - 5 Points<br>
-                </p>
-                <br><br>
-                <p class = "section-content">
-                    You can see a breakdown of how points are awarded <a href="./rubric.html" target="_blank">here</a>.
-                </p>
-                
-            </div>
-            
-        </div>
-        
-        
-        <div class="info-wrapper" id="judges">
+    <div class="about-wrapper">
+        <div class="about-container">
+            <span class="carousel-button-wrapper">
+                <button class="carousel-button" onclick="showInfoSection()">Info</button>
+                <button class="carousel-button" onclick="showPrizesSection()">Prizes</button>
+                <button class="carousel-button" onclick="showRulesSection()">Rules</button>
+                <button class="carousel-button" onclick="showJudgesSection()">Judges</button>
+                <button class="carousel-button" onclick="showScoringSection()">Scoring</button>
+            </span>
+            <div class="carousel" id="carousel">
 
-                <p class="userwrapper-label">Judges</p>
-                <div class="stafflist-wrapper">
-                    <div class="user-container">
-                        <p class="user-label">Whippie37</p>
-                        <img class = "user-icon" src="./Assets/Staff Profile Pictures/whippie37.png"></img>
-                        <div class="user-socials-wrapper">
-                            <img class="user-socials" src="./Assets/gd-icon.png" onclick="window.open('https:/\/www.gdbrowser.com/u/whippie37'), _blank;"></img>
-                            <img class="user-socials" src="./Assets/twitch-icon.png" onclick="window.open('https:\/\/www.twitch.tv\/whippie37'), _blank;"></img>
-                            <img class="user-socials" src="./Assets/twitter-icon.png" onclick="window.open('https:/\/www.x.com/whippie37');"></img>
-                            <img class="user-socials" src="./Assets/youtube-icon.png" onclick="window.open('https:/\/youtube.com/@whippie37')"></img>
-                        </div>
+                
+                
+                <div class="info-wrapper" id="info">
+                    <div class="section-container">
+                        <h2 class="section-header">So, What's a Lunar Jam?</h2>
+                        <p class="section-content">
+                            Lunar Jam is a Platformer Jam-Basically think of it as a mini-creator contest.
+                            <br><br>
+                            The idea is to make a fast, simple level focused on enjoyability and uniqueness based on a given theme, rather than the absolute highest effort project possible like with a normal contests.
+                            <br><br>
+                            Because of this, Jam deadlines are very short, usually only a couple of days, meaning you'll have to make the most of your time.
+                            <br><br><br>
+                            This event is inspired by Game Jams such as the <a href="https://gamemakerstoolkit.com/jam/" target="_blank">GMTK Game Jam</a>, which are periodic events where game developers come together to create a game under an extremely limited timeframe to create a full game based around a given theme.
+                        </p>
                     </div>
+                    <div class="section-separator"></div>
                     
-                    <div class="user-container">
-                        <p class="user-label">CreatorCreepy</p>
-                        <img class="user-icon" src="./Assets/Staff Profile Pictures/creatorcreepy.png"></img>
-                        <div class="user-socials-wrapper">
-                            <img class="user-socials" src="./Assets/gd-icon.png" onclick="window.open('https:/\/www.gdbrowser.com/u/creatorcreepy');"></img>
-                            <img class="user-socials" src="./Assets/twitch-icon.png" onclick="window.open('https:\/\/www.twitch.tv\/creatorcreepy');"></img>
-                            <img class="user-socials" src="./Assets/twitter-icon.png" onclick="window.open('https:/\/www.x.com/creatorcreepy');"></img>
-                            <img class="user-socials" src="./Assets/youtube-icon.png" onclick="window.open('https:/\/youtube.com/@creatorcreepy')"></img>
-                        </div>
-                    </div>
-                    
-                    <div class="user-container">
-                        <p class="user-label"></p>
-                        <img class="user-icon"></img>
-                        <div class="user-socials-wrapper">
-                            
-                        </div>
-                    </div>
-                    
-                    
+                </div>
 
+                <div class="info-wrapper" id="prizes">
+                    <div class="section-container">
+                        <h2 class="section-header">Prizes</h2>
+                        <h3 class="section-subheader">First Place</h3>
+                        <p class="section-content">
+                            - $50 USD -<br>
+                            - Special Section in the Previous Entires Page -<br>
+                            - Special Role in the Previous Entires Page -<br>
+                        </p>
+                        <h3 class="section-subheader">Second Place</h3>
+                        <p class="section-content">
+                            - $20 USD -<br>
+                            - Special Role in the Lunar Jam Discord Server -<br>
+                            - Special Section in the Previous Entires Page -<br>
+                        </p>
+                        <h3 class="section-subheader">Third Place</h3>
+                        <p class="section-content">
+                            - $10 USD -<br>
+                            - Special Role in the Lunar Jam Discord Server -<br>
+                            - Special Section in the Previous Entires Page -<br>
+                        </p>
+                        <h3 class="section-subheader">Fourth Place</h3>
+                        <p class="section-content">
+                            - $5 USD -<br>
+                            - Special Section in the Previous Entires Page -<br>
+                        </p>
+                        <h3 class="section-subheader">Fifth Place</h3>
+                        <p class="section-content">
+                            - $5 USD -<br>
+                            - Special Section in the Previous Entires Page -<br>
+                        </p>
+                        <h3 class="section-subheader">Honorable Mentions</h3>
+                        <p class="section-content">- Special Section in the Previous Entires Page -</p>
+                    </div>
+                </div>
+                
+                <div class="info-wrapper" id="rules">
+                    
+                    <div class="section-container">
+                        <h2 class="section-header">Rules</h2>
+                        <br>
+                        <h3 class="section-subheader">General Level Information</h3>
+                        <p class="section-content">
+                            Your level must be a platformer, with a minimum average completion time of 60 seconds.<br>
+                            The level must follow a set theme, which will be announced at the start of the Jam.<br>
+                            How you interpret and execute this theme is up to you, but it must incorporate the theme in some way.<br>
+                            In addition, there are two optional sub-themes that may be used in ADDITION to the main theme for extra points in scoring, however they are not required.
+                        </p>
+                        <br><hr><br>
+                        <h3 class = "section-subheader">Allowed Difficulties</h3>
+                        <p class="section-content">
+                            Any difficulty from Auto to Extreme Demon is allowed for the Jam!
+                            <br><br>
+                            Keep in mind that levels are judged mostly on their gameplay and enjoyability, so making the level too easy or too hard may greatly decrease your rating!
+                        </p>
+                        
+                        <br><hr><br>
+                        <h3 class="section-subheader">Collabs</h3>
+                        <p class="section-content">
+                            You may collab with up to two other people, for a total of three members per level. Any prizes won will be split evenly among the participants.
+                        </p>
+
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="info-wrapper" id="judges">
+                    
+                    <p class="section-header">Judges</p>
+                    <div class="stafflist-wrapper">
                         <div class="user-container">
-                        <p class="user-label"></p>
-                        <img class="user-icon"></img>
-                        <div class="user-socials-wrapper">
-                            
+                            <p class="user-label">Whippie37</p>
+                            <img class = "user-icon" src="./Assets/Staff Profile Pictures/whippie37.png">
+                            <div class="user-socials-wrapper">
+                                <img class="user-socials" src="./Assets/gd-icon.png" onclick="window.open('https:/\/www.gdbrowser.com/u/whippie37'), _blank;">
+                                <img class="user-socials" src="./Assets/twitch-icon.png" onclick="window.open('https:\/\/www.twitch.tv\/whippie37'), _blank;">
+                                <img class="user-socials" src="./Assets/twitter-icon.png" onclick="window.open('https:/\/www.x.com/whippie37');">
+                                <img class="user-socials" src="./Assets/youtube-icon.png" onclick="window.open('https:/\/youtube.com/@whippie37')">
+                            </div>
                         </div>
+                        
+                        <div class="user-container">
+                            <p class="user-label">CreatorCreepy</p>
+                            <img class="user-icon" src="./Assets/Staff Profile Pictures/creatorcreepy.png"></img>
+                            <div class="user-socials-wrapper">
+                                <img class="user-socials" src="./Assets/gd-icon.png" onclick="window.open('https:/\/www.gdbrowser.com/u/creatorcreepy');">
+                                <img class="user-socials" src="./Assets/twitch-icon.png" onclick="window.open('https:\/\/www.twitch.tv\/creatorcreepy');">
+                                <img class="user-socials" src="./Assets/twitter-icon.png" onclick="window.open('https:/\/www.x.com/creatorcreepy');">
+                                <img class="user-socials" src="./Assets/youtube-icon.png" onclick="window.open('https:/\/youtube.com/@creatorcreepy')">
+                            </div>
+                        </div>
+                        
+                        <div class="user-container">
+                            <p class="user-label">TheJShadow</p>
+                            <img class="user-icon" src="./Assets/Staff Profile Pictures/Jshadow.png"></img>
+                            <div class="user-socials-wrapper">
+                                <img class="user-socials" src="./Assets/gd-icon.png" onclick="window.open('https:/\/www.gdbrowser.com/u/thejshadow'), _blank;">
+                                <img class="user-socials" src="./Assets/youtube-icon.png" onclick="window.open('https:\/\/youtube.com/@joris4235'), _blank;">
+                                <img class="user-socials" src="./Assets/twitch-icon.png" onclick="window.open('https:\/\/twitch.tv\/thejshadow_'), _blank;">
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        <div class="user-container">
+                            <p class="user-label">jkrt2</p>
+                            <img class="user-icon" src="./Assets/Staff Profile Pictures/checksteam.png">
+                            <div class="user-socials-wrapper">
+                                <img class="user-socials" src="./Assets/gd-icon.png" onclick="window.open('https:\/\/www.gdbrowser.com/u/checksteam'), _blank;">
+                            </div>
+                        </div>
+                        
+                        <div class="user-container">
+                            <p class="user-label"></p>
+                            <img class="user-icon"></img>
+                            <div class="user-socials-wrapper">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-wrapper" id="scoring">
+                    <div class="section-container">
+
+                        <h3 class="section-header">Scoring</h3>
+                        <p class="section-content">
+                            Entries will be scored as follows:
+                            <br><br>
+                        </p>
+                        <p class="section-list">
+                            
+                            Gameplay/Enjoyability - 50 Points<br>
+                            Originality - 25 Points<br>
+                            Theme Concept and Execution - 10 Points<br>
+                            Decoration - 10 Points<br>
+                            Personal Judge Bias - 5 Points<br>
+                        </p>
+                        <br><br>
+                        <p class = "section-content">
+                            You can see a breakdown of how points are awarded <a href="./rubric.html" target="_blank">here</a>.
+                        </p>
                     </div>
                     
-                    <div class="user-container">
-                        <p class="user-label"></p>
-                        <img class="user-icon"></img>
-                        <div class="user-socials-wrapper">
-                            
-                        </div>
-                    </div>
                 </div>
-                
-                
-
-            <div style="height : 8rem; width : 100%;"></div>
-            <p class="userwrapper-label">Other Staff</p>
-            <p class = "stafflist-label">Server Moderators</p>
-            <div class="stafflist-wrapper">
-                <div class="user-container">
-                    <p class="user-label">Interstellar Ca</p>
-                    <img class="user-icon" src="./Assets/Staff Profile Pictures/interstellar.jpg"></img>
-                    <div class="user-socials-wrapper">
-                        <img class="user-socials" src="./Assets/gd-icon.png" onclick="window.open('https:/\/www.gdbrowser.com/u/interstellar ca');"></img>
-                        <img class="user-socials" src="./Assets/twitch-icon.png" onclick="window.open('https:\/\/www.twitch.tv\/intertellar_ca');"></img>
-                        <img class="user-socials" src="./Assets/twitter-icon.png" onclick="window.open('https:/\/www.x.com/interstellar315');"></img>
-                        <img class="user-socials" src="./Assets/youtube-icon.png" onclick="window.open('https:/\/youtube.com/@interstellarca')"></img>
-                    </div>
-                </div>
-                
-                
             </div>
-            
-        </div>
+        </div>    
         
     </div>
+    
+</div>
 </body>
 </html>

@@ -21,21 +21,80 @@
     overflow-x : hidden;
     background-color: black;
     display: flex;
-    height : 3060px;
+    height : auto;
     scroll-behavior:auto;
 }
 
 .navbar {
-    height : 100px;
+    height : 0;
     width : 100vw;
     background-color: rgba(0,0,0,0.5);
     position : fixed;
     z-index: 2;
+    transition : height 0.5s;
+    overflow: hidden;
+    display : flex;
+    align-items: center;
+    color : var(--highlight-color);
 }
+.navbar-item {
+    overflow : hidden;
+    font-size : 1.5rem;
+    text-align: center;
+    display : flex;
+    place-items: center;
+    width : 10vw;
+    height : 100%;
+    right : 0;
+    font-family : 'consolas';
+    justify-content: center;
+    margin : 0;
+    cursor : pointer;
+    padding-left : 1vw;
+    padding-right : 1vw;
+    transition : background-color 0.15s ease-out;
+}
+.navbar-item:hover {
+    filter : brightness(80%);
+    background : rgba(0,0,0,0.5);
+}
+.navbar-item > * {
+    margin : 0.5vw;
+}
+.navbar-home {
+    display : flex;
+    width : 15vw;
+    height : inherit;
+    text-align: center;
+    justify-items : center;
+    align-items : center;
+    font-family : 'consolas';
+    font-size : 2rem;
+    cursor : pointer;
+    overflow : hidden;
+}
+.navbar-home:hover {
+    filter : brightness(80%);
+    background : rgba(0,0,0,0.5);
+}
+.navbar-container {
+    overflow : hidden;
+    position : fixed;
+    right : 1vw;
+    width : 80vw;
+    height : inherit;
+    display : flex;
+    justify-content: right;
+    padding : 0;
+}
+.navbar-home > * {
+    margin : auto;
+}
+
 
 .homepage-wrapper {
     background-color: transparent;
-    height : 1020px;
+    height : 100vh;
     left: 0;
     width : inherit;
     position : absolute;
@@ -43,6 +102,19 @@
     padding: 0;
     backdrop-filter: blur(1px);
     background-blend-mode: screen;
+    display : flex;
+}
+.homepage-section {
+    width : 50%;
+    height : 100%;
+    margin : auto;
+    display : grid;
+    justify-content: center;
+    align-content: center;
+}
+.homepage-section > * {
+    margin-top : 3vw;
+    margin-bottom : 3vw;
 }
 #homepage-bg-wrapper {
     width : inherit;
@@ -56,6 +128,12 @@
     z-index: -2;
     padding: 0;
     
+}
+#video-showcase {
+    width : 45vw;
+    height : 25vh;
+    border : 2px double var(--main-color);
+    background : linear-gradient(0deg,rgba(0, 0, 0, .8) 0%, rgba(1, 14, 61, .8) 100%);
 }
 #background {
     position : absolute;
@@ -85,7 +163,7 @@
 #title-wrapper {
     position : relative;
     width : 100vw;
-    height : 16rem;
+    height : 12rem;
     display : flex;
     justify-content: center;
     align-items : center;
@@ -100,13 +178,15 @@
     width : 100%;
     height : 4rem;
     display : flex;
-    justify-content: center;
+    justify-items: center;
     align-items : center;
+    text-align: center;
     margin-top : 0rem;
     margin-bottom: 1rem;
 }
 
 #timer {
+    margin : auto;
     width : 22rem;
     height : 4rem;
     display : flex;
@@ -136,7 +216,7 @@
 }
 
 #message {
-    height : auto;
+    height : 8rem;
     overflow: hidden;
     width : auto;
     text-align: center;
@@ -147,6 +227,8 @@
     gap : 0;
     margin : 0;
     padding : 0;
+    line-height: 2rem;
+    font-family : 'consolas';
 }
 .message-main {
     height : 2rem;
@@ -292,6 +374,7 @@
     height : auto;
     width : 50%;
     margin : auto;
+    margin-top : 0;
     display : flex;
     justify-content: center;
     row-gap : 0px;
@@ -307,10 +390,10 @@
 }
 
 .navigation-button {
-    width : clamp(160px, 12vw, 12vw);
-    height : 50px;
+    width : clamp(240px, 22vw, 24vw);
+    height : 6vh;
     margin : 30px;
-    font-size : clamp(0.5rem, 1rem, 2rem);
+    font-size : 2vh;
     border : 2px solid var(--highlight-color);
     border-radius : 0.33rem;
     background : linear-gradient(0deg,rgba(4, 8, 26, .5) 0%, rgba(5, 11, 27, .5) 100%);
@@ -343,24 +426,110 @@
     inset 0px 0px 50px 15px rgba(86,255,255, 0.08);
 }
 
-.info-wrapper {
+
+.about-wrapper {
+    width : 100vw;
+    height : 130vh;
     position : absolute;
-    padding-top : 20vh;
-    width : 100%;
-    height : 2080px;
+    top : 100vh;
+    overflow : show;
     background : linear-gradient(0deg,rgba(0, 6, 24, .6) 0%, rgba(0, 6, 24, .6) 100%);
-    backdrop-filter: blur(20px);
     display : grid;
+    place-content: top;
     justify-content: center;
-    top : 1020px;
+    backdrop-filter: blur(20px);
+    padding-top : 0;
+    flex-wrap: nowrap;
+    word-wrap : break-word;
 }
-#info {visibility: hidden;}
+.about-container {
+    overflow: hidden;
+    top : 6vh;
+    display : flex;
+    place-content: center;
+    justify-content: center;
+    width : 90vw;
+    height : 60vw;
+}
+.info-wrapper {
+    padding-top : 10vh;
+    width : inherit;
+    height : auto;
+    display : grid;
+    float : left;
+    align-content: flex-start;
+    justify-content: center;
+    top : 0px;
+    position : absolute;
+    transition : left ease-in-out 1s;
+}
+#info {
+    left : 0;
+}
+#prizes {
+    left : 100vw;
+}
+#rules {
+    left : 200vw;
+}
+#judges {
+    left : 300vw;
+}
+#scoring {
+    left : 400vw;
+}
+.carousel {
+    top : 6vw;
+    left : 0;
+    width : 100vw;
+    position : absolute;
+    height : 54vw;
+    display : grid;
+    grid-auto-flow : column;
+    transition : left ease-in-out 1s;
+}
+.carousel-button-wrapper {
+    position : relative;
+    top : 6vw;
+    width : 90vw;
+    height : 8vw;
+    display : flex;
+    grid-auto-flow : row;
+    place-content : center;
+    justify-content : center;
+}
+.carousel-button {
+    width : clamp(80px, 10vw, 12vw);
+    height : clamp(40px, 2vw, 60px);
+    margin : 1vw;
+    font-size : clamp(0.2rem, 1rem, 1.5rem);
+    border : 2px solid var(--highlight-color);
+    border-radius : 0.33rem;
+    background : linear-gradient(0deg,rgba(4, 8, 26, .5) 0%, rgba(5, 11, 27, .5) 100%);
+    color : rgb(212,255,255);
+    transition : transform 0.3s,
+    background-linear-gradient 0.5s;
+    font-family: "source code pro";
+    z-index: 2;
+    box-shadow: 0px 0px 15px 15px rgba(86,255,255, 0.06),
+    inset 0px 0px 50px 15px rgba(86,255,255, 0.06);
+    
+    text-shadow: 0px 0px 19px rgba(255,255,255,0.5);
+}
+.carousel-button:hover {
+    cursor : pointer;
+    transform : translateY(5px);
+    background : linear-gradient(0deg,rgba(3, 180, 230, .6) 0%, rgba(0, 200, 255, .6) 100%);
+    
+    box-shadow: 0px 0px 20px 15px rgba(86,255,255, 0.08),
+    inset 0px 0px 50px 15px rgba(86,255,255, 0.08);
+}
 
 
 
 .section-container {
     height : auto;
-    width : 82.5%;
+    width : 80vw;
     margin : auto;
     border-radius : 30px;
     border : 3px solid var(--highlight-color);
@@ -369,12 +538,12 @@
 }
 
 .section-header {
-    font-size : 2rem;
-    color : var(--highlight-color);
+    font-size : 3rem;
+    color : white;
     text-align: center;
-    font-family : Helvetica;
+    font-family : 'pusab';
     text-decoration: underline;
-    text-shadow: 0px 0px 35px rgba(69, 243, 255, 0.2);
+    text-shadow: 0px 0px 15px rgba(69, 243, 255, 0.1);
 }
 .section-subheader {
     font-size : 1.2rem;
@@ -393,6 +562,7 @@
     margin-right : 8%;
     line-height: 1.5rem;
     text-shadow: 0px 0px 33px rgb(183, 255, 249, 0.2);
+    font-family : 'consolas';
 }
 .section-list {
     text-align : center;
@@ -402,6 +572,7 @@
     font-size : 1.3rem;
     line-height: 2.1rem;
     text-shadow: 0px 0px 33px rgb(183, 255, 249, 0.2);
+    font-family : 'consolas';
 }
 .section-content a {
     color : var(--highlight-color);

@@ -1,5 +1,9 @@
+let carousel = document.getElementsByClassName("info-wrapper");
+let selectedButton=0;
+
+
 function init() {
-    let activeJam = true;
+    let activeJam = false;
     let backgrounds = new Array(6);
     backgrounds[0] = '\'./Assets/game_bg_01_001-uhd.png\'';
     backgrounds[1] = '\'./Assets/game_bg_02_001-uhd.png\'';
@@ -11,36 +15,224 @@ function init() {
     let rng = Math.floor(Math.random() * (5 - 0 + 1)) + 0;
     if (Math.floor(Math.random() * (10000)) + 1 == 1) {rng = 6;}
     document.getElementById('background').style.background = `linear-gradient(0deg,rgba(94, 29, 138, 1) 0%, rgba(78, 42, 168, 1) 42%, rgba(0, 81, 255, 1) 100%), url(${backgrounds[rng]})`;
+    let section = document.getElementById('homepage-section-left');
+
+    let message = "This is a test Message.";
+    let message2 = "This is a test submessage.";
+
+    let messageSection = document.createElement('div');
+    messageSection.className = "message";
+    messageSection.id = "message";
+
+    let messageMain = document.createElement('p');
+    messageMain.classList.add("message");
+    messageMain.className = "message-main";
+
+    let messageSub = document.createElement('p');
+    messageSub.className = "message-sub";
+
+
     if (activeJam == false) {
-        document.getElementById('themes-wrapper').style.height = 0;
-        document.getElementById('message').style.height = "200px";
+        
+        let videoshowcase = document.createElement('div');
+        videoshowcase.className = 'video-showcase';
+        videoshowcase.id = 'video-showcase';
+
+        section.append(messageSection);
+        messageSection.append(messageMain);
+        messageMain.innerHTML = message;
+
+        
+        section.append(videoshowcase);
+        messageSection.append(messageSub);
+        messageSub.innerHTML = message2;
     }
     else {
-        document.getElementById('message').style.height = 0;
-        document.getElementById('themes-wrapper').style.height = "200px";
+        section.append(messageSection);
+        messageSection.append(messageMain);
+        messageMain.innerHTML = "Jam Currently In Progress!";
+
+        messageSection.append(messageSub);
+        messageSub.innerHTML = "Time Remaining";
+
+
+        let timerWrapper = document.createElement('div');
+        timerWrapper.className = 'wrapper';
+        timerWrapper.id = 'timer-wrapper';
+
+        let timer = document.createElement('div');
+        timer.className = 'timer';
+        timer.id = 'timer';
+
+        section.append(timerWrapper);
+        timerWrapper.append(timer);
+        timer.innerHTML = "00:00:00";
+
+        let themesWrapper = document.createElement('div');
+        themesWrapper.className = "wrapper";
+        themesWrapper.id = "themes-wrapper";
+
+        let mainThemeWrapper = document.createElement('div');
+        mainThemeWrapper.className = "wrapper";
+        mainThemeWrapper.id = "main-theme-wrapper";
+
+        let themesLabel = document.createElement('p');
+        themesLabel.className = "themes-label";
+        themesLabel.innerHTML = "Main Theme";
+        themesLabel.style.fontSize = "1.5rem";
+        let themesLabel2 = document.createElement('p');
+        themesLabel2.className = "themes-label";
+        themesLabel2.innerHTML = "Sub-Themes";
+
+        let mainTheme = document.createElement('p');
+        mainTheme.className = "main-theme";
+        mainTheme.id = "main-theme";
+        mainTheme.innerHTML = "???";
+
+        let subThemesWrapper = document.createElement('div');
+        subThemesWrapper.className = "wrapper";
+        subThemesWrapper.id = "sub-theme-wrapper";
+
+        let subTheme1 = document.createElement('p');
+        subTheme1.className = 'sub-theme';
+        subTheme1.id = "sub-theme1";
+        subTheme1.innerHTML = "Sub-Theme 1";
+
+        let subTheme2 = document.createElement('p');
+        subTheme2.className = 'sub-theme';
+        subTheme2.id = "sub-theme2";
+        subTheme2.innerHTML = "Sub-Theme2";
+
+        let subThemesContainer = document.createElement('div');
+        subThemesContainer.className = "wrapper";
+        subThemesContainer.style = "height : auto; padding : 20px;";
+
+        section.append(themesWrapper);
+        themesWrapper.append(mainThemeWrapper);
+        mainThemeWrapper.append(themesLabel);
+        mainThemeWrapper.append(mainTheme);
+
+        themesWrapper.append(subThemesWrapper);
+        subThemesWrapper.append(themesLabel2);
+        subThemesWrapper.append(subThemesContainer);
+        subThemesContainer.append(subTheme1);
+        subThemesContainer.append(subTheme2);
+        
+
     }
+
+    if (screen.width <= 600) {
+        document.getElementById("navbar-home").innerHTML = "<img height = '70px' width = '70px' src='./Assets/moonjamlogo2.png'>";
+        document.getElementById("navbar-info").innerHTML = "<span class='material-symbols-outlined'>info</span>";
+        document.getElementById("navbar-discord").innerHTML = "<img src='./Assets/discord-icon.png' height='25px' width='25px'>";
+        document.getElementById("navbar-submit").innerHTML = "<span class='material-symbols-outlined'>upload_file</span>";
+        document.getElementById("navbar-language").innerHTML = "<span class='material-symbols-outlined'>language</span>"
+    }
+    // ===============================
+    //    Add Logic to add back text
+    //  when window size is big enough
+    // ===============================
+    addEventListener("resize", (event) => { 
+        if (screen.width <= 600) {
+            //resize navbar
+        document.getElementById("navbar-home").innerHTML = "<img height = '70px' width = '70px' src='./Assets/moonjamlogo2.png'>";
+        document.getElementById("navbar-info").innerHTML = "<span class='material-symbols-outlined'>info</span>";
+        document.getElementById("navbar-discord").innerHTML = "<img src='./Assets/discord-icon.png' height='25px' width='25px'>";
+        document.getElementById("navbar-submit").innerHTML = "<span class='material-symbols-outlined'>upload_file</span>";
+        document.getElementById("navbar-language").innerHTML = "<span class='material-symbols-outlined'>language</span>"
+
+        document.getElementById('carousel').style.left = 0;
+        for (let i = 0; i < carousel.length; i++) {
+            carousel[i].style.left = `${(100*i)-(selectedButton*100)}vw`.toString();
+        }
+    }
+    })
+
+    let ticking = false;
+
+    addEventListener("scroll", (event) => {
+
+        if (!ticking) {
+            setTimeout(() => {
+
+                if (window.scrollY >= 934) {
+                    document.getElementById("navbar").style.height = "100px";
+                    console.log('show navbar');
+                }
+                else {
+                    document.getElementById("navbar").style.height = 0;
+                }
+                ticking = false;
+            }, 20);
+            ticking = true;
+        }
+    });
+
     main();
 }
+    const buttons = document.getElementsByClassName("carousel-button");
 
 
-
-function goToRulesInfo() {
-    window.scrollTo(0, 934);
-    document.getElementById("info").style.visibility = "visible";
-    document.getElementById("judges").style.visibility = "hidden";
+function goToAbout() {
+    window.scrollTo(0, 1024);
 }
 
-function goToJudges() {
-    window.scrollTo(0, 934);
-    document.getElementById("judges").style.visibility = "visible";
-    document.getElementById("info").style.visibility = "hidden";
+function selectButton(buttonNum) {
+    for (var i = 0; i < 5; i++) {
+        buttons[i].style.background = "linear-gradient(0deg,rgba(4, 8, 26, .5) 0%, rgba(5, 11, 27, .5) 100%)";
+    }
+    buttons[buttonNum].style.background = "linear-gradient(0deg,rgba(30, 188, 199, 1) 0%, rgba(28, 214, 171, 1) 100%)";
+    selectedButton = buttonNum;
+}
+
+
+function showInfoSection() {
+        for (let i = 0; i < carousel.length; i++) {
+            carousel[i].style.left = `${100*i}vw`.toString();
+        }
+    selectButton(0);
+}
+
+function showPrizesSection() {
+        console.log('j');
+        for (let i = 0; i < carousel.length; i++) {
+            carousel[i].style.left = `${(100*(i))-100}vw`.toString();
+        }
+    selectButton(1);
+}
+
+function showRulesSection() {
+        console.log('j');
+        for (let i = 0; i < carousel.length; i++) {
+            carousel[i].style.left = `${(100*(i))-200}vw`.toString();
+        }
+    selectButton(2);
+}
+
+function showJudgesSection() {
+        console.log('j');
+        for (let i = 0; i < carousel.length; i++) {
+            carousel[i].style.left = `${(100*(i))-300}vw`.toString();
+        }
+    selectButton(3);
+}
+
+function showScoringSection() {
+        console.log('j');
+        for (let i = 0; i < carousel.length; i++) {
+            carousel[i].style.left = `${(100*(i))-400}vw`.toString();
+        }
+    selectButton(4);
 }
 
 
 function main() {
     document.body.ondragstart = function() {return false;};
     var countdownTime = getClockTime();
-    document.getElementById('timer').innerHTML = countdownTime;
+
+
+        document.getElementById('timer').innerHTML = countdownTime;
+
     setTimeout(main, 100);
 }
 
