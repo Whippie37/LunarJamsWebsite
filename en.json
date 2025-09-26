@@ -1,0 +1,58 @@
+{
+    "Messages": [
+        "",
+        ""
+    ],
+    "buttons": [
+        "About",
+        "Discord",
+        "Submit",
+        "Language",
+        "About",
+        "Discord Server",
+        "Entries",
+        "Submit",
+        "Info",
+        "Prizes",
+        "Rules",
+        "Judges",
+        "Scoring"
+    ],
+    "About": [
+        "So, What's a Lunar Jam?",
+        "Lunar Jam is a Platformer Jam-Basically think of it as a mini-creator contest.<br><br>The idea is to make a fast, simple level focused on enjoyability and uniqueness based on a given theme, rather than the absolute highest effort project possible like with a normal contests.<br><br>Because of this, Jam deadlines are very short, usually only a couple of days, meaning you'll have to make the most of your time.<br><br><br>This event is inspired by Game Jams such as the GMTK Game Jam, which are periodic events where game developers come together to create a game under an extremely limited timeframe to create a full game based around a given theme.<br><br>"
+    ],
+    "Prizes": [
+        "Prizes",
+        "First Place",
+        "- $50 USD -<br>- Special Section in the Previous Entires Page -<br>- Special Role in the Previous Entires Page -<br>",
+        "Second Place",
+        "- $20 USD -<br>- Special Role in the Lunar Jam Discord Server -<br>- Special Section in the Previous Entires Page -<br>",
+        "Third Place",
+        "- $10 USD -<br>Special Role in the Lunar Jam Discord Server -<br>Special Section in the Previous Entires Page -<br>",
+        "Fourth Place",
+        "- $5 USD -<br>- Special Section in the Previous Entires Page -<br>",
+        "Fifth Place",
+        "- $5 USD -<br>- Special Section in the Previous Entires Page -<br>",
+        "Honorable Mentions",
+        "- Special Section in the Previous Entires Page -"
+    ],
+    "Rules": [
+        "Rules",
+        "General Level Information",
+        "Your level must be a platformer, with a minimum average completion time of 60 seconds.<br>The level must follow a set theme, which will be announced at the start of the Jam.<br>How you interpret and execute this theme is up to you, but it must incorporate the theme in some way.<br>In addition, there are two optional sub-themes that may be used in ADDITION to the main theme for extra points in scoring, however they are not required.",
+        "Allowed Difficulties",
+        "Any difficulty from Auto to Extreme Demon is allowed for the Jam!<br><br>Keep in mind that levels are judged mostly on their gameplay and enjoyability, so making the level too easy or too hard may greatly decrease your rating!",
+        "Collabs",
+        "You may collab with up to two other people, for a total of three members per level. Any prizes won will be split evenly among the participants."
+    ],
+    "Judges": [
+        "Judges"
+    ],
+    "Scoring": [
+        "Scoring",
+        "Entries will be scored as follows:<br><br>",
+        "Gameplay/Enjoyability - 50 Points<br>Originality - 25 Points<br>Theme Concept and Execution - 10 Points<br>Decoration - 10 Points<br>Personal Judge Bias - 5 Points<br>",
+        "You can see a breakdown of how points are awarded here."
+    ]
+}

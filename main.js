@@ -1,5 +1,5 @@
 let carousel = document.getElementsByClassName("info-wrapper");
-let selectedButton=0;
+let selectedButton = 0;
 
 
 function init() {
@@ -13,7 +13,7 @@ function init() {
     backgrounds[5] = '\'./Assets/game_bg_12_001-uhd.png\'';
     backgrounds[6] = '\'./Assets/RFB_sized.png\'';
     let rng = Math.floor(Math.random() * (5 - 0 + 1)) + 0;
-    if (Math.floor(Math.random() * (10000)) + 1 == 1) {rng = 6;}
+    if (Math.floor(Math.random() * (10000)) + 1 == 1) { rng = 6; }
     document.getElementById('background').style.background = `linear-gradient(0deg,rgba(94, 29, 138, 1) 0%, rgba(78, 42, 168, 1) 42%, rgba(0, 81, 255, 1) 100%), url(${backgrounds[rng]})`;
     let section = document.getElementById('homepage-section-left');
 
@@ -33,19 +33,19 @@ function init() {
 
 
     if (activeJam == false) {
-        
+
         let videoshowcase = document.createElement('div');
         videoshowcase.className = 'video-showcase';
         videoshowcase.id = 'video-showcase';
 
         section.append(messageSection);
         messageSection.append(messageMain);
-        messageMain.innerHTML = message;
+        messageMain.innerHTML = '';
 
-        
+
         section.append(videoshowcase);
         messageSection.append(messageSub);
-        messageSub.innerHTML = message2;
+        messageSub.innerHTML = '';
     }
     else {
         section.append(messageSection);
@@ -117,7 +117,7 @@ function init() {
         subThemesWrapper.append(subThemesContainer);
         subThemesContainer.append(subTheme1);
         subThemesContainer.append(subTheme2);
-        
+
 
     }
 
@@ -132,20 +132,20 @@ function init() {
     //    Add Logic to add back text
     //  when window size is big enough
     // ===============================
-    addEventListener("resize", (event) => { 
+    addEventListener("resize", (event) => {
         if (screen.width <= 600) {
             //resize navbar
-        document.getElementById("navbar-home").innerHTML = "<img height = '70px' width = '70px' src='./Assets/moonjamlogo2.png'>";
-        document.getElementById("navbar-info").innerHTML = "<span class='material-symbols-outlined'>info</span>";
-        document.getElementById("navbar-discord").innerHTML = "<img src='./Assets/discord-icon.png' height='25px' width='25px'>";
-        document.getElementById("navbar-submit").innerHTML = "<span class='material-symbols-outlined'>upload_file</span>";
-        document.getElementById("navbar-language").innerHTML = "<span class='material-symbols-outlined'>language</span>"
+            document.getElementById("navbar-home").innerHTML = "<img height = '70px' width = '70px' src='./Assets/moonjamlogo2.png'>";
+            document.getElementById("navbar-info").innerHTML = "<span class='material-symbols-outlined'>info</span>";
+            document.getElementById("navbar-discord").innerHTML = "<img src='./Assets/discord-icon.png' height='25px' width='25px'>";
+            document.getElementById("navbar-submit").innerHTML = "<span class='material-symbols-outlined'>upload_file</span>";
+            document.getElementById("navbar-language").innerHTML = "<span class='material-symbols-outlined'>language</span>"
 
-        document.getElementById('carousel').style.left = 0;
-        for (let i = 0; i < carousel.length; i++) {
-            carousel[i].style.left = `${(100*i)-(selectedButton*100)}vw`.toString();
+            document.getElementById('carousel').style.left = 0;
+            for (let i = 0; i < carousel.length; i++) {
+                carousel[i].style.left = `${(100 * i) - (selectedButton * 100)}vw`.toString();
+            }
         }
-    }
     })
 
     let ticking = false;
@@ -168,10 +168,82 @@ function init() {
         }
     });
 
+
+    // check for querystrings
+    if (location.search) {
+        let qs = decodeURIComponent(location.search.substring(1));
+        let queries = qs.split('&');
+        let params = new Map();
+        queries.forEach((qstring) => {
+            let key = qstring.split('=')[0];
+            let val = qstring.split('=')[1];
+            params.set(key, val);
+        });
+        let lang = params.get('lang');
+        injectText(lang); // inject alternate language text if qstring found
+    }
+
+
+
     main();
 }
-    const buttons = document.getElementsByClassName("carousel-button");
+const buttons = document.getElementsByClassName("carousel-button");
 
+
+
+function injectText(language) {
+    const siteText = fetch(language) // get text document
+        .then(response => response.json())
+        .then(siteText => {
+
+            
+            const buttonsText = siteText['buttons']; // import buttons text from json
+            // inject buttons text
+            let navbar = document.getElementsByClassName('navbar-item');
+            for (var i = 0; i < navbar.length; i++) {
+                navbar.innerHTML = buttonsText[i];
+            }
+            let navigation = document.getElementsByClassName('navigation-button');
+            for (var i = 0; i < navigation.length; i++) {
+                navigation[i].innerHTML = buttonsText[i + (navbar.length - 1)];
+            }
+
+            let carouselButtons = document.getElementsByClassName('carousel-button');
+            for (var i = 0; i < carouselButtons.length; i++) {
+                carouselButtons[i].innerHTML = buttonsText[i + ((navbar.length) + (navigation.length))];
+            }
+
+            const infoText = siteText['About']; // import info section text
+            // inject info section text
+            document.getElementById('info-section-header').innerHTML = infoText[0];
+            document.getElementById('info-section-content').innerHTML = infoText[1];
+
+            const prizesText = siteText['Prizes']; // import prizes section text
+            // inject prizes section text
+            let prizes = document.getElementsByClassName(" prizes-content");
+            for (var i = 0; i < prizes.length; i++) {
+                prizes[i].innerHTML = prizesText[i];
+            }
+            
+            const rulesText = siteText['Rules'] // import rules section text
+            //inject rules section text
+            let rules = document.getElementsByClassName("rules-content");
+            for (var i = 0; i < rules.length; i++) {
+                rules[i].innerHTML = rulesText[i];
+            }
+
+            document.getElementById('judges-header').innerHTML = siteText['Judges'];
+
+            const scoringText = siteText['Scoring'] // import scoring section text
+            //inject scoring section text
+            let scoring = document.getElementsByClassName("scoring-content");
+            for (var i = 0; i < scoring.length; i++) {
+                scoring[i].innerHTML = scoringText[i];
+            }
+
+        })
+        .catch(error => console.error('Error:', error));
+}
 
 function goToAbout() {
     window.scrollTo(0, 1024);
@@ -187,51 +259,53 @@ function selectButton(buttonNum) {
 
 
 function showInfoSection() {
-        for (let i = 0; i < carousel.length; i++) {
-            carousel[i].style.left = `${100*i}vw`.toString();
-        }
+    for (let i = 0; i < carousel.length; i++) {
+        carousel[i].style.left = `${100 * i}vw`.toString();
+    }
     selectButton(0);
 }
 
 function showPrizesSection() {
-        console.log('j');
-        for (let i = 0; i < carousel.length; i++) {
-            carousel[i].style.left = `${(100*(i))-100}vw`.toString();
-        }
+    console.log('j');
+    for (let i = 0; i < carousel.length; i++) {
+        carousel[i].style.left = `${(100 * (i)) - 100}vw`.toString();
+    }
     selectButton(1);
 }
 
 function showRulesSection() {
-        console.log('j');
-        for (let i = 0; i < carousel.length; i++) {
-            carousel[i].style.left = `${(100*(i))-200}vw`.toString();
-        }
+    console.log('j');
+    for (let i = 0; i < carousel.length; i++) {
+        carousel[i].style.left = `${(100 * (i)) - 200}vw`.toString();
+    }
     selectButton(2);
 }
 
 function showJudgesSection() {
-        console.log('j');
-        for (let i = 0; i < carousel.length; i++) {
-            carousel[i].style.left = `${(100*(i))-300}vw`.toString();
-        }
+    console.log('j');
+    for (let i = 0; i < carousel.length; i++) {
+        carousel[i].style.left = `${(100 * (i)) - 300}vw`.toString();
+    }
     selectButton(3);
 }
 
 function showScoringSection() {
-        console.log('j');
-        for (let i = 0; i < carousel.length; i++) {
-            carousel[i].style.left = `${(100*(i))-400}vw`.toString();
-        }
+    console.log('j');
+    for (let i = 0; i < carousel.length; i++) {
+        carousel[i].style.left = `${(100 * (i)) - 400}vw`.toString();
+    }
     selectButton(4);
 }
 
 
 function main() {
-    document.body.ondragstart = function() {return false;};
+    document.body.ondragstart = function () { return false; };
     var countdownTime = getClockTime();
 
 
+    if (document.getElementById('timer')) {
         document.getElementById('timer').innerHTML = countdownTime;
+    }
 
     setTimeout(main, 100);
 }
@@ -242,9 +316,9 @@ function getClockTime() {
     let endTime = 1759300133; //1762189200000
     startDifference = (currentTime - startTime);
     let seconds = 0;
-    
 
-    if (startDifference > 0) {startDifference = 0; seconds = 0;}; 
+
+    if (startDifference > 0) { startDifference = 0; seconds = 0; };
     if (currentTime > endTime) {
         seconds = 0;
     }
@@ -252,9 +326,9 @@ function getClockTime() {
         seconds = (endTime - currentTime)
     }
     else {
-        seconds = startDifference*-1;
+        seconds = startDifference * -1;
     }
-    
+
     let char = ' ';
     let days = 0;
     if (startDifference < 0) {
@@ -266,10 +340,10 @@ function getClockTime() {
 
     let hours = Math.floor(seconds / 3600);
     seconds %= 3600;
-    let minutes = Math.floor(seconds/60);
-    seconds = Math.floor(seconds%60);
+    let minutes = Math.floor(seconds / 60);
+    seconds = Math.floor(seconds % 60);
 
-    
+
     hours = Math.abs(hours);
     minutes = Math.abs(minutes);
     seconds = Math.abs(seconds);
@@ -282,6 +356,6 @@ function getClockTime() {
         time = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
     }
 
-    
+
     return time;
 }
