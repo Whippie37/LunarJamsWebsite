@@ -33,7 +33,7 @@
     display : flex;
     align-items: center;
     color : var(--highlight-color);
-    overflow: scroll;
+
 }
 .navbar-item {
     overflow : hidden;
@@ -41,15 +41,12 @@
     text-align: center;
     display : flex;
     place-items: center;
-    width : 40vw;
     height : 100%;
     right : 0;
     font-family : 'consolas';
     justify-content: center;
     margin : 0;
     cursor : pointer;
-    padding-left : 3vw;
-    padding-right : 3vw;
     transition : background-color 0.15s ease-out;
 }
 .navbar-item:hover {
@@ -79,8 +76,6 @@
     overflow : hidden;
     position : fixed;
     right : 4vw;
-    width : 60vw;
-    float : right;
     height : inherit;
     display : flex;
     justify-content: right;
@@ -89,14 +84,12 @@
 
 #title-wrapper {
     position : relative;
-    width : 0;
     height : 12rem;
     display : flex;
     justify-content: left;
     align-items : center;
 }
 #title-text {
-    width : 0;
     right : 0;
     height : auto;
 }
@@ -153,9 +146,7 @@
 
 .navigation-button {
     width : clamp(240px, 22vw, 24vw);
-    height : 50px;
     margin : 30px;
-    font-size : clamp(0.5rem, 1rem, 2rem);
     border : 2px solid var(--highlight-color);
     border-radius : 0.33rem;
     background : linear-gradient(0deg,rgba(4, 8, 26, .5) 0%, rgba(5, 11, 27, .5) 100%);
@@ -163,7 +154,6 @@
     transition : transform 0.3s,
     background-linear-gradient 0.3s;
     font-family: "source code pro";
-    
     box-shadow: 0px 0px 15px 15px rgba(86,255,255, 0.06),
     inset 0px 0px 50px 15px rgba(86,255,255, 0.06);
     
@@ -173,7 +163,6 @@
     cursor : pointer;
     transform : translateY(5px);
     background : linear-gradient(0deg,rgba(3, 180, 230, .6) 0%, rgba(0, 200, 255, .6) 100%);
-    
     box-shadow: 0px 0px 20px 15px rgba(86,255,255, 0.08),
     inset 0px 0px 50px 15px rgba(86,255,255, 0.08);
 }
@@ -181,9 +170,7 @@
 
 .about-wrapper {
     width : 100vw;
-    height : 200vh;
     position : absolute;
-    top : 1020px;
     background : linear-gradient(0deg,rgba(0, 6, 24, .6) 0%, rgba(0, 6, 24, .6) 100%);
     display : grid;
     place-content: top;
@@ -220,7 +207,6 @@
     left : 0;
     width : 100vw;
     position : absolute;
-    height : inherit;
     display : grid;
     grid-auto-flow : column;
     transition : left ease-in-out 1s;
@@ -228,9 +214,7 @@
 
 .carousel-button-wrapper {
     position : relative;
-    top : 6vh;
     width : 100vw;
-    height : 8vh;
     display : flex;
     grid-auto-flow : row;
     place-content : center;
@@ -251,10 +235,7 @@
     z-index: 2;
     box-shadow: 0px 0px 15px 15px rgba(86,255,255, 0.06),
     inset 0px 0px 50px 15px rgba(86,255,255, 0.06);
-    
     text-shadow: 0px 0px 19px rgba(255,255,255,0.5);
-
-    word-wrap : normal;
 }
 
 

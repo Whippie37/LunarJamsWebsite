@@ -27,9 +27,13 @@ function init() {
     let messageMain = document.createElement('p');
     messageMain.classList.add("message");
     messageMain.className = "message-main";
+    messageMain.id = "message-main";
+    
 
     let messageSub = document.createElement('p');
     messageSub.className = "message-sub";
+    messageSub.id = "message-sub";
+    
 
 
     if (activeJam == false) {
@@ -40,12 +44,12 @@ function init() {
 
         section.append(messageSection);
         messageSection.append(messageMain);
-        messageMain.innerHTML = '';
+        messageMain.innerHTML = message;
 
 
         section.append(videoshowcase);
         messageSection.append(messageSub);
-        messageSub.innerHTML = '';
+        messageSub.innerHTML = message2;
     }
     else {
         section.append(messageSection);
@@ -168,7 +172,6 @@ function init() {
         }
     });
 
-
     // check for querystrings
     if (location.search) {
         let qs = decodeURIComponent(location.search.substring(1));
@@ -180,10 +183,10 @@ function init() {
             params.set(key, val);
         });
         let lang = params.get('lang');
-        injectText(lang); // inject alternate language text if qstring found
+        lang = './' + lang + '.json';
+        injectText(lang); 
     }
-
-
+    // inject alternate language text if qstring found
 
     main();
 }
@@ -192,9 +195,17 @@ const buttons = document.getElementsByClassName("carousel-button");
 
 
 function injectText(language) {
+    console.log(language);
     const siteText = fetch(language) // get text document
         .then(response => response.json())
         .then(siteText => {
+
+            const message = siteText['Messages']; // import messages from json
+            let messageMain = document.getElementById('message-main');
+            messageMain.innerHTML = message[0];
+
+            let messageSub = document.getElementById('message-sub');
+            messageSub.innerHTML = message[1];
 
             
             const buttonsText = siteText['buttons']; // import buttons text from json
@@ -205,7 +216,7 @@ function injectText(language) {
             }
             let navigation = document.getElementsByClassName('navigation-button');
             for (var i = 0; i < navigation.length; i++) {
-                navigation[i].innerHTML = buttonsText[i + (navbar.length - 1)];
+                navigation[i].innerHTML = buttonsText[i + (navbar.length)];
             }
 
             let carouselButtons = document.getElementsByClassName('carousel-button');
