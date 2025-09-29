@@ -1,9 +1,9 @@
 let carousel = document.getElementsByClassName("info-wrapper");
 let selectedButton = 0;
+let lang = '';
+let cookies = new Map();
 
-
-function init() {
-    let activeJam = false;
+function setBackground() {
     let backgrounds = new Array(6);
     backgrounds[0] = '\'./Assets/game_bg_01_001-uhd.png\'';
     backgrounds[1] = '\'./Assets/game_bg_02_001-uhd.png\'';
@@ -15,10 +15,45 @@ function init() {
     let rng = Math.floor(Math.random() * (5 - 0 + 1)) + 0;
     if (Math.floor(Math.random() * (10000)) + 1 == 1) { rng = 6; }
     document.getElementById('background').style.background = `linear-gradient(0deg,rgba(94, 29, 138, 1) 0%, rgba(78, 42, 168, 1) 42%, rgba(0, 81, 255, 1) 100%), url(${backgrounds[rng]})`;
+
+}
+
+
+function saveCookies() {
+    let cookiesString = '';
+    cookiesString = 'lang=' + lang;
+    document.cookie = cookiesString;
+}
+function loadCookies() {
+    let cookie = document.cookie;
+    cookie = 'lang=en'
+    const cookiesList = cookie.split("|");
+    for (var i = 0; i < cookiesList.length; i++) {
+        let temp = cookiesList[i].split('=');
+        cookies.set(temp[0], temp[1]);
+    }
+    lang = cookies.get("lang");
+}
+
+function setLang(langID) {
+    if (langID == 0) {
+        lang = 'en';
+    }
+    if (langID == 1) {
+        lang = 'es';
+    }
+    injectText();
+    saveCookies();
+}
+
+function init() {
+    let activeJam = false;
+    loadCookies();
+    setBackground();
     let section = document.getElementById('homepage-section-left');
 
-    let message = "This is a test Message.";
-    let message2 = "This is a test submessage.";
+    let message = "Welcome to Lunar Jam.";
+    let message2 = "Jam Starts October 31 - 12PM EST.";
 
     let messageSection = document.createElement('div');
     messageSection.className = "message";
@@ -125,32 +160,7 @@ function init() {
 
     }
 
-    if (screen.width <= 600) {
-        document.getElementById("navbar-home").innerHTML = "<img height = '70px' width = '70px' src='./Assets/moonjamlogo2.png'>";
-        document.getElementById("navbar-info").innerHTML = "<span class='material-symbols-outlined'>info</span>";
-        document.getElementById("navbar-discord").innerHTML = "<img src='./Assets/discord-icon.png' height='25px' width='25px'>";
-        document.getElementById("navbar-submit").innerHTML = "<span class='material-symbols-outlined'>upload_file</span>";
-        document.getElementById("navbar-language").innerHTML = "<span class='material-symbols-outlined'>language</span>"
-    }
-    // ===============================
-    //    Add Logic to add back text
-    //  when window size is big enough
-    // ===============================
-    addEventListener("resize", (event) => {
-        if (screen.width <= 600) {
-            //resize navbar
-            document.getElementById("navbar-home").innerHTML = "<img height = '70px' width = '70px' src='./Assets/moonjamlogo2.png'>";
-            document.getElementById("navbar-info").innerHTML = "<span class='material-symbols-outlined'>info</span>";
-            document.getElementById("navbar-discord").innerHTML = "<img src='./Assets/discord-icon.png' height='25px' width='25px'>";
-            document.getElementById("navbar-submit").innerHTML = "<span class='material-symbols-outlined'>upload_file</span>";
-            document.getElementById("navbar-language").innerHTML = "<span class='material-symbols-outlined'>language</span>"
 
-            document.getElementById('carousel').style.left = 0;
-            for (let i = 0; i < carousel.length; i++) {
-                carousel[i].style.left = `${(100 * i) - (selectedButton * 100)}vw`.toString();
-            }
-        }
-    })
 
     let ticking = false;
 
@@ -160,7 +170,7 @@ function init() {
             setTimeout(() => {
 
                 if (window.scrollY >= 934) {
-                    document.getElementById("navbar").style.height = "100px";
+                    document.getElementById("navbar").style.height = "8vh";
                     console.log('show navbar');
                 }
                 else {
@@ -172,21 +182,7 @@ function init() {
         }
     });
 
-    // check for querystrings
-    if (location.search) {
-        let qs = decodeURIComponent(location.search.substring(1));
-        let queries = qs.split('&');
-        let params = new Map();
-        queries.forEach((qstring) => {
-            let key = qstring.split('=')[0];
-            let val = qstring.split('=')[1];
-            params.set(key, val);
-        });
-        let lang = params.get('lang');
-        lang = './' + lang + '.json';
-        injectText(lang); 
-    }
-    // inject alternate language text if qstring found
+    
 
     main();
 }
@@ -194,74 +190,82 @@ const buttons = document.getElementsByClassName("carousel-button");
 
 
 
-function injectText(language) {
-    console.log(language);
-    const siteText = fetch(language) // get text document
+function injectText() {
+    let language = lang;
+    if (language.length != 2) {return 0;}
+    language = './' + lang + '.json';
+    let siteText = fetch(language) // get json document
         .then(response => response.json())
         .then(siteText => {
 
-            const message = siteText['Messages']; // import messages from json
-            let messageMain = document.getElementById('message-main');
-            messageMain.innerHTML = message[0];
+            if (document.getElementById('index')) {
 
-            let messageSub = document.getElementById('message-sub');
-            messageSub.innerHTML = message[1];
-
-            
-            const buttonsText = siteText['buttons']; // import buttons text from json
-            // inject buttons text
-            let navbar = document.getElementsByClassName('navbar-item');
-            for (var i = 0; i < navbar.length; i++) {
-                navbar.innerHTML = buttonsText[i];
-            }
-            let navigation = document.getElementsByClassName('navigation-button');
-            for (var i = 0; i < navigation.length; i++) {
-                navigation[i].innerHTML = buttonsText[i + (navbar.length)];
-            }
-
-            let carouselButtons = document.getElementsByClassName('carousel-button');
-            for (var i = 0; i < carouselButtons.length; i++) {
-                carouselButtons[i].innerHTML = buttonsText[i + ((navbar.length) + (navigation.length))];
-            }
-
-            const infoText = siteText['About']; // import info section text
-            // inject info section text
-            document.getElementById('info-section-header').innerHTML = infoText[0];
-            document.getElementById('info-section-content').innerHTML = infoText[1];
-
-            const prizesText = siteText['Prizes']; // import prizes section text
-            // inject prizes section text
-            let prizes = document.getElementsByClassName(" prizes-content");
-            for (var i = 0; i < prizes.length; i++) {
-                prizes[i].innerHTML = prizesText[i];
-            }
-            
-            const rulesText = siteText['Rules'] // import rules section text
-            //inject rules section text
-            let rules = document.getElementsByClassName("rules-content");
-            for (var i = 0; i < rules.length; i++) {
-                rules[i].innerHTML = rulesText[i];
-            }
-
-            document.getElementById('judges-header').innerHTML = siteText['Judges'];
-
-            const scoringText = siteText['Scoring'] // import scoring section text
-            //inject scoring section text
-            let scoring = document.getElementsByClassName("scoring-content");
-            for (var i = 0; i < scoring.length; i++) {
-                scoring[i].innerHTML = scoringText[i];
+                
+                const message = siteText['Messages']; // import messages from json
+                let messageMain = document.getElementById('message-main');
+                messageMain.innerHTML = message[0];
+                
+                let messageSub = document.getElementById('message-sub');
+                messageSub.innerHTML = message[1];
+                
+                
+                const buttonsText = siteText['buttons']; // import buttons text from json
+                // inject buttons text
+                let navbar = document.getElementsByClassName('navbar-item');
+                let navigation = document.getElementsByClassName('navigation-button');
+                
+                let carouselButtons = document.getElementsByClassName('carousel-button');
+                for (var i = 0; i < carouselButtons.length; i++) {
+                    carouselButtons[i].innerHTML = buttonsText[i + ((navbar.length) + (navigation.length))];
+                }
+                
+                const infoText = siteText['About']; // import info section text
+                // inject info section text
+                document.getElementById('info-section-header').innerHTML = infoText[0];
+                document.getElementById('info-section-content').innerHTML = infoText[1];
+                
+                const prizesText = siteText['Prizes']; // import prizes section text
+                // inject prizes section text
+                let prizes = document.getElementsByClassName(" prizes-content");
+                for (var i = 0; i < prizes.length; i++) {
+                    prizes[i].innerHTML = prizesText[i];
+                }
+                
+                const rulesText = siteText['Rules'] // import rules section text
+                //inject rules section text
+                let rules = document.getElementsByClassName("rules-content");
+                for (var i = 0; i < rules.length; i++) {
+                    rules[i].innerHTML = rulesText[i];
+                }
+                
+                document.getElementById('judges-header').innerHTML = siteText['Judges'];
+                
+                const scoringText = siteText['Scoring'] // import scoring section text
+                //inject scoring section text
+                let scoring = document.getElementsByClassName("scoring-content");
+                for (var i = 0; i < scoring.length; i++) {
+                    scoring[i].innerHTML = scoringText[i];
+                }
             }
 
-        })
-        .catch(error => console.error('Error:', error));
-}
-
-function goToAbout() {
-    window.scrollTo(0, 1024);
-}
-
-function selectButton(buttonNum) {
-    for (var i = 0; i < 5; i++) {
+            const rubricText = siteText['Rubric'];
+             
+            if (document.getElementById('rubric')) {
+                const grid = document.getElementsByClassName("grid-cell");
+                for (var i = 0; i < grid.length; i++) {
+                    grid[i].innerHTML = rubricText[i];
+                }
+            }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+        
+        function goToAbout() {
+            window.scrollTo(0, 1024);
+        }
+        
+        function selectButton(buttonNum) {
+            for (var i = 0; i < 5; i++) {
         buttons[i].style.background = "linear-gradient(0deg,rgba(4, 8, 26, .5) 0%, rgba(5, 11, 27, .5) 100%)";
     }
     buttons[buttonNum].style.background = "linear-gradient(0deg,rgba(30, 188, 199, 1) 0%, rgba(28, 214, 171, 1) 100%)";
@@ -369,4 +373,17 @@ function getClockTime() {
 
 
     return time;
+}
+
+function toggleLanguageDropdown() {
+    console.log('a');
+    let dropdown = document.getElementById('language-select-dropdown');
+    if (dropdown.style.height == '0px' || dropdown.style.height == '') {
+        dropdown.style.height = '7vh';
+        dropdown.style.border = 'border: 1px solid rgb(40,40,60);';
+    }
+    else {
+        dropdown.style.height = 0;
+        dropdown.style.border = '';
+    }
 }

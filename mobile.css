@@ -1,78 +1,111 @@
-@font-face {
-    font-family: 'Pusab';
-    src: url('./Assets/PUSAB___.otf');
-}
-:root {
-    --main-color : rgb(0,177,255);
-    --highlight-color : rgb(0,238,255);
-    --shadow-color : rgb(0,101,237);
-    --text-color : rgb(183, 255, 249);
-}
-* {scroll-behavior: smooth; max-width: 100vw;}
-
 @media (max-width : 600px) {
-
-.navbar {
-    width : 100%;
-    overflow: scroll;
-}
-.navbar-item {
-    width : 40vw;
-    padding-left : 3vw;
-    padding-right : 3vw;
-
-}
 
 .navbar-container {
     width : 60vw;
     float : right;
 }
+.navbar-home {
+    display : flex;
+    width : 40vw;
+    height : inherit;
+    text-align: start;
+    font-family : 'consolas';
+    font-size : 1.3rem;
+    cursor : pointer;
+    overflow : hidden;
+    margin-left : 0;
+}
+.navbar-home > p {
+    text-align: start;
+    margin-left : 1vw;
+}
+.navbar-home > img {
+    margin : 0;
+}
+.navbar-home-icon {
+    width : 12vw;
+    height: 12vw;
+}
 
-
-
-
+#message {
+    height : 8rem;
+    line-height: 2rem;
+    font-size : 4vw;
+}
+.message-main {
+    height : 2vw;
+    font-size : 7vw;
+}
+.message-sub {
+    height : 1vw;
+    margin : 0;
+}
 .homepage-section {
-    width : 50vw;
+    width : 100%;
+    height : 58vh;
+    margin : 0;
+    display : grid;
+    position : absolute;
+    justify-content: center;
+    align-content: center;
 }
-
+#homepage-section-right {
+    top : 58vh;
+}
+.homepage-section > * {
+    margin-top : 0;
+    margin-bottom : 0;
+}
 #video-showcase {
-    height : 25vw;
+    width : 70vw;
+    height : 20vh;
+    border : 2px double var(--main-color);
+    background : linear-gradient(0deg,rgba(0, 0, 0, .8) 0%, rgba(1, 14, 61, .8) 100%);
+    transform : translateY(6vh);
+    margin : auto;
 }
-
-
 #title-wrapper {
     width : 0;
+    height: 0;
+    overflow: hidden;
+    display: none;
 }
 #title-text {
     width : 0;
 }
 
-
-
-
-
+#buttons-wrapper {
+    transform : translateY(5vh);
+    height : inherit;
+    width : 90vw;
+    margin : 0;
+    display : flex;
+    justify-content: center;
+    row-gap : 0px;
+    flex-wrap : wrap;
+}
 .navigation-button {
     height : 50px;
+    width : 65vw;
     font-size : clamp(0.5rem, 1rem, 2rem);
+    margin : 0;
 }
-
-
-
-
 .about-wrapper {
-    height : 200vh;
-    top : 1020px;
+    height : 160vh;
+    top : 125vh;
 }
 .about-container {
-    height : 180vh;
+    height : 155vh;
 }
 
+
 .carousel {
+    overflow : hidden;
     height : inherit;
 }
 .carousel-button-wrapper {
     top : 6vh;
-    width : 70vw;
+    width : 95vw;
     height : 8vh;
 }
 .carousel-button {
@@ -81,10 +114,20 @@
     font-size : 2.5vw;
     word-wrap : normal;
 }
-
+.section-header {
+    font-size : 2.5rem;
+}
 .section-content {
     font-size : 1.75vh;
 }
-
-
+.grid-cell {
+    font-size : 1vh;
+    background-color : rgba(0,0,0,0.5);
+}
+.grid-number {
+    font-size : 5vh;
+}
+.grid-header {
+    font-size : 1vh;
+}
 }

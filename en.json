@@ -1,7 +1,7 @@
 {
     "Messages": [
-        "Main Message",
-        "Sub Message."
+        "Welcome to Lunar Jam",
+        "Jam Starts - 10/31/2025 12PM EST."
     ],
     "buttons": [
         "About",
@@ -54,5 +54,49 @@
         "Entries will be scored as follows:<br><br>",
         "Gameplay/Enjoyability - 50 Points<br>Originality - 25 Points<br>Theme Concept and Execution - 10 Points<br>Decoration - 10 Points<br>Personal Judge Bias - 5 Points<br>",
         "You can see a breakdown of how points are awarded here."
+    ],
+    "Rubric": [
+        "",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Gameplay",
+        "Level contains no Gameplay.<br> (Auto)",
+        "Level is actively unfun to play.",
+        "Level makes an effort to be enjoyable, but is held back by major issues with level/game design.",
+        "Level is moderately enjoyable, with several minor flaws.",
+        "Level is very enjoyable, but contains a few minor flaws.",
+        "Level is extremely fun, with little to no game/level design flaws.",
+        "Originality",
+        "Level contains no original gimmick or ideas.",
+        "Level has an extremely unoriginal or stolen gimmick, and non-unique decoration.",
+        "Level has a gimmick that borrows heavily from another entry or level, and/or non-unique decoration.",
+        "Level has a gimmick that is entirely unique to the entry, and has non-unique decoration.",
+        "Level has a unique gimmick that is entirely unique to the entry, and innovative decoration ideas.",
+        "Level has an entirely unique gimmick, and unique decoration ideas not seen in any other entries.",
+        "Theme",
+        "Level Does Not Have a Theme.<br>(Disqualification)",
+        "Level makes a loose attempt at a theme that does not strongly represent the given theme for the jam.",
+        "Level makes a passable attempt at a theme that represents the given theme for the jam.",
+        "Level clearly relates to the given theme of the Jam.",
+        "Level clearly relates to the given theme of the Jam, and adheres to at least one sub-theme.",
+        "Level clearly relates to the given theme of the Jam, and adheres to BOTH sub-themes.",
+        "Decoration",
+        "Level contains no decoration.",
+        "Level contains very little decoration (Basic pulses/movements, no designs)",
+        "Level contains basic or unfinished decoration (simple designs, pulses, movements, etc.)",
+        "Level contains average quality decoration (Rate-Feature Quality)",
+        "Level contains high-quality decoration (Epic+ Quality)",
+        "Level contains extremely high quality decoration (Legendary+ Quality)",
+        "Judge Bonuses",
+        "Judge has a neutral opinion on this level.",
+        "Judge enjoys this level slightly more than the average entry.",
+        "Judge enjoys this level noticeably more than the average entry.",
+        "Judge enjoys this level significantly more than the average entry.",
+        "This is one of the Judge's most enjoyed entries of the Jam.",
+        "This is the Judge's single favorite level of the Jam. (Only one +5 per judge per event)"
     ]
 }

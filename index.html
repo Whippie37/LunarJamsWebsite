@@ -19,38 +19,39 @@
     </head>
 
     <body onload="init();">
+        <a id="index" style="display:none; height : 0; width : 0;"></a> <!--Page Location Indicator-->
         <div id="homepage-bg-wrapper">    
             <div id="background"></div>
-            </div>
+        </div>
+
+        <div class="button-language" id="button-language" onclick="toggleLanguageDropdown()"><span class="material-symbols-outlined">language</span></div>
+        <div class="language-dropdown" id="language-select-dropdown">
+            <p class="language-dropdown-item" onclick="setLang(0); toggleLanguageDropdown();">English</p>
+            <p class="language-dropdown-item" onclick="setLang(1); toggleLanguageDropdown();">Español</p>
+        </div>
+
+
         <div id="navbar" class="navbar">
-            <div  id="navbar-home" class="navbar-home">
-                <img height = "70px" width = "70px" src="./Assets/moonjamlogo2.png">
+            <div  id="navbar-home" class="navbar-home" onclick="window.location.href='./index.html'">
+                <img src="./Assets/moonjamlogo2.png" class="navbar-home-icon">
                 <p>
-                    Lunar Jam
+                    Home
                 </p>
             </div>
             <div class="navbar-container">
-                <div class="navbar-item" id="navbar-info" onclick="goToAbout()"><span class="material-symbols-outlined">info</span>About</div>
-                <div class="navbar-item" id="navbar-discord" onclick="window.open('https:/\/discord.gg/fmQXzzyStg')"><img src="./Assets/discord-icon.png" height="25px" width="25px">Discord</div>
-                <div class="navbar-item" id="navbar-submit" onclick="window.open('https\:\/\/forms.gle/5hY9MBfABZU5PQ8B6'), _blank"><span class="material-symbols-outlined">upload_file</span>Submit</div>
-                <div class="navbar-item" id="navbar-language"><span class="material-symbols-outlined">language</span>Language</div>
             </div>
         </div>
         
-
         
         <div class="homepage-wrapper">
             
             <div class="homepage-section" id="homepage-section-left">
                 <!--Left Section-->
             </div>
-
+            <br>
             <div class="homepage-section" id="homepage-section-right">
                 <!--Right Section-->
 
-                <div id="title-wrapper">
-                    <img class="title-text" src="Assets/PlatjamNamePlaceholder.png" id="homepage-title">
-                </div>
                 
                 <div class="wrapper" id="buttons-wrapper">
                     
@@ -62,7 +63,6 @@
                     
                 </div>
 
-                <div style="height : 6vw; width : 0"></div>
                 
             </div>
             
@@ -143,9 +143,9 @@
                         <br>
                         <h3 class="section-subheader  rules-content">General Level Information</h3>
                         <p class="section-content rules-content">
-                            Your level must be a platformer, with a minimum average completion time of 60 seconds.<br>
-                            The level must follow a set theme, which will be announced at the start of the Jam.<br>
-                            How you interpret and execute this theme is up to you, but it must incorporate the theme in some way.<br>
+                            Your level must be a platformer, with a minimum average completion time of 60 seconds.<br><br>
+                            The level must follow a set theme, which will be announced at the start of the Jam.<br><br>
+                            How you interpret and execute this theme is up to you, but it must incorporate the theme in some way.<br><br>
                             In addition, there are two optional sub-themes that may be used in ADDITION to the main theme for extra points in scoring, however they are not required.
                         </p>
                         <br><hr><br>
@@ -198,8 +198,8 @@
                             <img class="user-icon" src="./Assets/Staff Profile Pictures/Jshadow.png"></img>
                             <div class="user-socials-wrapper">
                                 <img class="user-socials" src="./Assets/gd-icon.png" onclick="window.open('https:/\/www.gdbrowser.com/u/thejshadow'), _blank;">
-                                <img class="user-socials" src="./Assets/youtube-icon.png" onclick="window.open('https:\/\/youtube.com/@joris4235'), _blank;">
                                 <img class="user-socials" src="./Assets/twitch-icon.png" onclick="window.open('https:\/\/twitch.tv\/thejshadow_'), _blank;">
+                                <img class="user-socials" src="./Assets/youtube-icon.png" onclick="window.open('https:\/\/youtube.com/@joris4235'), _blank;">
                             </div>
                         </div>
                         
@@ -214,10 +214,13 @@
                         </div>
                         
                         <div class="user-container">
-                            <p class="user-label"></p>
-                            <img class="user-icon"></img>
+                            <p class="user-label">Halapeenyo</p>
+                            <img class="user-icon" src="./Assets/Staff Profile Pictures/halapeenyo.png"></img>
                             <div class="user-socials-wrapper">
-                                
+                                <img class="user-socials" src="./Assets/gd-icon.png" onclick="window.open('https:/\/www.gdbrowser.com/u/halapeenyo'), _blank;">
+                                <img class="user-socials" src="./Assets/twitch-icon.png" onclick="window.open('https:/\/www.twitch.tv/halapeenyo'), _blank";>
+                                <img class="user-socials" src="./Assets/twitter-icon.png" onclick="window.open('https:/\/www.x.com/halapeenyoyt'), _blank;">
+                                <img class="user-socials" src="./Assets/youtube-icon.png" onclick="window.open('https:/\/www.youtube.com/@halapeenyogd'), _blank;">
                             </div>
                         </div>
                     </div>
@@ -241,7 +244,7 @@
                         </p>
                         <br><br>
                         <p class = "section-content scoring-content">
-                            You can see a breakdown of how points are awarded <a href="./rubric.html" target="_blank">here</a>.
+                            You can see a breakdown of how points are awarded <a href="./rubric.html">here</a>.
                         </p>
                     </div>
                     

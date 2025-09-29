@@ -1,313 +1,38 @@
-@font-face {
-    font-family: 'Pusab';
-    src: url('./Assets/PUSAB___.otf');
-}
-:root {
-    --main-color : rgb(0,177,255);
-    --highlight-color : rgb(0,238,255);
-    --shadow-color : rgb(0,101,237);
-    --text-color : rgb(183, 255, 249);
-}
-* {scroll-behavior: smooth; max-width: 100vw;}
+@media (max-width : 1200px) and (min-width : 700px) {
+    .homepage-section {
+        height : 100vh;
+    }
 
-@media (max-width : 1300px) {
-    body {
+
+    .about-wrapper {
+        top : 80vh;
+    }
+
+
+
+    .navigation-button {
+        width : 40vw;
+    }
+    #buttons-wrapper {
+    width : 40vw;
     margin : 0;
-    padding : 0;
-    width : 100vw;
-    overflow-x : hidden;
-    background-color: black;
-    display: flex;
-    height : auto;
-    scroll-behavior:auto;
-}
-
-.navbar {
-    height : 0;
-    width : 100vw;
-    background-color: rgba(0,0,0,0.5);
-    position : fixed;
-    z-index: 2;
-    transition : height 0.5s;
-    overflow: hidden;
-    display : flex;
-    align-items: center;
-    color : var(--highlight-color);
-
-}
-.navbar-item {
-    overflow : hidden;
-    font-size : 1.5rem;
-    text-align: center;
-    display : flex;
-    place-items: center;
-    height : 100%;
-    right : 0;
-    font-family : 'consolas';
-    justify-content: center;
-    margin : 0;
-    cursor : pointer;
-    transition : background-color 0.15s ease-out;
-}
-.navbar-item:hover {
-    filter : brightness(80%);
-    background : rgba(0,0,0,0.5);
-}
-.navbar-item > * {
-    margin : 0.5vw;
-}
-.navbar-home {
-    display : flex;
-    width : 15vw;
-    height : inherit;
-    text-align: center;
-    justify-items : center;
-    align-items : center;
-    font-family : 'consolas';
-    font-size : 2rem;
-    cursor : pointer;
-    overflow : hidden;
-}
-.navbar-home:hover {
-    filter : brightness(80%);
-    background : rgba(0,0,0,0.5);
-}
-.navbar-container {
-    overflow : hidden;
-    position : fixed;
-    right : 4vw;
-    height : inherit;
-    display : flex;
-    justify-content: right;
-    padding : 0;
-}
-
-#title-wrapper {
-    position : relative;
-    height : 12rem;
-    display : flex;
-    justify-content: left;
-    align-items : center;
-}
-#title-text {
-    right : 0;
-    height : auto;
-}
-
-#message {
-    height : 8rem;
-    overflow: hidden;
-    width : auto;
-    text-align: center;
-    display : grid;
-    place-items: center;
-    justify-items: center;
-    color : white;
-    gap : 0;
-    margin : 0;
-    padding : 0;
-    line-height: 2rem;
-    font-family : 'consolas';
-}
-.message-main {
-    height : 2rem;
-    margin: 0;
-    padding : 0;
-    font-size : 2rem;
-    animation : messageLoadAnimation ease-out .5s;
-}
-.message-sub {
-    height : 1rem;
-    margin : 0;
-    padding : 0;
-    animation : messageLoadAnimation ease-out .6s;
-}
-
-
-
-#buttons-wrapper {
-    height : auto;
-    width : 50%;
-    margin : auto;
-    margin-top : 0;
     display : flex;
     justify-content: center;
     row-gap : 0px;
     flex-wrap : wrap;
-    animation : buttonSectionLoadAnim ease-out 1s;
-}
-.buttons-wrapper-row {
-    width : auto;
-    height : 60px;
-    display : flex;
-    justify-content: center;
-    align-items: center;
-}
+    }
+    .about-wrapper {
+        height : 160vh;
+        top : 125vh;
+    }
+    .about-container {
+        height : 155vh;
+    }
 
-.navigation-button {
-    width : clamp(240px, 22vw, 24vw);
-    margin : 30px;
-    border : 2px solid var(--highlight-color);
-    border-radius : 0.33rem;
-    background : linear-gradient(0deg,rgba(4, 8, 26, .5) 0%, rgba(5, 11, 27, .5) 100%);
-    color : rgb(212,255,255);
-    transition : transform 0.3s,
-    background-linear-gradient 0.3s;
-    font-family: "source code pro";
-    box-shadow: 0px 0px 15px 15px rgba(86,255,255, 0.06),
-    inset 0px 0px 50px 15px rgba(86,255,255, 0.06);
-    
-    text-shadow: 0px 0px 19px rgba(255,255,255,0.5);
-}
-.navigation-button:hover {
-    cursor : pointer;
-    transform : translateY(5px);
-    background : linear-gradient(0deg,rgba(3, 180, 230, .6) 0%, rgba(0, 200, 255, .6) 100%);
-    box-shadow: 0px 0px 20px 15px rgba(86,255,255, 0.08),
-    inset 0px 0px 50px 15px rgba(86,255,255, 0.08);
-}
-
-
-.about-wrapper {
-    width : 100vw;
-    position : absolute;
-    background : linear-gradient(0deg,rgba(0, 6, 24, .6) 0%, rgba(0, 6, 24, .6) 100%);
-    display : grid;
-    place-content: top;
-    justify-content: center;
-    backdrop-filter: blur(20px);
-    padding-top : 0;
-    flex-wrap: nowrap;
-    word-wrap : break-word;
-}
-.about-container {
-    top : 6vh;
-    display : flex;
-    place-content: center;
-    justify-content: center;
-    width : 90vw;
-    height : 180vh;
-}
-.info-wrapper {
-    padding-top : 10vh;
-    width : inherit;
-    height : auto;
-    display : grid;
-    float : left;
-    align-content: flex-start;
-    justify-content: center;
-    top : 0px;
-    position : absolute;
-    transition : left ease-in-out 1s;
-}
-
-.carousel {
-    overflow: hidden;
-    top : 6vh;
-    left : 0;
-    width : 100vw;
-    position : absolute;
-    display : grid;
-    grid-auto-flow : column;
-    transition : left ease-in-out 1s;
-}
-
-.carousel-button-wrapper {
-    position : relative;
-    width : 100vw;
-    display : flex;
-    grid-auto-flow : row;
-    place-content : center;
-    justify-content : center;
-}
-.carousel-button {
-    width : 14vw;
-    height : 6vh;
-    margin : 1vw;
-    font-size : 2vw;
-    border : 2px solid var(--highlight-color);
-    border-radius : 0.33rem;
-    background : linear-gradient(0deg,rgba(4, 8, 26, .5) 0%, rgba(5, 11, 27, .5) 100%);
-    color : rgb(212,255,255);
-    transition : transform 0.3s,
-    background-linear-gradient 0.5s;
-    font-family: "source code pro";
-    z-index: 2;
-    box-shadow: 0px 0px 15px 15px rgba(86,255,255, 0.06),
-    inset 0px 0px 50px 15px rgba(86,255,255, 0.06);
-    text-shadow: 0px 0px 19px rgba(255,255,255,0.5);
-}
-
-
-
-
-.stafflist-wrapper {
-    width : inherit;
-    flex-wrap : wrap;
-    height : auto;
-    display : flex;
-    align-items: center;
-    justify-content: center;
-}
-.userwrapper-label {
-    width : 100vw;
-    height : auto;
-    text-align: center;
-    color : white;
-    font-family : 'pusab';
-    font-size : 4rem;
-    line-height: 2rem;
-    margin-top: 0;
-    padding : 0;
-    text-decoration: underline;
-    user-select: none;
-}
-.stafflist-label {
-    text-align: center;
-    color : white;
-    font-family : 'pusab';
-    font-size : 2rem;
-    text-decoration: underline;
-    user-select: none;
-}
-
-.user-container {
-    width : 8rem;
-    height : 14rem;
-    border : 2px solid var(--text-color);
-    border-radius : 6px;
-    margin : 1rem;
-    display : grid;
-    align-items: center;
-    justify-items: center;
-    user-select: none;
-}
-.user-label {
-    color : white;
-    text-align: center;
-    margin-bottom: 0;
-    font-family : Helvetica;
-    user-select: none;
-}
-.user-icon {
-    width : 6.1rem;
-    height : 6.1rem;
-    border-radius : 50%;
-    border : 3px solid var(--highlight-color);
-}
-.user-socials-wrapper {
-    width : 8rem;
-    height : 1rem;
-    display : flex;
-    align-items: center;
-    justify-content: center;
-}
-.user-socials {
-    width : 1rem;
-    height : 1rem;
-    margin : auto;
-    z-index : 3;
-    cursor : pointer;
-}
-
+    .section-header {
+        font-size : 2.5rem;
+    }
+    .section-content {
+        font-size : 1.75vh;
+    }
 }

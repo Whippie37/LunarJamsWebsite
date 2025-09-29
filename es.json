@@ -1,0 +1,101 @@
+{
+    "Messages": [
+        "Bienvenido a Lunar Jam",
+        "El Jam Comienza el 31 de Octubre - 12 PM EST"
+    ],
+    "buttons": [
+        "About",
+        "Discord",
+        "Submit",
+        "Language",
+        "About",
+        "Discord Server",
+        "Coming Soon",
+        "Submit",
+        "Info",
+        "Prizes",
+        "Rules",
+        "Judges",
+        "Scoring"
+    ],
+    "About": [
+        "¿Qué es Lunar Jam?",
+        "Lunar Jam es un Platformer Jam — básicamente, piénsalo como un mini-concurso de creación.<br>La idea es hacer un nivel rápido y sencillo, enfocado en la diversión y la originalidad según un tema dado, en lugar de buscar el proyecto más elaborado posible como en los concursos normales.<br>Por esta razón, las fechas límite del Jam son muy cortas, normalmente de solo un par de días, lo que significa que tendrás que aprovechar al máximo tu tiempo.<br>Este evento está inspirado en Game Jams como el GMTK Game Jam, que son eventos periódicos donde los desarrolladores se reúnen para crear un juego en un tiempo extremadamente limitado, todo basado en un tema específico."
+    ],
+    "Prizes": [
+        "Premios",
+        "Primer Lugar",
+        "$50 USD<br>Sección especial en la página de Participaciones Anteriores<br>Rol especial en la página de Participaciones Anteriores",
+        "Segundo Lugar",
+        "$20 USD<br>Rol especial en el servidor de Discord de Lunar Jam<br>Sección especial en la página de Participaciones Anteriores",
+        "Tercer Lugar",
+        "$10 USD<br>Rol especial en el servidor de Discord de Lunar Jam<br>Sección especial en la página de Participaciones Anteriores",
+        "Cuarto Lugar",
+        "$5 USD<br>Sección especial en la página de Participaciones Anteriores",
+        "Quinto Lugar",
+        "$5 USD<br>Sección especial en la página de Participaciones Anteriores",
+        "Menciones Honoríficas",
+        "Sección especial en la página de Participaciones Anteriores"
+    ],
+    "Rules": [
+        "Rules",
+        "Información General del Nivel",
+        "Tu nivel debe ser un platformer, con un tiempo promedio de completado mínimo de 60 segundos.<br>El nivel debe seguir un tema específico, que será anunciado al inicio del Jam.<br>Cómo interpretes y ejecutes ese tema depende de ti, pero debe estar presente de alguna manera.<br>Además, habrá dos subtemas opcionales que pueden usarse además del tema principal para obtener puntos extra en la evaluación, aunque no son obligatorios.",
+        "Dificultades Permitidas",
+        "Cualquier dificultad, desde Auto hasta Extreme Demon, está permitida en el Jam.<br>Ten en cuenta que los niveles se juzgan principalmente por su jugabilidad y diversión, por lo que hacerlo demasiado fácil o demasiado difícil podría reducir mucho tu puntuación.",
+        "Colaboraciones",
+        "Puedes colaborar con hasta dos personas más, para un máximo de tres miembros por nivel.<br>Cualquier premio ganado será dividido de manera equitativa entre los participantes."
+    ],
+    "Judges": [
+        "Judges"
+    ],
+    "Scoring": [
+        "Sistema de Puntuación",
+        "Las participaciones serán evaluadas de la siguiente manera:<br><br>",
+        "Jugabilidad / Diversión - 50 puntos<br>Originalidad - 25 puntos<br>Concepto y Ejecución del Tema - 10 puntos<br>Decoración - 10 puntos<br>Preferencia personal del juez - 5 puntos<br>"
+    ],
+    "Rubric": [
+        "",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "Jugabilidad",
+        "El nivel no contiene jugabilidad.<br>(Auto)",
+        "El nivel es activamente poco divertido de jugar.",
+        "El nivel intenta ser disfrutable, pero se ve limitado por problemas graves de diseño de nivel/juego.",
+        "El nivel es moderadamente disfrutable, con varios errores menores.",
+        "El nivel es muy disfrutable, pero contiene algunos errores menores.",
+        "El nivel es extremadamente divertido, con pocos o ningún error de diseño de nivel/juego.",
+        "Originalidad",
+        "El nivel no contiene mecánicas ni ideas originales.",
+        "El nivel tiene una mecánica extremadamente poco original o robada, y decoración no única.",
+        "El nivel tiene una mecánica que copia fuertemente de otra participación o nivel, y/o decoración no única.",
+        "El nivel tiene una mecánica completamente única en la participación, pero decoración no única.",
+        "El nivel tiene una mecánica única en la participación y decoración con ideas innovadoras.",
+        "El nivel tiene una mecánica completamente única y decoración original nunca vista en ninguna otra participación.",
+        "Tema",
+        "El nivel no tiene un tema. (Descalificación)",
+        "El nivel hace un intento débil de usar un tema, pero no representa de manera clara el tema del Jam.",
+        "El nivel hace un intento aceptable de usar un tema que representa el tema del Jam.",
+        "El nivel se relaciona claramente con el tema del Jam.",
+        "El nivel se relaciona claramente con el tema del Jam y además sigue al menos un subtema.",
+        "El nivel se relaciona claramente con el tema del Jam y además sigue AMBOS subtemas.",
+        "Decoración",
+        "El nivel no contiene decoración.",
+        "El nivel contiene muy poca decoración (pulsos/movimientos básicos, sin diseños).",
+        "El nivel contiene decoración básica o incompleta (diseños simples, pulsos, movimientos, etc.).",
+        "El nivel contiene decoración de calidad promedio (calidad de “Rate-Feature”).",
+        "El nivel contiene decoración de alta calidad (calidad “Epic+”).",
+        "El nivel contiene decoración de calidad extremadamente alta (calidad “Legendary+”).",
+        "Bonificaciones del Juez",
+        "El juez tiene una opinión neutral sobre este nivel.",
+        "El juez disfruta de este nivel ligeramente más que del promedio de las participaciones.",
+        "El juez disfruta de este nivel notablemente más que del promedio de las participaciones.",
+        "El juez disfruta de este nivel significativamente más que del promedio de las participaciones.",
+        "Este es uno de los niveles que más disfrutó el juez en el Jam.",
+        "Este es el nivel favorito absoluto del juez en el Jam. (Solo se puede otorgar un +5 por juez en cada evento)."
+    ]
+}
