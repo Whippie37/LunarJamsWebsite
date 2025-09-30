@@ -187,15 +187,21 @@ body {
     
 }
 #video-showcase {
-    width : 32vw;
-    height : 18vw;
-    border : 2px double var(--main-color);
+    width : calc(32vw + 1px);
+    height : calc(18vw + 1px);
+    border : 4px double var(--main-color);
     background : linear-gradient(0deg,rgba(0, 0, 0, .8) 0%, rgba(1, 14, 61, .8) 100%);
     margin : auto;
+    padding : 0;
+    display : flex;
+    align-content: center;
+    align-items: center;
 }
 #video {
-    width : inherit;
-    height : inherit;
+    width : 32vw;
+    height : 18vw;
+    padding : 0;
+    border : 0;
 }
 #background {
     position : absolute;
