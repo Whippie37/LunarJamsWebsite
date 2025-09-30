@@ -49,7 +49,7 @@
         "Scoring",
         "Entries will be scored as follows:<br><br>",
         "Gameplay/Enjoyability - 50 Points<br>Originality - 25 Points<br>Theme Concept and Execution - 10 Points<br>Decoration - 10 Points<br>Personal Judge Bias - 5 Points<br>",
-        "You can see a breakdown of how points are awarded here."
+        "You can see a breakdown of how points are awarded <a href='./rubric.html'>here.</a>"
     ],
     "Rubric": [
         "",
