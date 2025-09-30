@@ -42,8 +42,8 @@ function setLang(langID) {
     if (langID == 1) {
         lang = 'es';
     }
-    injectText();
     saveCookies();
+    injectText();
 }
 
 function init() {
@@ -197,6 +197,7 @@ function init() {
     
 
     main();
+    injectText();
 }
 const buttons = document.getElementsByClassName("carousel-button");
 
