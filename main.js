@@ -183,7 +183,6 @@ function init() {
 
                 if (window.scrollY >= 934) {
                     document.getElementById("navbar").style.height = "8vh";
-                    console.log('show navbar');
                 }
                 else {
                     document.getElementById("navbar").style.height = 0;
@@ -294,7 +293,6 @@ function showInfoSection() {
 }
 
 function showPrizesSection() {
-    console.log('j');
     for (let i = 0; i < carousel.length; i++) {
         carousel[i].style.left = `${(100 * (i)) - 100}vw`.toString();
     }
@@ -302,7 +300,6 @@ function showPrizesSection() {
 }
 
 function showRulesSection() {
-    console.log('j');
     for (let i = 0; i < carousel.length; i++) {
         carousel[i].style.left = `${(100 * (i)) - 200}vw`.toString();
     }
@@ -310,7 +307,6 @@ function showRulesSection() {
 }
 
 function showJudgesSection() {
-    console.log('j');
     for (let i = 0; i < carousel.length; i++) {
         carousel[i].style.left = `${(100 * (i)) - 300}vw`.toString();
     }
@@ -318,7 +314,6 @@ function showJudgesSection() {
 }
 
 function showScoringSection() {
-    console.log('j');
     for (let i = 0; i < carousel.length; i++) {
         carousel[i].style.left = `${(100 * (i)) - 400}vw`.toString();
     }
@@ -389,7 +384,6 @@ function getClockTime() {
 }
 
 function toggleLanguageDropdown() {
-    console.log('a');
     let dropdown = document.getElementById('language-select-dropdown');
     if (dropdown.style.height == '0px' || dropdown.style.height == '') {
         dropdown.style.height = '7vh';
