@@ -24,6 +24,7 @@ body {
     background-color: black;
     display: flex;
     height : auto;
+    min-height : 1600px;
     scroll-behavior:auto;
 }
 .button-language {
@@ -486,7 +487,7 @@ body {
 
 .about-wrapper {
     width : 100vw;
-    height : 130vh;
+    height : clamp(1400px, 150vh, 150vh);
     position : absolute;
     top : 100vh;
     overflow : hidden;
@@ -500,18 +501,38 @@ body {
     word-wrap : break-word;
 }
 .about-container {
-    overflow: hidden;
+    overflow-x: hidden;
     top : 6vh;
     display : flex;
     place-content: center;
     justify-content: center;
     width : 90vw;
-    height : 60vw;
+    height : clamp(1200px, 140vh 140vh);
+}
+.about-container::-webkit-scrollbar {
+    width : 0;
+    display : none;
+}
+.about-container::-webkit-scrollbar-track {
+    width : 0;
+    display : none;
+}
+.about-container::-webkit-scrollbar-button {
+    width : 0;
+    display : none;
+}
+.about-container::-webkit-scrollbar-thumb {
+    width : 0;
+    display : none;
+}
+.about-container::-webkit-scrollbar-track-piece {
+    width : 0;
+    display : none;
 }
 .info-wrapper {
     padding-top : 10vh;
     width : inherit;
-    height : auto;
+    height : 10vh;
     display : grid;
     float : left;
     align-content: flex-start;

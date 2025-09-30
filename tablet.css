@@ -4,10 +4,6 @@
     }
 
 
-    .about-wrapper {
-        top : 80vh;
-    }
-
 
 
     .navigation-button {
@@ -22,7 +18,7 @@
     flex-wrap : wrap;
     }
     .about-wrapper {
-        height : 160vh;
+        height : clamp(1200px, 160vh, 180vh);
         top : 125vh;
     }
     .about-container {
