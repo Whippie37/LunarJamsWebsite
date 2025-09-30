@@ -26,7 +26,6 @@ function saveCookies() {
 }
 function loadCookies() {
     let cookie = document.cookie;
-    cookie = 'lang=en'
     const cookiesList = cookie.split("|");
     for (var i = 0; i < cookiesList.length; i++) {
         let temp = cookiesList[i].split('=');
