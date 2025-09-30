@@ -187,11 +187,15 @@ body {
     
 }
 #video-showcase {
-    width : 40vw;
-    height : 30vh;
+    width : 32vw;
+    height : 18vw;
     border : 2px double var(--main-color);
     background : linear-gradient(0deg,rgba(0, 0, 0, .8) 0%, rgba(1, 14, 61, .8) 100%);
     margin : auto;
+}
+#video {
+    width : inherit;
+    height : inherit;
 }
 #background {
     position : absolute;
@@ -277,14 +281,16 @@ body {
     font-family : 'consolas';
 }
 .message-main {
-    height : 2rem;
+    height : 4vh;
     margin: 0;
     padding : 0;
-    font-size : 2rem;
+    font-size : 4vh;
     animation : messageLoadAnimation ease-out .5s;
 }
 .message-sub {
-    height : 1rem;
+    transform : translateY(-2vh);
+    height : 2rem;
+    bottom : 2vh;
     margin : 0;
     padding : 0;
     animation : messageLoadAnimation ease-out .6s;

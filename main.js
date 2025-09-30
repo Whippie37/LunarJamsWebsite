@@ -77,12 +77,24 @@ function init() {
         videoshowcase.className = 'video-showcase';
         videoshowcase.id = 'video-showcase';
 
+        let video = document.createElement('iframe');
+        video.classname = 'video';
+        video.id = 'video';
+        video.src = 'https:\//www.youtube-nocookie.com/embed/U2r4YA7nNlI';
+        video.title = "Youtube Video Player";
+        video.frameborder = "0";
+        video.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+        video.referrerPolicy="strict-origin-when-cross-origin";
+        video.allowFullscreen;
+
+
         section.append(messageSection);
         messageSection.append(messageMain);
         messageMain.innerHTML = message;
 
 
         section.append(videoshowcase);
+        videoshowcase.append(video);
         messageSection.append(messageSub);
         messageSub.innerHTML = message2;
     }
