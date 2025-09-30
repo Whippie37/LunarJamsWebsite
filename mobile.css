@@ -57,12 +57,16 @@
     margin-bottom : 0;
 }
 #video-showcase {
-    width : 70vw;
-    height : 20vh;
+    width : calc(70vw + 1px);
+    height : calc(20vh + 1px);
     border : 2px double var(--main-color);
     background : linear-gradient(0deg,rgba(0, 0, 0, .8) 0%, rgba(1, 14, 61, .8) 100%);
     transform : translateY(6vh);
     margin : auto;
+}
+#video {
+    width : 70vw;
+    height : 20vh;
 }
 #title-wrapper {
     width : 0;
