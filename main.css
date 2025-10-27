@@ -729,6 +729,10 @@ hr {
     margin : auto;
     z-index : 3;
     cursor : pointer;
+    transition : filter 0.2s;
+}
+.user-socials:hover {
+    filter : brightness(60%);
 }
 
 .grid {
