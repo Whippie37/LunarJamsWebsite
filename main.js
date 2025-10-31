@@ -100,10 +100,11 @@ function init() {
     else {
         section.append(messageSection);
         messageSection.append(messageMain);
-        messageMain.innerHTML = "Jam Currently In Progress!";
+        messageMain.innerHTML = "Lunar Jam #1<br> Active Now";
 
         messageSection.append(messageSub);
         messageSub.innerHTML = "Time Remaining";
+        messageSub.style.transform = "translateY(1.3rem)"
 
 
         let timerWrapper = document.createElement('div');
@@ -137,7 +138,7 @@ function init() {
         let mainTheme = document.createElement('p');
         mainTheme.className = "main-theme";
         mainTheme.id = "main-theme";
-        mainTheme.innerHTML = "???";
+        mainTheme.innerHTML = "???"; // CHANGE THIS TO THE MAIN THEME
 
         let subThemesWrapper = document.createElement('div');
         subThemesWrapper.className = "wrapper";
@@ -146,12 +147,12 @@ function init() {
         let subTheme1 = document.createElement('p');
         subTheme1.className = 'sub-theme';
         subTheme1.id = "sub-theme1";
-        subTheme1.innerHTML = "Sub-Theme 1";
+        subTheme1.innerHTML = "Sub-Theme 1"; // CHANGE THIS TO SUB-THEME 1
 
         let subTheme2 = document.createElement('p');
         subTheme2.className = 'sub-theme';
         subTheme2.id = "sub-theme2";
-        subTheme2.innerHTML = "Sub-Theme2";
+        subTheme2.innerHTML = "Sub-Theme 2"; // CHANGE THIS TO SUB-THEME 2
 
         let subThemesContainer = document.createElement('div');
         subThemesContainer.className = "wrapper";
@@ -334,8 +335,8 @@ function main() {
 
 function getClockTime() {
     let currentTime = Math.floor(Date.now() / 1000);
-    let startTime = 1758330420; //1761926400000
-    let endTime = 1759300133; //1762189200000
+    let startTime = 1761926400; //1761926400000
+    let endTime = 1762099200; //1762189200000
     startDifference = (currentTime - startTime);
     let seconds = 0;
 
