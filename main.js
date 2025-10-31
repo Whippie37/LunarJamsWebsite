@@ -46,7 +46,7 @@ function setLang(langID) {
 }
 
 function init() {
-    let activeJam = false;
+    let activeJam = true;
     loadCookies();
     setBackground();
     let section = document.getElementById('homepage-section-left');
@@ -138,7 +138,7 @@ function init() {
         let mainTheme = document.createElement('p');
         mainTheme.className = "main-theme";
         mainTheme.id = "main-theme";
-        mainTheme.innerHTML = "???"; // CHANGE THIS TO THE MAIN THEME
+        mainTheme.innerHTML = "Transport"; // CHANGE THIS TO THE MAIN THEME
 
         let subThemesWrapper = document.createElement('div');
         subThemesWrapper.className = "wrapper";
@@ -147,12 +147,12 @@ function init() {
         let subTheme1 = document.createElement('p');
         subTheme1.className = 'sub-theme';
         subTheme1.id = "sub-theme1";
-        subTheme1.innerHTML = "Sub-Theme 1"; // CHANGE THIS TO SUB-THEME 1
+        subTheme1.innerHTML = "Value"; // CHANGE THIS TO SUB-THEME 1
 
         let subTheme2 = document.createElement('p');
         subTheme2.className = 'sub-theme';
         subTheme2.id = "sub-theme2";
-        subTheme2.innerHTML = "Sub-Theme 2"; // CHANGE THIS TO SUB-THEME 2
+        subTheme2.innerHTML = "Zone"; // CHANGE THIS TO SUB-THEME 2
 
         let subThemesContainer = document.createElement('div');
         subThemesContainer.className = "wrapper";
