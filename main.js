@@ -188,7 +188,7 @@ function init() {
                     document.getElementById("navbar").style.height = 0;
                 }
                 ticking = false;
-            }, 20);
+            }, 300);
             ticking = true;
         }
     });
@@ -330,7 +330,7 @@ function main() {
         document.getElementById('timer').innerHTML = countdownTime;
     }
 
-    setTimeout(main, 100);
+    setTimeout(main, 500);
 }
 
 function getClockTime() {
