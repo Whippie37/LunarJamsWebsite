@@ -127,31 +127,31 @@ async function sortByKey(data, key) {
 async function sortEntries(entryList, sortMethod) {
   switch (sortMethod) {
     case 'levelname':
-      return sortByKey(entryList, 'levelName', true);
+      return await sortByKey(entryList, 'levelName', true);
       break;
     case 'levelID':
-      return sortByKey(entryList, 'levelID', true);
+      return await sortByKey(entryList, 'levelID', true);
       break;
     case 'creatorName':
-      return sortByKey(entryList, 'creators', true);
+      return await sortByKey(entryList, 'creators', true);
       break;
     case 'totalScore':
-      return sortByKey(entryList, '_id', true);
+      return await sortByKey(entryList, '_id', true);
       break;
     case 'decoScore':
-      return sortByKey(entryList, '_id', true);
+      return await sortByKey(entryList, '_id', true);
       break;
     case 'gameplayScore':
-      return sortByKey(entryList, '_id', true);
+      return await sortByKey(entryList, '_id', true);
       break;
     case 'themeScore':
-      return sortByKey(entryList, '_id', true);
+      return await sortByKey(entryList, '_id', true);
       break;
     case 'originalityScore':
-      return sortByKey(entryList, '_id', true);
+      return await sortByKey(entryList, '_id', true);
       break;
     default:
-      return sortByKey(entryList, '_id', true);
+      return await sortByKey(entryList, '_id', true);
       break;
   }
 }
