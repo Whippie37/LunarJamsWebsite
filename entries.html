@@ -1,0 +1,86 @@
+<html lang="en">
+        <head>
+        
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SW756VPLW9"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-SW756VPLW9');
+        </script>
+
+        <script src="./entries.js"></script>
+
+
+        <link rel="stylesheet" href="./main.css">
+        <link rel="stylesheet" href="./mobile.css">
+        <link rel="stylesheet" href="./tablet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+        <link rel="icon" href="./Assets/lunarjamlogo.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+        <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <script src="./main.js"></script>
+        <title>Lunar Jam</title>
+        <body onload="setBackground(); populateEntries()">
+            <div id="homepage-bg-wrapper">    
+                <div id="background"></div>
+            </div>
+            
+            <div id="navbar" class="navbar">
+            <div  id="navbar-home" class="navbar-home" onclick="window.location.href='./'">
+                <img src="./Assets/moonjamlogo2.png" class="navbar-home-icon">
+                <p>
+                    Home
+                </p>
+            </div>
+            <div class="navbar-container">
+            </div>
+        </div>
+
+        <div id="modal-notif-blur" class="show"></div>
+        <div id="modal-copiedNotif" class="show">Level ID Copied</div>
+
+        <div class="wrapper" id="searchbar-wrapper">
+            <div class="wrapper searchbar-container">
+                <input id="searchbar" oninput="search(this.value);">
+            </div>
+            <div class="material-symbols-outlined entries-button" id="button-delete" onclick="clearSearch()">delete</div>
+            <div id="button-filter" class="entries-button" onclick="toggleDropdown()"><span class="material-symbols-outlined">filter_alt</span>Filter</div>
+        </div>
+
+        <div id="entries-wrapper"></div>
+            
+        </body>
+
+        <div class="dropdown" id="filter-dropdown">
+            <div class="dropdown-label">Sort By</div>
+            <div class="dropdown-item" onclick="setSortingMethod('_id')">Submission Order</div>
+            <div class="dropdown-item" onclick="setSortingMethod('levelname')">Level Name</div>
+            <div class="dropdown-item" onclick="setSortingMethod('creatorName')">Uploader Name</div>
+            <div class="dropdown-item" onclick="setSortingMethod('levelID')">Level ID</div>
+            <div class="dropdown-item" onclick="setSortingMethod('overallScore')">Overall Score</div>
+            <div class="dropdown-item" onclick="setSortingMethod('gameplayScore')">Gameplay Score</div>
+            <div class="dropdown-item" onclick="setSortingMethod('decorationScore')">Decoration Score</div>
+            <div class="dropdown-item" onclick="setSortingMethod('themeScore')">Theme Score</div>
+            <div class="dropdown-item" onclick="setSortingMethod('originalityScore')">Originality Score</div>
+            <div class="dropdown-label">Sorting Order</div>
+            <div class="dropdown-item" onclick="setSortingOrder('ascending')">Ascending</div>
+            <div class="dropdown-item" onclick="setSortingOrder('descending')">Descending</div>
+        </div>
+
+        <div id="ihatemobilewebdev">
+            Screen Not Wide Enough!<br>
+            <p>
+                Your screen resolution is not wide enough to view this page, please rotate your device.
+            </p>
+        </div>
+</html>

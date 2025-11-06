@@ -135,3 +135,9 @@
     font-size : 1vh;
 }
 }
+
+@media (max-width : 950px) {
+    #ihatemobilewebdev { 
+        display: inline-block;
+    }
+}

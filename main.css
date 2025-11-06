@@ -50,12 +50,11 @@ body {
     background : linear-gradient(0deg,rgba(3, 180, 230, .6) 0%, rgba(0, 200, 255, .6) 100%);
     transform : translateY(1vh);
 }
-.language-dropdown {
-    overflow : hidden;
+.dropdown {
+    overflow-y : scroll;
+    overflow-x : hidden;
     position : fixed;
-    left : 2vh;
-    bottom : 9vh;
-    width : 16vh;
+    width : 10vw;
     height : 0px;
     background : rgb(0,0,0,0.9);
     border-radius : 1vh;
@@ -66,16 +65,44 @@ body {
     place-items: center;
     transition : height 0.5s;
 }
-.language-dropdown-item {
+.dropdown::-webkit-scrollbar {
+    background : transparent;
+        width : 2px;
+}
+.dropdown::-webkit-scrollbar-thumb {
+    background : rgba(120,120,140);
+    border-radius : 15vw;
+    width : 2px;
+}
+.dropdown::-webkit-scrollbar-track {
+    background : transparent;
+    width : 2px;
+}
+.dropdown-item {
     width : 100%;
     text-align: center;
-    height : auto;
+    height : clamp(10px, auto, 20px);
     padding-top : 0.5vh;
     padding-bottom : 0.5vh;
     cursor : pointer;
     margin : 0;
 }
-.language-dropdown-item:hover {
+.dropdown-label {
+    width : 100%;
+    text-align: center;
+    height : auto;
+    padding-top : 0.5vh;
+    padding-bottom : 0.5vh;
+    cursor :initial;
+    margin : 0;
+    user-select: none;
+    color : var(--main-color);
+}
+#language-select-dropdown {
+    left : 2vh;
+    bottom : 9vh;
+}
+.dropdown-item:hover {
     background : rgba(70,50,80,0.5);
 }
 
@@ -457,8 +484,8 @@ body {
     height : 6vh;
     margin : 30px;
     font-size : 2vh;
-    border : 2px solid var(--highlight-color);
     border-radius : 0.33rem;
+    border : 2px solid var(--highlight-color);
     background : linear-gradient(0deg,rgba(4, 8, 26, .5) 0%, rgba(5, 11, 27, .5) 100%);
     color : rgb(212,255,255);
     transition : transform 0.3s,
@@ -775,4 +802,199 @@ hr {
 .grid-number {
     font-size : 4vh;
     color : var(--highlight-color);
+}
+
+#searchbar-wrapper {
+    width : 90vw;
+    padding-left : 5vw;
+    padding-right: 5vw;
+    height : 16vh;
+    display : flex;
+    align-content: center;
+    justify-content: center;
+    grid-auto-flow : column;
+}
+#searchbar {
+    width : 68vw;
+    height: 4.5vh;
+    text-align : center;
+    background-color : transparent;
+    border : 0;
+    user-select: all;
+    z-index: 2;
+    border-radius : 1vw;
+    background : rgba(60,60,85, 0.5);
+    color : white;
+    font-size : 2vw;
+}
+#searchbar:focus {
+    outline: none;
+}
+.entries-button {
+    border-radius : 1vw;
+    border : 2px solid var(--highlight-color);
+    background : linear-gradient(0deg,rgba(4, 8, 26, .5) 0%, rgba(5, 11, 27, .5) 100%);
+    height : 5vh;
+    width: 3vw;
+    color : var(--text-color);
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin : auto;
+    cursor : pointer;
+    user-select: none;
+    transition : transform 0.5s;
+    font-size : 1vw;
+}
+.entries-button:hover {
+    cursor : pointer;
+    transform : translateY(5px);
+    background : linear-gradient(0deg,rgba(3, 180, 230, .6) 0%, rgba(0, 200, 255, .6) 100%);
+    
+    box-shadow: 0px 0px 20px 15px rgba(86,255,255, 0.08),
+    inset 0px 0px 50px 15px rgba(86,255,255, 0.08);
+}
+
+#button-filter {
+    width : 8vw;
+}
+.searchbar-container {
+    width : 70vw;
+    display : flex;
+    height : 6vh;
+    padding : 0;
+    background-color: transparent;
+    user-select: contain;
+    font-family : 'consolas';
+}
+
+#entries-wrapper {
+    width: 100vw;
+    height : auto;
+    margin : 0;
+    padding: 0;
+    position : absolute;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    top : 16vh;
+}
+.entry-row {
+    width : 95vw;
+    height : 32vh;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+.entry-container {
+    width : 16vw;
+    height : 18vh;
+    background : rgb(10,10,30);
+    margin: auto;
+    display : grid;
+    align-items: center;
+    align-content: center;
+    place-items: center;
+    color : var(--text-color);
+    border-radius : 1vw;
+    border-left : 0.15vw solid var(--main-color);
+    border-right: 0.15vw solid var(--main-color);
+    user-select: none;
+    cursor : pointer;
+}
+.entry-container-anim {
+    animation : entryclick 2s ease-in-out;
+}
+@keyframes entryclick {
+    0% {
+        filter : saturate(100%) brightness(100%);
+    }
+    30% {
+        filter : saturate(50%) brightness(300%);
+    }
+    100% {
+        filter : saturate(100%) brightness(100%);
+    }
+}
+.entry-levelname {
+    font-size : 1.25vw;
+    width : 16vw;
+    text-align: center;
+    padding-bottom : 1vh;
+    position : absolute;
+    transform : translateY(-3vh);
+}
+.entry-creatorlist {
+    color : var(--highlight-color);
+    font-size : 0.9vw;
+    transform : translateY(1vh);
+    position : absolute;
+}
+.entry-levelid {
+    font-size : 0.66vw;
+    transform : translateY(8vh);
+    color : rgb(72, 98, 116);
+}
+.entry-score {
+    transform : translateY(3vh);
+    color : var(--main-color);
+    font-size: 0.8vw;
+}
+#modal-copiedNotif {
+    width : 60vw;
+    height : 60vh;
+    position : fixed;
+    border-radius: 2vw;
+    background : rgba(0,0,10,0.5);
+    z-index : 4;
+    font-family : 'pusab';
+    justify-content: center;
+    align-items: center;
+    left : calc(50vw - 30vw);
+    top : calc(50vh - 30vh);
+    font-size : 6vw;
+    color : white;
+    display: none;
+    transition : filter 0.75s;
+    user-select: none;
+}
+#modal-notif-blur {
+    z-index: 3;
+    width : 100vw;
+    height : 100vh;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    display: none;
+    transition : filter 0.75s;
+    user-select: none;
+}
+.show {
+    transition : opacity 0.75s;
+    opacity : 1;
+}
+#ihatemobilewebdev {
+    width : 100vw;
+    height : 100vh;
+    background : black;
+    font-size : 8vh;
+    position: fixed;
+    z-index: 10;
+    font-family : 'pusab';
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: none;
+    color : var(--main-color);
+}
+#ihatemobilewebdev p {
+    font-size : 4vh;
+    font-family : 'pusab';
+    color : var(--text-color);
+}
+#filter-dropdown {
+    position : absolute;
+    top : 12vh;
+    right : 5.5vw;
 }

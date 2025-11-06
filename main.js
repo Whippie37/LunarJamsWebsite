@@ -191,6 +191,7 @@ function init() {
             }, 300);
             ticking = true;
         }
+        console.log('bad idea');
     });
 
     
