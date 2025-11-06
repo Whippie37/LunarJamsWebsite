@@ -36,8 +36,10 @@ function fade(element) {
 
 
 async function populateEntries(entriesList) {
-  let entries = sortEntries(entriesList, sortMethod);
-  console.log(entries);
+  let entries = await sortEntries(entriesList, sortMethod)
+  .then(entries => {
+
+
     let container = document.getElementById('entries-wrapper');
     container.innerHTML = '';
     for (let i = 0; i < entries.length / 5 ; i++ ) {
@@ -84,8 +86,10 @@ async function populateEntries(entriesList) {
             entryContainer.id=`entry${levelid}`;
             row.appendChild(entryContainer);
         }
-    }
+      }
+    });
 }
+
 
 let sortingOrder = true; // true for up, false for down
 async function sortByKey(data, key) {
