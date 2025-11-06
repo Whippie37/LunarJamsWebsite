@@ -158,7 +158,6 @@ async function sortEntries(entryList, sortMethod) {
 
 async function search(query) {
   let filteredEntries = await searchFor(query)
-  .then(filteredEntries => filteredEntries.json())
   .then(filteredEntries => {
     populateEntries(filteredEntries);
   })
