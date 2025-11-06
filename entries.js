@@ -1,4 +1,4 @@
-import Entry from './entry.js';
+"use strict";
 import db from './entries.json' assert {type:'json'};
 var sortMethod = 'default';
 async function entryClicked(entryID) {
