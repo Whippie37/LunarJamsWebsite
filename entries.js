@@ -88,7 +88,7 @@ async function populateEntries(entriesList) {
 }
 
 let sortingOrder = true; // true for up, false for down
-function sortByKey(data, key) {
+async function sortByKey(data, key) {
 
   if (key == 'creators') {
     return [...data].sort((a, b) => {
