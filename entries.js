@@ -3434,7 +3434,7 @@ async function entryClicked(entryID) {
     setTimeout(function() {
         fade(document.getElementById('modal-notif-blur'));
         fade(document.getElementById('modal-copiedNotif'));
-    }, 300);
+    }, 700);
 
     await navigator.clipboard.writeText(entryID);
     document.getElementById(`entry${entryID}`).classList.remove("entry-container-anim");

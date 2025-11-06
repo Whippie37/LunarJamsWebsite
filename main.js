@@ -188,7 +188,7 @@ function init() {
                     document.getElementById("navbar").style.height = 0;
                 }
                 ticking = false;
-            }, 300);
+            }, 600);
             ticking = true;
         }
         console.log('bad idea');
