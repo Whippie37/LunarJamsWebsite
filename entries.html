@@ -11,7 +11,7 @@
         gtag('config', 'G-SW756VPLW9');
         </script>
 
-        <script type ="module" src="./entries.js"></script>
+        <script src="./entries.js"></script>
 
 
         <link rel="stylesheet" href="https://lunarjam.cc/main.css">
@@ -30,7 +30,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
         <script src="./main.js"></script>
         <title>Lunar Jam</title>
-        <body onload="setBackground();">
+        <body onload="setBackground(); populateEntries(db);">
             <div id="homepage-bg-wrapper">    
                 <div id="background"></div>
             </div>
@@ -57,7 +57,7 @@
             <div id="button-filter" class="entries-button" onclick="toggleDropdown()"><span class="material-symbols-outlined">filter_alt</span>Filter</div>
         </div>
 
-        <div id="entries-wrapper"></div>
+        <div id="entries-wrapper"><a></a></div>
             
         </body>
 
