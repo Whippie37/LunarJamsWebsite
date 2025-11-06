@@ -1,5 +1,3 @@
-let db = [];
-
 var sortMethod = 'default';
 async function entryClicked(entryID) {
 
@@ -38,7 +36,6 @@ function fade(element) {
 
 
 async function populateEntries(entriesList) {
-  if (!entriesList) {entriesList = db}
   let entries = sortEntries(entriesList, sortMethod);
   console.log(entries);
     let container = document.getElementById('entries-wrapper');
@@ -164,23 +161,29 @@ function search(query) {
   populateEntries(filteredEntries);
 }
 
-function searchFor(query) {
-  let entriesArr = [];
-  for (let i = 0; i < db.length; i++) {
-    for(var key in db[i]){
-      var value = db[i][key];
-      if (value.toString().toUpperCase().includes(query.toUpperCase())) {
-        let skip = false;
-        for (let x = 0; x < entriesArr.length; x++) {
-          if (entriesArr[x] == db[i]) {
-            skip = true;
+async function searchFor(query) {
+  db = await fetch('./entries.json')
+  .then(response => response.json())
+  .then(db => {
+
+    let entriesArr = [];
+    for (let i = 0; i < db.length; i++) {
+      for(var key in db[i]){
+        var value = db[i][key];
+        if (value.toString().toUpperCase().includes(query.toUpperCase())) {
+          let skip = false;
+          for (let x = 0; x < entriesArr.length; x++) {
+            if (entriesArr[x] == db[i]) {
+              skip = true;
+            }
           }
+          if (!skip) {entriesArr.push(db[i]);}
         }
-        if (!skip) {entriesArr.push(db[i]);}
       }
     }
+    return entriesArr;
   }
-  return entriesArr;
+  );
 }
 
 function clearSearch() {
