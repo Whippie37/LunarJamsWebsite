@@ -1,3 +1,5 @@
+import Entry from './entry.js';
+import db from './entries.json' assert {type:'json'};
 var sortMethod = 'default';
 async function entryClicked(entryID) {
 
@@ -35,10 +37,8 @@ function fade(element) {
 }
 
 
-async function populateEntries(entriesList) {
-  let entries = await sortEntries(entriesList, sortMethod)
-  .then(entries => {
-
+function populateEntries(entriesList) {
+  let entries = sortEntries(entriesList, sortMethod)
 
     let container = document.getElementById('entries-wrapper');
     container.innerHTML = '';
@@ -87,12 +87,11 @@ async function populateEntries(entriesList) {
             row.appendChild(entryContainer);
         }
       }
-    });
 }
 
 
 let sortingOrder = true; // true for up, false for down
-async function sortByKey(data, key) {
+function sortByKey(data, key) {
 
   if (key == 'creators') {
     return [...data].sort((a, b) => {
@@ -128,49 +127,44 @@ async function sortByKey(data, key) {
 }
 
 
-async function sortEntries(entryList, sortMethod) {
+function sortEntries(entryList, sortMethod) {
   switch (sortMethod) {
     case 'levelname':
-      return await sortByKey(entryList, 'levelName', true);
+      return sortByKey(entryList, 'levelName', true);
       break;
     case 'levelID':
-      return await sortByKey(entryList, 'levelID', true);
+      return sortByKey(entryList, 'levelID', true);
       break;
     case 'creatorName':
-      return await sortByKey(entryList, 'creators', true);
+      return sortByKey(entryList, 'creators', true);
       break;
     case 'totalScore':
-      return await sortByKey(entryList, '_id', true);
+      return sortByKey(entryList, '_id', true);
       break;
     case 'decoScore':
-      return await sortByKey(entryList, '_id', true);
+      return sortByKey(entryList, '_id', true);
       break;
     case 'gameplayScore':
-      return await sortByKey(entryList, '_id', true);
+      return sortByKey(entryList, '_id', true);
       break;
     case 'themeScore':
-      return await sortByKey(entryList, '_id', true);
+      return sortByKey(entryList, '_id', true);
       break;
     case 'originalityScore':
-      return await sortByKey(entryList, '_id', true);
+      return sortByKey(entryList, '_id', true);
       break;
     default:
-      return await sortByKey(entryList, '_id', true);
+      return sortByKey(entryList, '_id', true);
       break;
   }
 }
 
-async function search(query) {
-  let filteredEntries = await searchFor(query)
-  .then(filteredEntries => {
-    populateEntries(filteredEntries);
-  })
+function search(query) {
+  let filteredEntries = earchFor(query)
+  populateEntries(filteredEntries);
 }
 
-async function searchFor(query) {
-  db = await fetch('./entries.json')
-  .then(response => response.json())
-  .then(db => {
+function searchFor(query) {
 
     let entriesArr = [];
     for (let i = 0; i < db.length; i++) {
@@ -188,8 +182,6 @@ async function searchFor(query) {
       }
     }
     return entriesArr;
-  }
-  );
 }
 
 function clearSearch() {
@@ -226,13 +218,8 @@ function setSortingOrder(order) {
   toggleDropdown();
 }
 
-async function init() {
-  db = await fetch('./entries.json')
-  .then(response => response.json())
-  .then(db => {
+function init() {
     populateEntries(db);
-  }
-  );
 }
 
 
