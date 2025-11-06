@@ -124,7 +124,7 @@ async function sortByKey(data, key) {
 }
 
 
-function sortEntries(entryList, sortMethod) {
+async function sortEntries(entryList, sortMethod) {
   switch (sortMethod) {
     case 'levelname':
       return sortByKey(entryList, 'levelName', true);
@@ -156,9 +156,12 @@ function sortEntries(entryList, sortMethod) {
   }
 }
 
-function search(query) {
-  let filteredEntries = searchFor(query);
-  populateEntries(filteredEntries);
+async function search(query) {
+  let filteredEntries = await searchFor(query)
+  .then(filteredEntries => filteredEntries.json())
+  .then(filteredEntries => {
+    populateEntries(filteredEntries);
+  })
 }
 
 async function searchFor(query) {
