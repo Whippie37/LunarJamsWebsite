@@ -136,8 +136,56 @@
 }
 }
 
-@media (max-width : 950px) {
-    #ihatemobilewebdev { 
-        display: inline-block;
+@media (max-width : 1200px) {
+    .entry-levelname {
+        font-size : 2.5vh;
+        width : 70vw;
+        padding-bottom : 0.5vh;
+        transform : translateY(-3vh);
+    }
+    .entry-creatorlist {
+        font-size : 2.5vh;
+        transform : translateY(0.5vh);
+    }
+    .entry-levelid {
+        font-size : 1.25vh;
+        transform : translateY(6vh);
+    }
+    .entry-score {
+        transform : translateY(2.5vh);
+        font-size: 1.25vh;
+    }
+    .entry-container {
+        width : 80vw;
+        height : 13vh;
+        border-radius : 1vh;
+        border-left : 0.25vh solid var(--main-color);
+        border-right: 0.25vh solid var(--main-color);
+    }
+    .entry-row {
+        height : 16vh;
+    }
+
+
+    .searchbar-container {
+        width : 60vw;
+        height : 6vh;
+    }
+
+    #searchbar {
+        width : 45vw;
+        border-radius : 1vw;
+        font-size : 2vh;
+        transform : translateX(4vw);
+    }
+
+    .entries-button {
+        border-radius : 1vh;
+        border : 0.25vh solid var(--highlight-color);
+        height : 4.5vh;
+        width: 4.5vh;
+    }
+    #button-filter {
+        width : 4.5vh;
     }
 }

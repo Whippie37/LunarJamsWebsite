@@ -11,11 +11,12 @@
         gtag('config', 'G-SW756VPLW9');
         </script>
 
+        <script src="./entriesdb.js"></script>
         <script src="./entries.js"></script>
 
 
-        <link rel="stylesheet" href="https://lunarjam.cc/main.css">
-        <link rel="stylesheet" href="https://lunarjam.cc/mobile.css">
+        <link rel="stylesheet" href="./main.css">
+        <link rel="stylesheet" href="./mobile.css">
         <link rel="stylesheet" href="https://lunarjam.cc/tablet.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +31,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
         <script src="./main.js"></script>
         <title>Lunar Jam</title>
-        <body onload="setBackground(); populateEntries(db);">
+        <body onload="setBackground(); populateEntries(db); changeButtonContent();">
             <div id="homepage-bg-wrapper">    
                 <div id="background"></div>
             </div>
@@ -54,7 +55,7 @@
                 <input id="searchbar" oninput="search(this.value);">
             </div>
             <div class="material-symbols-outlined entries-button" id="button-delete" onclick="clearSearch()">delete</div>
-            <div id="button-filter" class="entries-button" onclick="toggleDropdown()"><span class="material-symbols-outlined">filter_alt</span>Filter</div>
+            <div id="button-filter" class="entries-button" onclick="toggleDropdown()"><span style="transform:translateX(-0.5vw);" class="material-symbols-outlined">filter_alt</span>Filter</div>
         </div>
 
         <div id="entries-wrapper"><a></a></div>
@@ -75,12 +76,5 @@
             <div class="dropdown-label">Sorting Order</div>
             <div class="dropdown-item" onclick="setSortingOrder('ascending')">Ascending</div>
             <div class="dropdown-item" onclick="setSortingOrder('descending')">Descending</div>
-        </div>
-
-        <div id="ihatemobilewebdev">
-            Screen Not Wide Enough!<br>
-            <p>
-                Your screen resolution is not wide enough to view this page, please rotate your device.
-            </p>
         </div>
 </html>
