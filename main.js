@@ -46,7 +46,7 @@ function setLang(langID) {
 }
 
 function init() {
-    let activeJam = true;
+    let activeJam = false;
     loadCookies();
     setBackground();
     let section = document.getElementById('homepage-section-left');
@@ -79,7 +79,7 @@ function init() {
         let video = document.createElement('iframe');
         video.classname = 'video';
         video.id = 'video';
-        video.src = 'https:\//www.youtube-nocookie.com/embed/U2r4YA7nNlI';
+        video.src = 'https:\//www.youtube-nocookie.com/embed/32Cc_JroUf0';
         video.title = "Youtube Video Player";
         video.frameborder = "0";
         video.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
