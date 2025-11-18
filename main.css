@@ -215,7 +215,7 @@ body {
     padding: 0;
     
 }
-#video-showcase {
+#video {
     width : calc(32vw + 1px);
     height : calc(18vw + 1px);
     border : 4px double var(--main-color);
@@ -226,7 +226,7 @@ body {
     align-content: center;
     align-items: center;
 }
-#video {
+#video-showcase {
     width : 32vw;
     height : 18vw;
     padding : 0;
