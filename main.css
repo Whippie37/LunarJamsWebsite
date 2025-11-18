@@ -1076,6 +1076,7 @@ hr {
     background : rgba(10,10,20,0.6);
     border-radius : 2vh;
     border : 0.25vh solid white;
+    user-select: none;
 }
 #info-finalscore-label {
     margin : auto;
@@ -1116,9 +1117,11 @@ hr {
 }
 #levelname {
     font-size : 5vh;
+    user-select: none;
 }
 #creatorslist {
     font-size : 2vh;
+    user-select: none;
 }
 #levelid {
     font-size : 1.15vh;
@@ -1177,6 +1180,7 @@ hr {
     margin-bottom : 0.5vh;
     background : rgba(30,30,40, 0.5);
     border-radius : 2vw;
+    user-select: none;
 }
 .scores-list-container {
     width : 100%;
@@ -1246,6 +1250,7 @@ hr {
     height : 4.5vh;
     border-radius : 100%;
     margin: auto;
+    user-select: none;
 }
 .judge-name {
     color : var(--text-color);
