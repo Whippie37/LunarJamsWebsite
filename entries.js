@@ -100,7 +100,7 @@ function populateEntries(entriesList) {
             entryContainer.appendChild(entryCreatorsListLabel);
             entryContainer.appendChild(entryIDLabel);
             entryContainer.appendChild(entryScoreLabel);
-            entryContainer.onclick=function() {window.location.href=`lunarjam.cc/entry?id=${levelid}`};
+            entryContainer.onclick=function() {window.location.href=`entry?id=${levelid}`};
             entryContainer.id=`entry${levelid}`;
 
             if (placement == -1) {
