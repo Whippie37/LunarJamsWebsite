@@ -48,7 +48,7 @@ function loadData() {
     if (showcaseID != '' && showcaseID != null) {
 
         let video = document.createElement('iframe');
-        video.id = 'video';
+        video.id = 'video-showcase';
         video.src = `https:\//www.youtube-nocookie.com/embed/${showcaseID}`;
         video.title = "Youtube Video Player";
         video.frameborder = "0";
