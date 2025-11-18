@@ -226,12 +226,6 @@ body {
     align-content: center;
     align-items: center;
 }
-#video-showcase {
-    width : 32vw;
-    height : 18vw;
-    padding : 0;
-    border : 0;
-}
 #background {
     position : absolute;
     top : 0;
@@ -1290,7 +1284,7 @@ hr {
     overflow : hidden;
     margin : auto;
 }
-#showcase-video {
+#video-showcase {
     width : 31vw;
     height : 28vh;
     border : 0;
