@@ -1,0 +1,247 @@
+    <head>
+        
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SW756VPLW9"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-SW756VPLW9');
+        </script>
+
+        <script src="./entriesdb.js"></script>
+        <script src="./entry.js"></script>
+
+        <script>
+            const root = document.documentElement;
+            root.style.setProperty('--available-screen-height', screen.availHeight + 'px');
+        </script>
+
+
+        <link rel="stylesheet" href="./main.css">
+        <link rel="stylesheet" href="./mobile.css">
+        <link rel="stylesheet" href="https://lunarjam.cc/tablet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+        <link rel="icon" href="./Assets/lunarjamlogo.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+        <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <script src="./main.js"></script>
+        <title>Lunar Jam</title>
+    </head>
+<body onload="setBackground(); loadData();" style="overflow-y: hidden;">
+    <div id="homepage-bg-wrapper">    
+        <div id="background"></div>
+    </div>
+
+    <div onclick="window.location.href='https:\/\/lunarjam.cc/entries';" id="button-back" >Back</div>
+
+    <div id="section-left" class="wrapper">
+        <div id="info-container">
+            <div class="entry-info" id="levelname">
+                Level Name
+            </div>
+            <div class="entry-info" id="creatorslist">
+                creator1, creator2, creator3
+            </div>
+            <div class="entry-info" id="levelid">
+                00000000
+            </div>
+        </div>
+        <div id="entry-showcase">
+
+        </div>
+        <div id="info-finalscore-container">
+            <div id="info-finalscore-label">
+                Final Score
+            </div>
+            <div id="finalscore">
+                XX.XX
+            </div>
+            <div id="placement">
+                #1
+            </div>
+        </div>
+
+    </div>
+    <div id="section-right" class="wrapper">
+        <div id="scores-container"class="entry-data-wrapper">
+            <div class="scores-label">
+                <a class="score-label">Gameplay</a>
+                <a class="score-label">Originality</a>
+                <a class="score-label">Theme</a>
+                <a class="score-label">Deco</a>
+                <a class="score-label">Bias</a>
+                <a class="score-label">Total</a>
+            </div>
+            <div class="score-container">
+                <div class="judge-icon-container">
+                    <img class="judge-icon" src="./Assets/Staff Profile Pictures/whippie37.png">
+                    <a class="judge-name">Whippie37</a>
+                </div>
+                <div class="scores-list-container">
+                    <div class="scoresList" id = "judge1ScoresList">
+                    </div>
+                    <div class="scoresListActual" id="judge1actuals">
+
+                    </div>
+                    <div class="scores-list-dividers">
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="score-container">
+                <div class="judge-icon-container">
+                    <img class="judge-icon" src="./Assets/Staff Profile Pictures/creatorcreepy.png">
+                    <a class="judge-name">CreatorCreepy</a>
+                </div>
+                <div class="scores-list-container">
+                    <div class="scoresList" id = "judge2ScoresList">
+                    </div>
+                    <div class="scoresListActual" id="judge2actuals">
+                    </div>
+                    <div class="scores-list-dividers">
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="score-container">
+                <div class="judge-icon-container">
+                    <img class="judge-icon" src="./Assets/Staff Profile Pictures/Jshadow.png">
+                    <a class="judge-name">TheJShadow</a>
+                </div>
+                <div class="scores-list-container">
+                    <div class="scoresList" id = "judge3ScoresList">
+
+                    </div>
+                    <div class="scoresListActual" id="judge3actuals">
+
+                    </div>
+                    <div class="scores-list-dividers">
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="score-container">
+                <div class="judge-icon-container">
+                    <img class="judge-icon" src="./Assets/Staff Profile Pictures/halapeenyo.png">
+                    <a class="judge-name">Halapeenyo</a>
+                </div>
+                <div class="scores-list-container">
+                    <div class="scoresList" id = "judge4ScoresList">
+
+                    </div>
+                    <div class="scoresListActual" id="judge4actuals">
+
+                    </div>
+                    <div class="scores-list-dividers">
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="score-container">
+                <div class="judge-icon-container">
+                    <img class="judge-icon" src="./Assets/Staff Profile Pictures/bert.png">
+                    <a class="judge-name">Bert</a>
+                </div>
+                <div class="scores-list-container">
+                    <div class="scoresList" id = "judge5ScoresList">
+                    </div>
+                    <div class="scoresListActual" id="judge5actuals">
+                    </div>
+                    <div class="scores-list-dividers">
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        <a class="score-divider">|</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="comments-wrapper" class="entry-data-wrapper">
+            <span class="comment-container">
+                <div class="comment-icon-container">
+                        <img class="judge-icon" src="./Assets/Staff Profile Pictures/whippie37.png">
+                </div>
+                <div class="judge-comment" id="comment1">
+                    ""
+                </div>
+            </span>
+            <span class="comment-container">
+                <div class="comment-icon-container">
+                    <img class="judge-icon" src="./Assets/Staff Profile Pictures/creatorcreepy.png">
+                </div>
+                <div class="judge-comment" id="comment2">
+                    ""
+                </div>
+            </span>
+            <span class="comment-container">
+                <div class="comment-icon-container">
+                    <img class="judge-icon" src="./Assets/Staff Profile Pictures/Jshadow.png">
+                </div>
+                <div class="judge-comment" id="comment3">
+                    ""
+                </div>
+            </span>
+            <span class="comment-container">
+                <div class="comment-icon-container">
+                    <img class="judge-icon" src="./Assets/Staff Profile Pictures/halapeenyo.png">
+                </div>
+                <div class="judge-comment" id="comment4">
+                    ""
+                </div>
+            </span>
+            <span class="comment-container">
+                <div class="comment-icon-container">
+                    <img class="judge-icon" src="./Assets/Staff Profile Pictures/bert.png">
+                </div>
+                <div class="judge-comment" id="comment5">
+                    ""
+                </div>
+            </span>
+        </div>
+    </div>
+    </div>
+
+    <div id="modal-failed" class="hidden">
+        <p>Whoops!</p>
+        <a>Nothing Found.</a>
+    </div>
+
+    <div id="mobile-blocker">
+        <p> Mobile Currently Not Supported.</p>
+        <a> Please rotate your device or enable desktop mode.</a>
+    </div>
+
+
+</body>

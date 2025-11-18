@@ -162,6 +162,36 @@
         border-left : 0.25vh solid var(--main-color);
         border-right: 0.25vh solid var(--main-color);
     }
+    .first-place {
+        border-left : 0.25vw solid rgb(255, 187, 0);
+        border-right: 0.25vw solid rgb(255, 187, 0);
+        box-shadow: 0px 0px 20px 15px rgba(255, 187, 0, 0.08),
+        inset 0px 0px 50px 15px rgba(255, 187, 0, 0.08);
+    }
+    .second-place {
+        border-left : 0.25vw solid rgb(174, 236, 255);
+        border-right: 0.25vw solid rgb(174, 236, 255);
+        box-shadow: 0px 0px 20px 15px rgba(174, 236, 255, 0.08),
+        inset 0px 0px 50px 15px rgba(174, 236, 255, 0.08);
+    }
+    .third-place {
+        border-left : 0.25vw solid rgb(190, 90, 8);
+        border-right: 0.25vw solid rgb(190, 90, 8);
+        box-shadow: 0px 0px 20px 15px rgba(190, 90, 8, 0.08),
+        inset 0px 0px 50px 15px rgba(190, 90, 8, 0.08);
+    }
+    .fourth-fifth-place {
+        border-left : 0.25vw solid rgb(0, 162, 255);
+        border-right: 0.25vw solid rgb(0, 162, 255);
+        box-shadow: 0px 0px 20px 15px rgba(62, 245, 132, 0.08),
+        inset 0px 0px 50px 15px rgba(62, 245, 132, 0.08);
+    }
+    .winner {
+        border-left : 0.25vw solid purple;
+        border-right: 0.25vw solid rgb(128, 0, 128);
+        box-shadow: 0px 0px 20px 15px rgba(128, 0, 128, 0.08),
+        inset 0px 0px 50px 15px rgba(128, 0, 128, 0.08);
+    }
     .entry-row {
         height : 16vh;
     }
@@ -188,4 +218,43 @@
     #button-filter {
         width : 4.5vh;
     }
+
+    #mobile-blocker {
+    width : 100vw;
+    height : 100vh;
+    z-index : 4;
+    background : black;
+    position : fixed;
+    display : grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+#mobile-blocker > p {
+    color : white;
+    font-size : 6vh;
+    font-family : 'pusab';
+}
+#mobile-blocker > a {
+    color : white;
+    font-family : 'pusab';
+    font-size : 3vh;
+}
+
+.dropdown {
+    overflow-y : scroll;
+    overflow-x : hidden;
+    position : fixed;
+    width : 30vw;
+    height : 0px;
+    background : rgb(0,0,0,0.9);
+    border-radius : 1vh;
+    z-index : 3;
+    color : white;
+    padding : 0;
+    display : grid;
+    place-items: center;
+    transition : height 0.5s;
+}
+
 }

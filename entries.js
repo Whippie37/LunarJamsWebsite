@@ -69,6 +69,8 @@ function populateEntries(entriesList) {
             let creatorsArr = entries[x]['creators'];
             let creatorsList = 'by ';
             let levelName = entries[x]['levelName'];
+            let score = entries[x]['finalScore'];
+            let placement = entries[x]['placement'];
             for (let z = 0; z < creatorsArr.length; z++) {
               if (creatorsArr[z].length != 0) {
                 creatorsList += creatorsArr[z] + ', ';
@@ -84,7 +86,7 @@ function populateEntries(entriesList) {
 
             let entryScoreLabel = document.createElement('div');
             entryScoreLabel.classList.add('entry-score');
-            entryScoreLabel.innerHTML = '???/100';
+            entryScoreLabel.innerHTML = `${score}/100`;
             
             let entryCreatorsListLabel = document.createElement('div');
             entryCreatorsListLabel.classList.add('entry-creatorlist');
@@ -98,8 +100,29 @@ function populateEntries(entriesList) {
             entryContainer.appendChild(entryCreatorsListLabel);
             entryContainer.appendChild(entryIDLabel);
             entryContainer.appendChild(entryScoreLabel);
-            entryContainer.onclick=function() {entryClicked(levelid)};
+            entryContainer.onclick=function() {window.location.href=`lunarjam.cc/entry?id=${levelid}`};
             entryContainer.id=`entry${levelid}`;
+
+            if (placement == -1) {
+              entryContainer.classList.add('disqualified');
+            }
+            if (placement <= 10 && placement > 5) {
+              entryContainer.classList.add('winner');
+            }
+            if (placement == 1) {
+              entryContainer.classList.add('first-place');
+            }
+            if (placement == 2) {
+              entryContainer.classList.add('second-place');
+            }
+            if (placement == 3) {
+              entryContainer.classList.add('third-place');
+            }
+            if (placement == 4 || placement == 5) {
+              entryContainer.classList.add('fourth-fifth-place');
+            }
+
+            entryContainer.style.animationDelay = `${(x*.03)}s`
             row.appendChild(entryContainer);
         }
       }
@@ -126,6 +149,7 @@ function sortByKey(data, key) {
   });
 }
 
+
   return [...data].sort((a, b) => {
     const valA = a[key];
     const valB = b[key];
@@ -145,6 +169,9 @@ function sortByKey(data, key) {
 
 function sortEntries(entryList, sortMethod) {
   switch (sortMethod) {
+    case '_id':
+      return sortByKey(entryList, '_id', true);
+      break;
     case 'levelname':
       return sortByKey(entryList, 'levelName', true);
       break;
@@ -154,8 +181,8 @@ function sortEntries(entryList, sortMethod) {
     case 'creatorName':
       return sortByKey(entryList, 'creators', true);
       break;
-    case 'totalScore':
-      return sortByKey(entryList, '_id', true);
+    case 'finalScore':
+      return sortByKey(entryList, 'finalScore', true).reverse();
       break;
     case 'decoScore':
       return sortByKey(entryList, '_id', true);
@@ -170,7 +197,7 @@ function sortEntries(entryList, sortMethod) {
       return sortByKey(entryList, '_id', true);
       break;
     default:
-      return sortByKey(entryList, '_id', true);
+      return sortByKey(entryList, 'finalScore', true).reverse();
       break;
   }
 }
