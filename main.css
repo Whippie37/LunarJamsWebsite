@@ -1233,7 +1233,7 @@ hr {
 }
 .comment-icon-container {
     width : 10%;
-    height: 12vh;
+    height: auto;
     display : grid;
     align-items: center;
     justify-items: center;
@@ -1262,7 +1262,8 @@ hr {
 }
 .comment-container {
     width : 55vw;
-    height : 12vh;
+    min-height: 12vh;
+    height : auto;
     display : flex;
     overflow : hidden;
     margin-top : 1.5vh;
@@ -1276,6 +1277,7 @@ hr {
     padding : 2vw;
     font-family : 'consolas';
     text-align: left;
+    font-size : 1.8vh;
     align-content: center;
     justify-content: center;
     line-height: 3vh;
