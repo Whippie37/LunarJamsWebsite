@@ -31,6 +31,9 @@ function loadData() {
     levelIDText.innerHTML = entryData['levelID'];
 
     document.getElementById('placement').innerHTML = '#' + entryData['placement'];
+    if (entryData['placement'] == -1) {
+        document.getElementById('placement').innerHTML = 'Disqualified';
+    }
 
     finalScoreLabel.innerHTML = entryData['finalScore'];
     for (let i = 0; i < 5; i++) {
