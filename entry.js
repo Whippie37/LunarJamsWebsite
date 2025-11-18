@@ -36,6 +36,10 @@ function loadData() {
     for (let i = 0; i < 5; i++) {
         let comment = document.getElementById(`comment${i+1}`);
         comment.innerHTML = `" ${entryData['judgeComments'][i]} "`;
+        if (entryData['judgeComments'][i] == '' || entryData['judgeComments'][i] == null) {
+            comment.innerHTML = "No Comment Provided."; 
+            comment.classList.add("nocomment");
+        }
     }
     let showcaseID = entryData['showcase'];
     if (showcaseID != '' && showcaseID != null) {

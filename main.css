@@ -1344,3 +1344,8 @@ hr {
 #mobile-blocker {
     display : none;
 }
+
+.nocomment {
+    color : rgb(152, 190, 187);
+    font-style : italic;
+}
