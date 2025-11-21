@@ -18,6 +18,14 @@
             root.style.setProperty('--available-screen-height', screen.availHeight + 'px');
         </script>
 
+        <script>
+            window.addEventListener('load', function () {
+                if (!window.matchMedia('(max-width:1024px)')['matches']) {
+                    document.body.style = "overflow-y : hidden;";
+                }
+            });
+        </script>
+
 
         <link rel="stylesheet" href="./main.css">
         <link rel="stylesheet" href="./mobile.css">
@@ -36,12 +44,12 @@
         <script src="./main.js"></script>
         <title>Lunar Jam</title>
     </head>
-<body onload="setBackground(); loadData();" style="overflow-y: hidden;">
+<body onload="setBackground(); loadData();">
     <div id="homepage-bg-wrapper">    
         <div id="background"></div>
     </div>
 
-    <div onclick="window.location.href='https:\/\/lunarjam.cc/entries';" id="button-back" >Back</div>
+    <div onclick="window.location.href='https:\/\/lunarjam.cc/entries';" id="button-back">Back</div>
 
     <div id="section-left" class="wrapper">
         <div id="info-container">
@@ -236,11 +244,6 @@
     <div id="modal-failed" class="hidden">
         <p>Whoops!</p>
         <a>Nothing Found.</a>
-    </div>
-
-    <div id="mobile-blocker">
-        <p> Mobile Currently Not Supported.</p>
-        <a> Please rotate your device or enable desktop mode.</a>
     </div>
 
 

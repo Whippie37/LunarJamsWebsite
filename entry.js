@@ -10,7 +10,6 @@ function loadData() {
     const levelID = urlParams.get('id') || null;
 
     const entryData = getLevelById(levelID);
-    console.log(entryData);
 
     if (entryData == null) {
         document.getElementById('modal-failed').classList.remove('hidden');
@@ -63,13 +62,11 @@ function loadData() {
     }
 
     scoresList = entryData['judgeScores'];
-    console.log(scoresList);
     for (let i = 0; i < 5; i++) {
         let scoresContainer = document.getElementById(`judge${i+1}ScoresList`);
         let actualsContainer = document.getElementById(`judge${i+1}actuals`);
         let scoreTotal = 0;
         let actualScores = convertScoresToActuals(scoresList);
-        console.log('actuals:', actualScores);
         for (let x = 0; x < 5; x++) {
             let score = document.createElement('a');
             score.innerHTML = scoresList[i][x];
@@ -82,7 +79,6 @@ function loadData() {
             actualsContainer.appendChild(actualScore);
             scoreTotal += (scoresList[i][x]/1);
         }
-        console.log(scoreTotal);
         let totalScore = document.createElement('a');
         totalScore.innerHTML = Math.round(scoreTotal);
         totalScore.classList.add('score');

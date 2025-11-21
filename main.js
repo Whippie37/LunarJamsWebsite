@@ -73,8 +73,8 @@ function init() {
     if (activeJam == false) {
 
         let videoshowcase = document.createElement('div');
-        videoshowcase.className = 'video-showcase';
-        videoshowcase.id = 'video-showcase';
+        videoshowcase.className = 'homepage-video';
+        videoshowcase.id = 'homepage-video';
 
         let video = document.createElement('iframe');
         video.classname = 'video';
