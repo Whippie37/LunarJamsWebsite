@@ -274,13 +274,13 @@
     color : rgb(117, 136, 134);
 }
 #entry-showcase {
-    width : 55vh;
-    height : 30vh;
+    width : 80vw;
+    height : 45vw;
     padding : 0;
 }
 #video-showcase {
-    width : 55vh;
-    height : 30vh;
+    width : 80vw;
+    height : 45vw;
 }
 #info-finalscore-container {
     height : 18vh;
