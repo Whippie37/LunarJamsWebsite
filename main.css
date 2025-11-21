@@ -216,17 +216,18 @@ body {
     
 }
 #homepage-video {
-    width : 31vw;
-    height : 28vh;
-    border : 0;
-    padding : 0;
-    margin : 0;
-}
-#video {
     width : calc(32vw + 1px);
     height : calc(18vw + 1px);
+    border : 0;
+    padding : 0;
+    margin: auto;
     border : 4px double var(--main-color);
     background : linear-gradient(0deg,rgba(0, 0, 0, .8) 0%, rgba(1, 14, 61, .8) 100%);
+}
+#video {
+    width : 32vw;
+    height : 18vw;
+    border : 0;
     margin : auto;
     padding : 0;
     display : flex;
