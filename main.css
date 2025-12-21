@@ -773,7 +773,7 @@ hr {
 
 .grid {
     width : calc(95vh + 1px);
-    height : calc(95vh + 1px);
+    height : calc(85vh + 1px);
     margin : auto;
     display : grid;
     font-family : 'consolas';
@@ -788,7 +788,7 @@ hr {
 }
 .grid-cell {
     width : 20%;
-    height : 15vh;
+    height : 16vh;
     border : 1px solid var(--highlight-color);
     place-content : center;
     text-align: center;
