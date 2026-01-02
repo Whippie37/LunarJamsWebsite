@@ -336,10 +336,8 @@ function main() {
 
 function getClockTime() {
     let currentTime = Math.floor(Date.now() / 1000);
-    //let startTime = 1761944400; //1761926400000
-    //let endTime = 1762207200; //1762189200000
     let startTime = Math.floor(new Date('2026-01-02T18:00:00-05:00').getTime() / 1000) - 3600;
-    let endTime = Math.floor(new Date('2025-01-05T18:00:00-05:00').getTime() / 1000) - 3600;
+    let endTime = Math.floor(new Date('2026-01-05T18:00:00-05:00').getTime() / 1000) - 3600;
     startDifference = (currentTime - startTime);
     let seconds = 0;
 
@@ -383,6 +381,7 @@ function getClockTime() {
     }
 
 
+    console.log(time);
     return time;
 }
 
