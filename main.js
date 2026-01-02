@@ -46,7 +46,7 @@ function setLang(langID) {
 }
 
 function init() {
-    let activeJam = false;
+    let activeJam = true;
     loadCookies();
     setBackground();
     let section = document.getElementById('homepage-section-left');
@@ -138,7 +138,7 @@ function init() {
         let mainTheme = document.createElement('p');
         mainTheme.className = "main-theme";
         mainTheme.id = "main-theme";
-        mainTheme.innerHTML = "Transport"; // CHANGE THIS TO THE MAIN THEME
+        mainTheme.innerHTML = "Power"; // CHANGE THIS TO THE MAIN THEME
 
         let subThemesWrapper = document.createElement('div');
         subThemesWrapper.className = "wrapper";
@@ -147,12 +147,12 @@ function init() {
         let subTheme1 = document.createElement('p');
         subTheme1.className = 'sub-theme';
         subTheme1.id = "sub-theme1";
-        subTheme1.innerHTML = "Value"; // CHANGE THIS TO SUB-THEME 1
+        subTheme1.innerHTML = "Impact"; // CHANGE THIS TO SUB-THEME 1
 
         let subTheme2 = document.createElement('p');
         subTheme2.className = 'sub-theme';
         subTheme2.id = "sub-theme2";
-        subTheme2.innerHTML = "Zone"; // CHANGE THIS TO SUB-THEME 2
+        subTheme2.innerHTML = "Exchange"; // CHANGE THIS TO SUB-THEME 2
 
         let subThemesContainer = document.createElement('div');
         subThemesContainer.className = "wrapper";
@@ -338,8 +338,8 @@ function getClockTime() {
     let currentTime = Math.floor(Date.now() / 1000);
     //let startTime = 1761944400; //1761926400000
     //let endTime = 1762207200; //1762189200000
-    let startTime = Math.floor(new Date('2025-10-31T12:00:00-05:00').getTime() / 1000) - 3600;
-    let endTime = Math.floor(new Date('2025-11-03T12:00:00-05:00').getTime() / 1000) - 3600;
+    let startTime = Math.floor(new Date('2026-01-02T18:00:00-05:00').getTime() / 1000) - 3600;
+    let endTime = Math.floor(new Date('2025-01-05T18:00:00-05:00').getTime() / 1000) - 3600;
     startDifference = (currentTime - startTime);
     let seconds = 0;
 
