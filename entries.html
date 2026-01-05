@@ -53,10 +53,11 @@
 
         <div class="wrapper" id="searchbar-wrapper">
             <div class="wrapper searchbar-container">
-                <input id="searchbar" oninput="search(this.value);">
+                <input id="searchbar" placeholder = "Search" oninput="search(this.value);">
             </div>
             <div class="material-symbols-outlined entries-button" id="button-delete" onclick="clearSearch()">delete</div>
             <div id="button-filter" class="entries-button" onclick="toggleDropdown()"><span style="transform:translateX(-0.5vw);" class="material-symbols-outlined">filter_alt</span>Filter</div>
+            <input id="textbox-jamnumber" class="entries-textbox" placeholder = "#" oninput="changeJamNum(this.value)" onclick="this.value=''" value="1">
         </div>
 
         <div id="entries-wrapper"><a></a></div>

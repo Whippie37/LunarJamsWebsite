@@ -1,6 +1,7 @@
 
 
 var sortMethod = 'default';
+searchJamNumber = 1;
 async function entryClicked(entryID) {
 
     
@@ -123,7 +124,9 @@ function populateEntries(entriesList) {
             }
 
             entryContainer.style.animationDelay = `${(x*.03)}s`
-            row.appendChild(entryContainer);
+            if (entries[x]['jamNumber'] == searchJamNumber) {
+              row.appendChild(entryContainer);
+            }
         }
       }
 }
@@ -205,6 +208,11 @@ function sortEntries(entryList, sortMethod) {
 function search(query) {
   let filteredEntries = searchFor(query)
   populateEntries(filteredEntries);
+}
+
+function changeJamNum(jamNum) {
+  searchJamNumber = jamNum;
+  search(document.getElementById('searchbar').value);
 }
 
 function searchFor(query) {
