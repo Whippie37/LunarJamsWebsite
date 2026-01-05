@@ -220,7 +220,7 @@ function searchFor(query) {
     for (let i = 0; i < db.length; i++) {
       for(var key in db[i]){
         var value = db[i][key];
-        if (db[i]['jamNumber'] == searchJamNumber) {
+        if (db[i]['jamNumber'] == searchJamNumber || searchJamNumber == 'All') {
 
           if (value.toString().toUpperCase().includes(query.toUpperCase())) {
             let skip = false;
