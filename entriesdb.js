@@ -878,7 +878,7 @@ db = [
     "jamNumber": 1,
     "updateRestricted": 1,
     "finalScore": 23.2,
-    "placement": -1,
+    "placement": -2,
     "showcase": ""
   },
   {
@@ -1445,7 +1445,7 @@ db = [
     "jamNumber": 1,
     "updateRestricted": 1,
     "finalScore": 15.6,
-    "placement": -1,
+    "placement": -2,
     "showcase": ""
   },
   {
@@ -1508,7 +1508,7 @@ db = [
     "jamNumber": 1,
     "updateRestricted": 1,
     "finalScore": 9.2,
-    "placement": -1,
+    "placement": -2,
     "showcase": ""
   },
   {
@@ -2392,6 +2392,3219 @@ db = [
     "finalScore": 61.55,
     "placement": 9,
     "showcase": "ma39aCW51V8"
+  },
+  {
+    "_id": "695b162a04f0cfa21974f059",
+    "levelID": 130768888,
+    "levelName": "Industrial",
+    "creators": [
+      "Yestezz",
+      "",
+      ""
+    ],
+    "discordUsername": "yestez",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 8,
+    "updateDate": "4 hours",
+    "objectCount": 14500,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695b162b04f0cfa21974f05c",
+    "levelID": 130774201,
+    "levelName": "robot power plant",
+    "creators": [
+      "chickennoob3",
+      "",
+      ""
+    ],
+    "discordUsername": "chickennoob3",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "18 hours",
+    "objectCount": 967,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695b162c04f0cfa21974f05f",
+    "levelID": 130807511,
+    "levelName": "battery charge sim",
+    "creators": [
+      "Iel3",
+      "",
+      ""
+    ],
+    "discordUsername": "iel3_3500000",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "7 hours",
+    "objectCount": 348,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695b162e04f0cfa21974f062",
+    "levelID": 130817700,
+    "levelName": "lit by battery",
+    "creators": [
+      "MatejWGD",
+      "",
+      ""
+    ],
+    "discordUsername": "matej._j",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "5 hours",
+    "objectCount": 12783,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695b162f04f0cfa21974f065",
+    "levelID": 130818881,
+    "levelName": "what a heavy feeling",
+    "creators": [
+      "2ItalianCats",
+      "",
+      ""
+    ],
+    "discordUsername": "2ItalianCats",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 2,
+    "updateDate": "2 hours",
+    "objectCount": 10593,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695b163004f0cfa21974f068",
+    "levelID": 130821464,
+    "levelName": "Slam Power",
+    "creators": [
+      "GDnewfie",
+      "",
+      ""
+    ],
+    "discordUsername": "gdnewfie",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "4 hours",
+    "objectCount": 4650,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695b163204f0cfa21974f06b",
+    "levelID": 130824359,
+    "levelName": "fist power",
+    "creators": [
+      "Papa1Destroyer",
+      "",
+      ""
+    ],
+    "discordUsername": "papa1destroyer",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "4 hours",
+    "objectCount": 4048,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695b163304f0cfa21974f06e",
+    "levelID": 130835029,
+    "levelName": "Recharged",
+    "creators": [
+      "thearmyants",
+      "",
+      ""
+    ],
+    "discordUsername": "thearmyants",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "55 minutes",
+    "objectCount": 16379,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695b2617f0bedd13768b9d23",
+    "levelID": 130839875,
+    "levelName": "Reach For Greatness",
+    "creators": [
+      "nexter",
+      "",
+      ""
+    ],
+    "discordUsername": "nnexterr",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "18 minutes",
+    "objectCount": 24054,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695b35011f1ba337416957c5",
+    "levelID": 130842957,
+    "levelName": "P W R",
+    "creators": [
+      "Hacepin",
+      "",
+      ""
+    ],
+    "discordUsername": "hacepin",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "3 minutes",
+    "objectCount": 5186,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695bddc6a6a746a9b2e71843",
+    "levelID": 130844801,
+    "levelName": "Closed Circuit",
+    "creators": [
+      "ratliffigd",
+      "",
+      ""
+    ],
+    "discordUsername": "ratliffi",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 4,
+    "updateDate": "10 hours",
+    "objectCount": 12074,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695bddc8a6a746a9b2e71846",
+    "levelID": 130846789,
+    "levelName": "Staff Training Cours",
+    "creators": [
+      "MiceEatCheese",
+      "",
+      ""
+    ],
+    "discordUsername": "ditchedmachine",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 3,
+    "updateDate": "5 minutes",
+    "objectCount": 14057,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695bddc9a6a746a9b2e71849",
+    "levelID": 130851301,
+    "levelName": "Static Energy",
+    "creators": [
+      "TheED706",
+      "",
+      ""
+    ],
+    "discordUsername": "theed706",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "6 hours",
+    "objectCount": 7170,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695bddcba6a746a9b2e7184c",
+    "levelID": 130856583,
+    "levelName": "SLOPBOOST",
+    "creators": [
+      "JayGol",
+      "",
+      ""
+    ],
+    "discordUsername": "jaygol416",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 2,
+    "updateDate": "3 hours",
+    "objectCount": 4244,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695bddcca6a746a9b2e7184f",
+    "levelID": 130864039,
+    "levelName": "I Wanna Be A QUANT",
+    "creators": [
+      "GDvesuvius",
+      "",
+      ""
+    ],
+    "discordUsername": "gdvesuvius",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "1 hour",
+    "objectCount": 2687,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695bddcea6a746a9b2e71852",
+    "levelID": 130866020,
+    "levelName": "painted factory",
+    "creators": [
+      "Leoalas2011",
+      "",
+      ""
+    ],
+    "discordUsername": "leoalas2011",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "22 minutes",
+    "objectCount": 6931,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695bddcfa6a746a9b2e71855",
+    "levelID": 130865928,
+    "levelName": "Watch Out",
+    "creators": [
+      "Torchi20",
+      "",
+      ""
+    ],
+    "discordUsername": "aoyuki9999",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "24 minutes",
+    "objectCount": 3891,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695bddd0a6a746a9b2e71858",
+    "levelID": 130866258,
+    "levelName": "switch THE blocks",
+    "creators": [
+      "jorisen",
+      "",
+      ""
+    ],
+    "discordUsername": "joar0229",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "18 minutes",
+    "objectCount": 7375,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695bef67f0d241bf65ee112c",
+    "levelID": 130870811,
+    "levelName": "MainFrame",
+    "creators": [
+      "QuixonicGD ",
+      "",
+      ""
+    ],
+    "discordUsername": "quixonicgd.",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "4 minutes",
+    "objectCount": 15802,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695bef68f0d241bf65ee112f",
+    "levelID": 130870747,
+    "levelName": "Underneath",
+    "creators": [
+      "PAHC",
+      "",
+      ""
+    ],
+    "discordUsername": ".eyle.",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "6 minutes",
+    "objectCount": 3022,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695bfd7463b42f40152f2a03",
+    "levelID": 130872998,
+    "levelName": "Jaj ne",
+    "creators": [
+      "NotDarpy",
+      "",
+      ""
+    ],
+    "discordUsername": "darpy__",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "24 minutes",
+    "objectCount": 15306,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c020208deaafe85d18c2d",
+    "levelID": 130873707,
+    "levelName": "Mirwoar",
+    "creators": [
+      "Zacbanette",
+      "AstraliGD",
+      ""
+    ],
+    "discordUsername": "zacban.",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "31 minutes",
+    "objectCount": 20581,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c1483b631c223fa1444dc",
+    "levelID": 130879706,
+    "levelName": "Spider Smash",
+    "creators": [
+      "panap",
+      "",
+      ""
+    ],
+    "discordUsername": "panap",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "2 minutes",
+    "objectCount": 25432,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c1500b3cf2e504b892ef6",
+    "levelID": 130879797,
+    "levelName": "VOLITION",
+    "creators": [
+      "mag",
+      "",
+      ""
+    ],
+    "discordUsername": "magboom.",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "3 minutes",
+    "objectCount": 15956,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c353e5e974b437653e2cb",
+    "levelID": 130880238,
+    "levelName": "ExplodaBomb",
+    "creators": [
+      "cardiogrammar",
+      "",
+      ""
+    ],
+    "discordUsername": "oliversveryverytrustableaccount",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "2 hours",
+    "objectCount": 2250,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c353f5e974b437653e2ce",
+    "levelID": 130883200,
+    "levelName": "Shiver King",
+    "creators": [
+      "carrotdrizzle",
+      "",
+      ""
+    ],
+    "discordUsername": "carrotdrizzle",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "1 hour",
+    "objectCount": 11105,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c35405e974b437653e2d1",
+    "levelID": 130882064,
+    "levelName": "When i can do a",
+    "creators": [
+      "Ruletoedus",
+      "",
+      ""
+    ],
+    "discordUsername": "ruletoedus",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "1 hour",
+    "objectCount": 6156,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c35425e974b437653e2d4",
+    "levelID": 130883784,
+    "levelName": "Mechanical Desert",
+    "creators": [
+      "FakeHATETAG",
+      "",
+      ""
+    ],
+    "discordUsername": "HATETAG",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 3,
+    "updateDate": "57 minutes",
+    "objectCount": 3999,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c35475e974b437653e2d7",
+    "levelID": 130883830,
+    "levelName": "Night Shift",
+    "creators": [
+      "Xeronin",
+      "",
+      ""
+    ],
+    "discordUsername": "xeronit",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "1 hour",
+    "objectCount": 3734,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c35485e974b437653e2da",
+    "levelID": 130884516,
+    "levelName": "Infinite Power",
+    "creators": [
+      "k0rdian",
+      "",
+      ""
+    ],
+    "discordUsername": "itskordian",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "56 minutes",
+    "objectCount": 5665,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c354b5e974b437653e2dd",
+    "levelID": 130885592,
+    "levelName": "wireframe",
+    "creators": [
+      "GHHH",
+      "",
+      ""
+    ],
+    "discordUsername": "ghhhgd",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 2,
+    "updateDate": "14 minutes",
+    "objectCount": 10642,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c354d5e974b437653e2e0",
+    "levelID": 130887655,
+    "levelName": "flux",
+    "creators": [
+      "skyeboxuwu",
+      "",
+      ""
+    ],
+    "discordUsername": "skyebox_",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "5 minutes",
+    "objectCount": 36808,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c3b357f325ecd7ad0940b",
+    "levelID": 130825985,
+    "levelName": "POWER CONCEPT",
+    "creators": [
+      "greggoEgg0",
+      "",
+      ""
+    ],
+    "discordUsername": "greggo_eggo",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 3,
+    "updateDate": "1 day",
+    "objectCount": 413,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c3b377f325ecd7ad0940e",
+    "levelID": 130887287,
+    "levelName": "tears in the snow",
+    "creators": [
+      "NoLifeSadly",
+      "",
+      ""
+    ],
+    "discordUsername": "NoLifeSadly",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "35 minutes",
+    "objectCount": 6399,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c3b387f325ecd7ad09411",
+    "levelID": 130885937,
+    "levelName": "Mining Exchange ",
+    "creators": [
+      "GDcelta",
+      "",
+      ""
+    ],
+    "discordUsername": "Nuncacelta",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "56 minutes",
+    "objectCount": 0,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c3b397f325ecd7ad09414",
+    "levelID": 130888846,
+    "levelName": "pop",
+    "creators": [
+      "Farstove",
+      "",
+      ""
+    ],
+    "discordUsername": "farstove_",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "9 minutes",
+    "objectCount": 8611,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c408fa04639c8ebd24f51",
+    "levelID": 130889512,
+    "levelName": "robot exchangeation",
+    "creators": [
+      "Miel425",
+      "",
+      ""
+    ],
+    "discordUsername": "miel425",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 2,
+    "updateDate": "10 minutes",
+    "objectCount": 6281,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c4097a04639c8ebd24f54",
+    "levelID": 130889533,
+    "levelName": "NEON CRUSHER",
+    "creators": [
+      "YoStarYeahya",
+      "",
+      ""
+    ],
+    "discordUsername": ".ysy.",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "18 minutes",
+    "objectCount": 3359,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c414b038bc2bf6ee0b44e",
+    "levelID": 130890268,
+    "levelName": "Geometry Workshop",
+    "creators": [
+      "Arcadiac",
+      "",
+      ""
+    ],
+    "discordUsername": "arcadiacmaniac",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "5 minutes",
+    "objectCount": 55783,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c414e038bc2bf6ee0b451",
+    "levelID": 130890333,
+    "levelName": "Pawsome Recruitment",
+    "creators": [
+      "TeamPawsome",
+      "",
+      ""
+    ],
+    "discordUsername": "spycold",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "4 minutes",
+    "objectCount": 0,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c4297843828becdb9cd43",
+    "levelID": 130890500,
+    "levelName": "Sacrifice",
+    "creators": [
+      "Astralgi",
+      "",
+      ""
+    ],
+    "discordUsername": "astralgi",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "5 minutes",
+    "objectCount": 15766,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c4298843828becdb9cd46",
+    "levelID": 130890566,
+    "levelName": "Havoc Hollow",
+    "creators": [
+      "justasadgamer",
+      "",
+      ""
+    ],
+    "discordUsername": "kratkoyeh",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "4 minutes",
+    "objectCount": 11050,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c4299843828becdb9cd49",
+    "levelID": 130890340,
+    "levelName": "Carnelian",
+    "creators": [
+      "AzurianFX",
+      "OWOSI",
+      "ekisacik"
+    ],
+    "discordUsername": "azurianfx",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "9 minutes",
+    "objectCount": 39311,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c429b843828becdb9cd4c",
+    "levelID": 130890655,
+    "levelName": "electricity rooms",
+    "creators": [
+      "dumplyn",
+      "",
+      ""
+    ],
+    "discordUsername": "dumplyn7",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "2 minutes",
+    "objectCount": 3018,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c429c843828becdb9cd4f",
+    "levelID": 130890750,
+    "levelName": "chernobyl",
+    "creators": [
+      "ArrowSlashArrow",
+      "",
+      ""
+    ],
+    "discordUsername": "arrowslasharrow",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "1 minute",
+    "objectCount": 3795,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c429d843828becdb9cd52",
+    "levelID": 130890728,
+    "levelName": "Night Life",
+    "creators": [
+      "dpoopoop",
+      "",
+      ""
+    ],
+    "discordUsername": "twinkx_",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "1 minute",
+    "objectCount": 0,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c429f843828becdb9cd55",
+    "levelID": 130890669,
+    "levelName": "ROYAL FLUSH",
+    "creators": [
+      "niosy",
+      "xdjoa",
+      ""
+    ],
+    "discordUsername": "zjoa",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 2,
+    "updateDate": "57 seconds",
+    "objectCount": 9573,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c4360eab25d62f8fc9a4c",
+    "levelID": 130890720,
+    "levelName": "The lightning rod",
+    "creators": [
+      "TNTking531",
+      "",
+      ""
+    ],
+    "discordUsername": "tntking531",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 2,
+    "updateDate": "10 seconds",
+    "objectCount": 7553,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c4361eab25d62f8fc9a4f",
+    "levelID": 130890742,
+    "levelName": "Coral Caverns",
+    "creators": [
+      "YESEvoi",
+      "",
+      ""
+    ],
+    "discordUsername": "yesevoi",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "4 minutes",
+    "objectCount": 45734,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c4363eab25d62f8fc9a52",
+    "levelID": 130890779,
+    "levelName": "Power Temple",
+    "creators": [
+      "MkoMegzz",
+      "",
+      ""
+    ],
+    "discordUsername": "mkomeg",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "4 minutes",
+    "objectCount": 0,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "695c439fdb4643b41536425d",
+    "levelID": 130890482,
+    "levelName": "Bloom The Area",
+    "creators": [
+      "Texic",
+      "",
+      ""
+    ],
+    "discordUsername": "tekis01",
+    "finalScore": -1,
+    "placement": -1,
+    "judgeScores": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "judgeComments": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "levelVersion": 1,
+    "updateDate": "10 minutes",
+    "objectCount": 7690,
+    "jamNumber": 2,
+    "updateRestricted": 1,
+    "showcase": ""
   }
 ]
 

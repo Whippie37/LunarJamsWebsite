@@ -1,7 +1,7 @@
 
 
 var sortMethod = 'default';
-searchJamNumber = 1;
+searchJamNumber = 2;
 async function entryClicked(entryID) {
 
     
@@ -52,6 +52,7 @@ window.addEventListener('resize', function(event) {
 }, true)
 
 function populateEntries(entriesList) {
+  
   let entries = sortEntries(entriesList, sortMethod)
 
     let entriesPerRow = 5;
@@ -65,7 +66,6 @@ function populateEntries(entriesList) {
         container.appendChild(row);
         for (let x = (i*entriesPerRow); x < (i*entriesPerRow)+entriesPerRow ; x++ ) {
           if (x >= entries.length) {return;}
-
             let levelid=entries[x]['levelID'];
             let creatorsArr = entries[x]['creators'];
             let creatorsList = 'by ';
@@ -104,7 +104,7 @@ function populateEntries(entriesList) {
             entryContainer.onclick=function() {window.location.href=`entry?id=${levelid}`};
             entryContainer.id=`entry${levelid}`;
 
-            if (placement == -1) {
+            if (placement == -2) {
               entryContainer.classList.add('disqualified');
             }
             if (placement <= 10 && placement > 5) {
@@ -124,9 +124,8 @@ function populateEntries(entriesList) {
             }
 
             entryContainer.style.animationDelay = `${(x*.03)}s`
-            if (entries[x]['jamNumber'] == searchJamNumber) {
-              row.appendChild(entryContainer);
-            }
+
+            row.appendChild(entryContainer);
         }
       }
 }
@@ -221,14 +220,18 @@ function searchFor(query) {
     for (let i = 0; i < db.length; i++) {
       for(var key in db[i]){
         var value = db[i][key];
-        if (value.toString().toUpperCase().includes(query.toUpperCase())) {
-          let skip = false;
-          for (let x = 0; x < entriesArr.length; x++) {
-            if (entriesArr[x] == db[i]) {
-              skip = true;
+        if (db[i]['jamNumber'] == searchJamNumber) {
+
+          if (value.toString().toUpperCase().includes(query.toUpperCase())) {
+            let skip = false;
+            for (let x = 0; x < entriesArr.length; x++) {
+              if (entriesArr[x] == db[i]) {
+                skip = true;
+              }
+              
             }
+            if (!skip) {entriesArr.push(db[i]);}
           }
-          if (!skip) {entriesArr.push(db[i]);}
         }
       }
     }
