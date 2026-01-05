@@ -30,7 +30,7 @@ function loadData() {
     levelIDText.innerHTML = entryData['levelID'];
 
     document.getElementById('placement').innerHTML = '#' + entryData['placement'];
-    if (entryData['placement'] == -1) {
+    if (entryData['placement'] == -2) {
         document.getElementById('placement').innerHTML = 'Disqualified';
     }
 
