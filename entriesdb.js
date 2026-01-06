@@ -5289,7 +5289,7 @@ db = [
     "objectCount": 0,
     "jamNumber": 2,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "https://youtu.be/abtFrlrYnbs?si=CyZ7GhNmsjegHTXQ"
   },
   {
     "_id": "695c429f843828becdb9cd55",
