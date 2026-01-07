@@ -100,7 +100,7 @@ function init() {
     else {
         section.append(messageSection);
         messageSection.append(messageMain);
-        messageMain.innerHTML = "Lunar Jam #1<br> Active Now";
+        messageMain.innerHTML = "Lunar Jam #2<br> Active Now";
 
         messageSection.append(messageSub);
         messageSub.innerHTML = "Time Remaining";
