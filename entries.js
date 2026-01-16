@@ -72,6 +72,7 @@ function populateEntries(entriesList) {
             let levelName = entries[x]['levelName'];
             let score = entries[x]['finalScore'];
             let placement = entries[x]['placement'];
+            let jamNumber = entries[x]['jamNumber'];
             for (let z = 0; z < creatorsArr.length; z++) {
               if (creatorsArr[z].length != 0) {
                 creatorsList += creatorsArr[z] + ', ';
@@ -96,11 +97,21 @@ function populateEntries(entriesList) {
             let entryIDLabel = document.createElement('div');
             entryIDLabel.classList.add('entry-levelid')
             entryIDLabel.innerHTML = levelid;
+
+            let entryJamNumber = document.createElement('div');
+            entryJamNumber.classList.add('entry-jamnumber');
+            entryJamNumber.innerHTML = "Jam " + jamNumber;
+
+            let entryPlacement = document.createElement('div');
+            entryPlacement.classList.add('entry-placement');
+            entryPlacement.innerHTML = "#" + placement;
             
             entryContainer.appendChild(entryNameLabel);
             entryContainer.appendChild(entryCreatorsListLabel);
             entryContainer.appendChild(entryIDLabel);
             entryContainer.appendChild(entryScoreLabel);
+            entryContainer.appendChild(entryJamNumber);
+            entryContainer.appendChild(entryPlacement);
             entryContainer.onclick=function() {window.location.href=`entry?id=${levelid}`};
             entryContainer.id=`entry${levelid}`;
 

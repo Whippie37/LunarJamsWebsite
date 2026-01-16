@@ -1,3 +1,4 @@
+let jamNumber = 0;
 function loadData() {
     let levelNameText = document.getElementById('levelname');
     let creatorslistText = document.getElementById('creatorslist');
@@ -10,10 +11,18 @@ function loadData() {
     const levelID = urlParams.get('id') || null;
 
     const entryData = getLevelById(levelID);
-
+    
+    
     if (entryData == null) {
         document.getElementById('modal-failed').classList.remove('hidden');
         return 0;
+    }
+
+    jamNumber = entryData['jamNumber'];
+    console.log('jamNum: ' + jamNumber);
+    
+    if (jamNumber == 1) {
+        document.getElementById('theme-label').innerHTML = ''; // remove theme label on legacy entries
     }
 
     levelNameText.innerHTML = entryData['levelName'];
@@ -62,6 +71,44 @@ function loadData() {
     }
 
     scoresList = entryData['judgeScores'];
+
+    if (jamNumber != 1) {
+        document.getElementById('theme-label1').innerHTML = jamthemes[jamNumber-1][1];
+        document.getElementById('theme-label2').innerHTML = jamthemes[jamNumber-1][2];
+    }
+
+    if (jamNumber != 1) {
+        console.log('themeScore: ' + scoresList[0][2]);
+        if (scoresList[0][2] == 1) {
+            document.getElementById('theme-label1').classList.add('theme-valid');
+        }
+        if (scoresList[0][2] == 2) {
+            document.getElementById('theme-label2').classList.add('theme-valid');
+        }
+        if (scoresList[0][2] == 3) {
+            document.getElementById('theme-label1').classList.add('theme-valid');
+            document.getElementById('theme-label2').classList.add('theme-valid');
+        }
+    }
+
+    if (jamNumber != 1) {
+        console.log(scoresList[2]);
+        if (scoresList[0][2] == 1) {
+            actualThemeScore = 5;
+        }
+        if (scoresList[0][2] == 2) {
+            actualThemeScore = 5;
+        }
+        if (scoresList[0][2] == 3) {
+            actualThemeScore = 10;
+        }
+        for (let i = 0; i < 5; i++) {
+            scoresList[i][2] = actualThemeScore;
+        }
+    }
+
+
+
     for (let i = 0; i < 5; i++) {
         let scoresContainer = document.getElementById(`judge${i+1}ScoresList`);
         let actualsContainer = document.getElementById(`judge${i+1}actuals`);
@@ -103,12 +150,26 @@ function sum(arr) {
 
 function convertScoresToActuals(scoresArr) {
     let actuals = [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]];
-    for (let i = 0; i < 5; i++) {
+    console.log('jamNum: ' + jamNumber);
+    if (jamNumber == 1) {
+        // legacy scoring for jam 1
+        console.log('Jam 1, using legacy scoring.');
+        for (let i = 0; i < 5; i++) {
             actuals[i][0] = (scoresArr[i][0]/1)*10;
             actuals[i][1] = (scoresArr[i][1]/1)*5;
             actuals[i][2] = (scoresArr[i][2]/1)*2;
             actuals[i][3] = (scoresArr[i][3]/1)*2;
             actuals[i][4] = (scoresArr[i][4]/1);
+        }
+    }
+    else {
+        for (let i = 0; i < 5; i++) {
+            actuals[i][0] = (scoresArr[i][0]/1)*8;
+            actuals[i][1] = (scoresArr[i][1]/1)*6;
+            actuals[i][2] = (scoresArr[i][2]/1);
+            actuals[i][3] = (scoresArr[i][3]/1)*3;
+            actuals[i][4] = (scoresArr[i][4]/1);
+        }
     }
     return actuals;
 }

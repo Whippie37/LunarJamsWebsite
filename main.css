@@ -981,6 +981,16 @@ hr {
     color : var(--main-color);
     font-size: 1.5vh;
 }
+.entry-jamnumber {
+    position : absolute;
+    transform : translateX(-6vw) translateY(-7.5vh);
+    color : rgb(60,60,75);
+}
+.entry-placement {
+    position : absolute;
+    transform : translateX(6vw) translateY(-7.5vh);
+    color : rgb(60,60,75);
+}
 
 .first-place {
     border-left : 0.25vw solid rgb(255, 187, 0);
@@ -1147,6 +1157,7 @@ hr {
     font-size : 1.15vh;
     color : rgb(117, 136, 134);
 }
+
 .entry-data-wrapper {
     width : 60vw;
     height : 30vh;
@@ -1189,6 +1200,15 @@ hr {
     overflow: hidden;
     margin : auto;
     text-align: center;
+}
+.theme-label {
+    height : auto;
+    transform : translateX(1.75vw) translateY(-1.5vh);
+    font-size : 1.2vh;
+    color : gray;
+}
+.theme-valid {
+    color : rgb(19, 255, 194);
 }
 
 .score-container {
