@@ -1430,12 +1430,12 @@ hr {
     }
     .entry-jamnumber-list {
     position : absolute;
-    transform : translateX(-37vw) translateY(-5.5vh);
+    transform : translateX(-38vw) translateY(-5.5vh);
     color : rgb(60,60,75);
     }
     .entry-placement-list {
         position : absolute;
-        transform : translateX(37vw) translateY(-5.5vh);
+        transform : translateX(38vw) translateY(-5.5vh);
         color : rgb(60,60,75);
     }
     .entry-container-list {
