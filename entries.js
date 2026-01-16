@@ -155,7 +155,10 @@ function populateEntries(entriesList) {
               if (displayMode == 'list') {entryContainer.classList.add('fourth-fifth-place-list');}
             }
 
-            entryContainer.style.animationDelay = `${(x*.03)}s`
+            let animDelay = x*.03;
+            if (animDelay > 0.9) {animDelay = 0.9;}
+
+            entryContainer.style.animationDelay = `${(animDelay)}s`
 
             row.appendChild(entryContainer);
         }
