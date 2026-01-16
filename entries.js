@@ -277,6 +277,7 @@ function clearSearch() {
 
 function toggleFilterDropdown() {
     let dropdown = document.getElementById('filter-dropdown');
+    closeJamNumDropdown();
     if (dropdown.style.height == '0px' || dropdown.style.height == '') {
         dropdown.style.height = 'clamp(240px, 30vh, 160px)';
         dropdown.style.border = 'border: 1px solid rgb(40,40,60);';
@@ -286,11 +287,17 @@ function toggleFilterDropdown() {
         dropdown.style.border = '';
     }
 }
+function closeFilterDropdown() {
+  let dropdown = document.getElementById('filter-dropdown');
+  dropdown.style.height = 0;
+  dropdown.style.border = '';
+}
 
 function toggleJamNumDropdown() {
     let dropdown = document.getElementById('jamSelect-dropdown');
+    closeFilterDropdown();
     if (dropdown.style.height == '0px' || dropdown.style.height == '') {
-        dropdown.style.height = 'clamp(60px, 12vh, 160px)';
+        dropdown.style.height = 'clamp(160px, 16vh, 160px)';
         dropdown.style.border = 'border: 1px solid rgb(40,40,60);';
     }
     else {
