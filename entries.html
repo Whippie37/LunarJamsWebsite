@@ -56,8 +56,9 @@
                 <input id="searchbar" placeholder = "Search" oninput="search(this.value);">
             </div>
             <div class="material-symbols-outlined entries-button" id="button-delete" onclick="clearSearch()">delete</div>
-            <div id="button-filter" class="entries-button" onclick="toggleDropdown()"><span style="transform:translateX(-0.5vw);" class="material-symbols-outlined">filter_alt</span>Filter</div>
-            <input id="textbox-jamnumber" class="entries-textbox" placeholder = "#" oninput="changeJamNum(this.value)" onclick="this.value=''" value="2">
+            <div id="button-filter" class="entries-button" onclick="toggleFilterDropdown()"><span style="transform:translateX(-0.5vw);" class="material-symbols-outlined">filter_alt</span>Filter</div>
+            <div id="button-jamnumber" class="material-symbols-outlined entries-button" onclick="toggleJamNumDropdown();">numbers</div>
+            <div id="button-displaymode" class="material-symbols-outlined entries-button" onclick="toggleDisplayMode();">grid_view</div>
         </div>
 
         <div id="entries-wrapper"><a></a></div>
@@ -78,5 +79,12 @@
             <div class="dropdown-label">Sorting Order</div>
             <div class="dropdown-item" onclick="setSortingOrder('ascending')">Ascending</div>
             <div class="dropdown-item" onclick="setSortingOrder('descending')">Descending</div>
+        </div>
+
+        <div class="dropdown" id="jamSelect-dropdown">
+            <div class="dropdown-label">Sort By Jam Number</div>
+            <div class="dropdown-item" onclick="changeJamNum(2); closeJamNumDropdown();">Latest</div>
+            <div class="dropdown-item" onclick="changeJamNum(2); closeJamNumDropdown();">2</div>
+            <div class="dropdown-item" onclick="changeJamNum(1); closeJamNumDropdown();">1</div>
         </div>
 </html>

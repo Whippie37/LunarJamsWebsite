@@ -157,13 +157,15 @@
     }
     .entry-jamnumber {
     position : absolute;
-    transform : translateX(-37vw) translateY(-5.5vh);
+    transform : translateX(-36vw) translateY(-5vh);
     color : rgb(60,60,75);
+    font-size : 1.5vw;
     }
     .entry-placement {
         position : absolute;
-        transform : translateX(37vw) translateY(-5.5vh);
+        transform : translateX(36vw) translateY(-5vh);
         color : rgb(60,60,75);
+        font-size : 1.5vw;
     }
     .entry-container {
         width : 80vw;
@@ -208,12 +210,12 @@
 
 
     .searchbar-container {
-        width : 60vw;
+        width : 65vw;
         height : 6vh;
     }
 
     #searchbar {
-        width : 45vw;
+        width : 50vw;
         border-radius : 1vw;
         font-size : 2vh;
         transform : translateX(4vw);

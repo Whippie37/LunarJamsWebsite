@@ -2,6 +2,7 @@
 
 var sortMethod = 'default';
 searchJamNumber = 2;
+let displayMode = 'grid';
 async function entryClicked(entryID) {
 
     
@@ -40,9 +41,13 @@ function fade(element) {
 function changeButtonContent() {
   if (window.matchMedia('(max-width: 1200px)').matches) {
     document.getElementById('button-filter').innerHTML = "<span class='material-symbols-outlined'>filter_alt</span>";
+    document.getElementById('button-displaymode').classList.add('hidden');
+    displayMode = 'list';
+    document.getElementById('button-displaymode').innerHTML='list';
   }
   else {
     document.getElementById('button-filter').innerHTML = "<span  style='transform:translateX(-0.5vw);' class='material-symbols-outlined'>filter_alt</span>Filter</div>";
+    document.getElementById('button-displaymode').classList.remove('hidden');
   }
 }
 
@@ -56,13 +61,14 @@ function populateEntries(entriesList) {
   let entries = sortEntries(entriesList, sortMethod)
 
     let entriesPerRow = 5;
-    if (window.matchMedia('(max-width: 1200px)').matches) {entriesPerRow = 1;}
+    if (window.matchMedia('(max-width: 1200px)').matches || displayMode == 'list') {entriesPerRow = 1;}
 
     let container = document.getElementById('entries-wrapper');
     container.innerHTML = '';
     for (let i = 0; i < entries.length / entriesPerRow ; i++ ) {
         let row = document.createElement('div');
         row.classList.add('entry-row');
+        if (displayMode == 'list') {row.classList.add('entry-row-list');}
         container.appendChild(row);
         for (let x = (i*entriesPerRow); x < (i*entriesPerRow)+entriesPerRow ; x++ ) {
           if (x >= entries.length) {return;}
@@ -81,29 +87,36 @@ function populateEntries(entriesList) {
             creatorsList = creatorsList.substring(0, creatorsList.length - 2);
             let entryContainer = document.createElement('span');
             entryContainer.classList.add('entry-container');
+            if (displayMode == 'list') {entryContainer.classList.add('entry-container-list');}
             
             let entryNameLabel = document.createElement('div');
             entryNameLabel.classList.add('entry-levelname');
+            if (displayMode == 'list') {entryNameLabel.classList.add('entry-levelname-list');}
             entryNameLabel.innerHTML = levelName;
 
             let entryScoreLabel = document.createElement('div');
             entryScoreLabel.classList.add('entry-score');
+            if (displayMode == 'list') {entryScoreLabel.classList.add('entry-score-list');}
             entryScoreLabel.innerHTML = `${score}/100`;
             
             let entryCreatorsListLabel = document.createElement('div');
             entryCreatorsListLabel.classList.add('entry-creatorlist');
+            if (displayMode == 'list') {entryCreatorsListLabel.classList.add('entry-creatorlist-list');}
             entryCreatorsListLabel.innerHTML = creatorsList;
             
             let entryIDLabel = document.createElement('div');
             entryIDLabel.classList.add('entry-levelid')
+            if (displayMode == 'list') {entryIDLabel.classList.add('entry-levelid-list')}
             entryIDLabel.innerHTML = levelid;
 
             let entryJamNumber = document.createElement('div');
             entryJamNumber.classList.add('entry-jamnumber');
+            if (displayMode == 'list') {entryJamNumber.classList.add('entry-jamnumber-list');}
             entryJamNumber.innerHTML = "Jam " + jamNumber;
 
             let entryPlacement = document.createElement('div');
             entryPlacement.classList.add('entry-placement');
+            if (displayMode == 'list') {entryPlacement.classList.add('entry-placement-list');}
             entryPlacement.innerHTML = "#" + placement;
             if (placement == -2) {
               entryPlacement.innerHTML = 'DISQUALIFIED';
@@ -127,15 +140,19 @@ function populateEntries(entriesList) {
             }
             if (placement == 1) {
               entryContainer.classList.add('first-place');
+              if (displayMode == 'list') {entryContainer.classList.add('first-place-list');}
             }
             if (placement == 2) {
               entryContainer.classList.add('second-place');
+              if (displayMode == 'list') {entryContainer.classList.add('second-place-list');}
             }
             if (placement == 3) {
               entryContainer.classList.add('third-place');
+              if (displayMode == 'list') {entryContainer.classList.add('third-place-list');}
             }
             if (placement == 4 || placement == 5) {
               entryContainer.classList.add('fourth-fifth-place');
+              if (displayMode == 'list') {entryContainer.classList.add('fourth-fifth-place-list');}
             }
 
             entryContainer.style.animationDelay = `${(x*.03)}s`
@@ -258,7 +275,7 @@ function clearSearch() {
   search('');
 }
 
-function toggleDropdown() {
+function toggleFilterDropdown() {
     let dropdown = document.getElementById('filter-dropdown');
     if (dropdown.style.height == '0px' || dropdown.style.height == '') {
         dropdown.style.height = 'clamp(240px, 30vh, 160px)';
@@ -268,6 +285,36 @@ function toggleDropdown() {
         dropdown.style.height = 0;
         dropdown.style.border = '';
     }
+}
+
+function toggleJamNumDropdown() {
+    let dropdown = document.getElementById('jamSelect-dropdown');
+    if (dropdown.style.height == '0px' || dropdown.style.height == '') {
+        dropdown.style.height = 'clamp(60px, 12vh, 160px)';
+        dropdown.style.border = 'border: 1px solid rgb(40,40,60);';
+    }
+    else {
+        dropdown.style.height = 0;
+        dropdown.style.border = '';
+    }
+}
+function closeJamNumDropdown() {
+  let dropdown = document.getElementById('jamSelect-dropdown');
+  dropdown.style.height = 0;
+  dropdown.style.border = '';
+}
+
+function toggleDisplayMode() {
+  if (displayMode == 'grid') {
+    displayMode = 'list';
+    document.getElementById('button-displaymode').innerHTML = 'list';
+
+  }
+  else {
+    displayMode = 'grid';
+    document.getElementById('button-displaymode').innerHTML = 'grid_view';
+  }
+  search(document.getElementById('searchbar').value);
 }
 
 function setSortingMethod(method) {

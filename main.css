@@ -808,7 +808,7 @@ hr {
 }
 
 #searchbar-wrapper {
-    width : 90vw;
+    width : 95vw;
     padding-left : 5vw;
     padding-right: 5vw;
     height : 16vh;
@@ -1067,6 +1067,13 @@ hr {
 
 #filter-dropdown {
     position : absolute;
+    top : 12vh;
+    right : 11.25vw;
+}
+#jamSelect-dropdown {
+    position : absolute;
+    width : 8.5vw;
+    height : 0;
     top : 12vh;
     right : 5.5vw;
 }
@@ -1399,3 +1406,75 @@ hr {
     color : rgb(152, 190, 187);
     font-style : italic;
 }
+
+
+
+
+.entry-levelname-list {
+        font-size : 2.5vh;
+        width : 70vw;
+        padding-bottom : 0.5vh;
+        transform : translateY(-3vh);
+    }
+    .entry-creatorlist-list {
+        font-size : 2.5vh;
+        transform : translateY(0.5vh);
+    }
+    .entry-levelid-list {
+        font-size : 1.25vh;
+        transform : translateY(6vh);
+    }
+    .entry-score-list {
+        transform : translateY(2.5vh);
+        font-size: 1.25vh;
+    }
+    .entry-jamnumber-list {
+    position : absolute;
+    transform : translateX(-37vw) translateY(-5.5vh);
+    color : rgb(60,60,75);
+    }
+    .entry-placement-list {
+        position : absolute;
+        transform : translateX(37vw) translateY(-5.5vh);
+        color : rgb(60,60,75);
+    }
+    .entry-container-list {
+        width : 80vw;
+        height : 13vh;
+        border-radius : 1vh;
+        border-left : 0.25vh solid var(--main-color);
+        border-right: 0.25vh solid var(--main-color);
+    }
+    .first-place-list {
+        border-left : 0.25vw solid rgb(255, 187, 0);
+        border-right: 0.25vw solid rgb(255, 187, 0);
+        box-shadow: 0px 0px 20px 15px rgba(255, 187, 0, 0.08),
+        inset 0px 0px 50px 15px rgba(255, 187, 0, 0.08);
+    }
+    .second-place-list {
+        border-left : 0.25vw solid rgb(174, 236, 255);
+        border-right: 0.25vw solid rgb(174, 236, 255);
+        box-shadow: 0px 0px 20px 15px rgba(174, 236, 255, 0.08),
+        inset 0px 0px 50px 15px rgba(174, 236, 255, 0.08);
+    }
+    .third-place-list {
+        border-left : 0.25vw solid rgb(190, 90, 8);
+        border-right: 0.25vw solid rgb(190, 90, 8);
+        box-shadow: 0px 0px 20px 15px rgba(190, 90, 8, 0.08),
+        inset 0px 0px 50px 15px rgba(190, 90, 8, 0.08);
+    }
+    .fourth-fifth-place-list {
+        border-left : 0.25vw solid rgb(0, 162, 255);
+        border-right: 0.25vw solid rgb(0, 162, 255);
+        box-shadow: 0px 0px 20px 15px rgba(62, 245, 132, 0.08),
+        inset 0px 0px 50px 15px rgba(62, 245, 132, 0.08);
+    }
+    .winner-list {
+        border-left : 0.25vw solid purple;
+        border-right: 0.25vw solid rgb(128, 0, 128);
+        box-shadow: 0px 0px 20px 15px rgba(128, 0, 128, 0.08),
+        inset 0px 0px 50px 15px rgba(128, 0, 128, 0.08);
+    }
+    .entry-row-list {
+        height : 16vh;
+    }
