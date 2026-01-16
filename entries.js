@@ -118,6 +118,10 @@ function populateEntries(entriesList) {
             entryPlacement.classList.add('entry-placement');
             if (displayMode == 'list') {entryPlacement.classList.add('entry-placement-list');}
             entryPlacement.innerHTML = "#" + placement;
+            if (placement == -1) {
+              entryPlacement.innerHTML = 'Not Ranked';
+              entryPlacement.classList.add('placement-disqualified');
+            }
             if (placement == -2) {
               entryPlacement.innerHTML = 'DISQUALIFIED';
               entryPlacement.classList.add('placement-disqualified');
