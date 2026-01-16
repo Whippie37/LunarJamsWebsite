@@ -183,6 +183,44 @@ function sortByKey(data, key) {
   });
 }
 
+  if (key == 'decoScore' || key == 'gameplayScore' || key == 'originalityScore') {
+    console.log([...data][0]['judgeScores']);
+    return [...data].sort((a, b) => {
+      let sortVal = 0;
+      if (key == 'gameplayScore') {sortVal = 0;}
+      if (key == 'originalityScore') {sortVal = 1;}
+      if (key == 'decoScore') {sortVal = 3;}
+
+      let valA = 0;
+      let valB = 0;
+
+      for (let i = 0; i < 5; i++) {
+        console.log('adding: ' + a['judgeScores'][i][sortVal] + ' to A');
+        valA += parseFloat(a['judgeScores'][i][sortVal]);
+        console.log('A is now ' + valA);
+      }
+      for (let i = 0; i < 5; i++) {
+        console.log('adding: ' + b['judgeScores'][i][sortVal] + ' to B');
+        valB += parseFloat(b['judgeScores'][i][sortVal]);
+        console.log('B is now ' + valB);
+      }
+      
+      console.log('valA total: ' + valA);
+      console.log('valB total: ' + valB);
+      console.log('');
+      console.log('next comp');
+
+      if (valA === undefined || valB === undefined) {
+      throw new Error(`Key "${key}" not found in one or more objects`);
+    }
+
+    if (typeof valA === 'string' && typeof valB === 'string') {
+      return !sortingOrder ? valA.localeCompare(valB) : valB.localeCompare(valA);
+    }
+    return !sortingOrder ? valA - valB : valB - valA; // why tf does it need to be inverted????? wtf is this goofy ahh ahh code doing
+    });
+  }
+
 
   return [...data].sort((a, b) => {
     const valA = a[key];
@@ -219,16 +257,13 @@ function sortEntries(entryList, sortMethod) {
       return sortByKey(entryList, 'finalScore', true).reverse();
       break;
     case 'decoScore':
-      return sortByKey(entryList, '_id', true);
+      return sortByKey(entryList, 'decoScore', true);
       break;
     case 'gameplayScore':
-      return sortByKey(entryList, '_id', true);
-      break;
-    case 'themeScore':
-      return sortByKey(entryList, '_id', true);
+      return sortByKey(entryList, 'gameplayScore', true);
       break;
     case 'originalityScore':
-      return sortByKey(entryList, '_id', true);
+      return sortByKey(entryList, 'originalityScore', true);
       break;
     default:
       return sortByKey(entryList, 'finalScore', true).reverse();
@@ -327,7 +362,7 @@ function toggleDisplayMode() {
 function setSortingMethod(method) {
   sortMethod = method;
   search(document.getElementById('searchbar').value);
-  toggleDropdown();
+  toggleFilterDropdown();
 }
 
 function setSortingOrder(order) {
@@ -338,5 +373,5 @@ function setSortingOrder(order) {
     sortingOrder = false;
   }
   search(document.getElementById('searchbar').value);
-  toggleDropdown();
+  toggleFilterDropdown();
 }
