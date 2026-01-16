@@ -105,6 +105,10 @@ function populateEntries(entriesList) {
             let entryPlacement = document.createElement('div');
             entryPlacement.classList.add('entry-placement');
             entryPlacement.innerHTML = "#" + placement;
+            if (placement == -2) {
+              entryPlacement.innerHTML = 'DISQUALIFIED';
+              entryPlacement.classList.add('placement-disqualified');
+            }
             
             entryContainer.appendChild(entryNameLabel);
             entryContainer.appendChild(entryCreatorsListLabel);

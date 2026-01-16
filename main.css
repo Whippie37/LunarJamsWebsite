@@ -988,8 +988,13 @@ hr {
 }
 .entry-placement {
     position : absolute;
+    text-align: right;
+    float : right;
     transform : translateX(6vw) translateY(-7.5vh);
     color : rgb(60,60,75);
+}
+.placement-disqualified {
+    transform : translateX(4.5vw) translateY(-7.5vh);
 }
 
 .first-place {
