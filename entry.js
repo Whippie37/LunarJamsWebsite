@@ -19,7 +19,6 @@ function loadData() {
     }
 
     jamNumber = entryData['jamNumber'];
-    console.log('jamNum: ' + jamNumber);
     
     if (jamNumber == 1) {
         document.getElementById('theme-label').innerHTML = ''; // remove theme label on legacy entries
@@ -78,7 +77,6 @@ function loadData() {
     }
 
     if (jamNumber != 1) {
-        console.log('themeScore: ' + scoresList[0][2]);
         if (scoresList[0][2] == 1) {
             document.getElementById('theme-label1').classList.add('theme-valid');
         }
@@ -93,7 +91,6 @@ function loadData() {
 
     let actualThemeScore = 0;
     if (jamNumber != 1) {
-        console.log(scoresList[2]);
         if (scoresList[0][2] == 1) {
             actualThemeScore = 5;
         }
@@ -151,7 +148,6 @@ function sum(arr) {
 
 function convertScoresToActuals(scoresArr) {
     let actuals = [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]];
-    console.log('jamNum: ' + jamNumber);
     if (jamNumber == 1) {
         // legacy scoring for jam 1
         console.log('Jam 1, using legacy scoring.');
