@@ -91,6 +91,7 @@ function loadData() {
         }
     }
 
+    let actualThemeScore = 0;
     if (jamNumber != 1) {
         console.log(scoresList[2]);
         if (scoresList[0][2] == 1) {
