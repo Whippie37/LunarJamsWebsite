@@ -52,7 +52,7 @@ function init() {
     let section = document.getElementById('homepage-section-left');
 
     let message = "Welcome to Lunar Jam.";
-    let message2 = "Jam 2 Results Out!";
+    let message2 = "Next Jam - May 1, 2026 6PM EST!";
 
     let messageSection = document.createElement('div');
     messageSection.className = "message";
