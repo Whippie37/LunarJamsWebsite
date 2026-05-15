@@ -1407,7 +1407,40 @@ hr {
     font-style : italic;
 }
 
-
+#restrictions-container {
+    width : 60%;
+    height : fit-content;
+    padding-top : 2vh;
+    padding-bottom : 2vh;
+    background : rgba(10,10,20,0.8);
+    border : 0.2vw solid var(--main-color);
+    border-radius : 0.6vw;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 15vh;
+    color : var(--text-color);
+    font-family : 'consolas';
+    justify-items: center;
+}
+#restrictions-container > h1 {
+    color : var(--highlight-color);
+    text-align: center;
+    font-family : 'consolas';
+    margin-top : 3vh;
+    margin-bottom : 3vh;
+}
+#restrictions-container > p {
+    margin-left : 3vw;
+    margin-right : 3vw;
+}
+#restrictions-container > ol {
+    margin-left : 3vw;
+    margin-right : 3vw;
+}
+#restrictions-container > li {
+    padding-top : 1vh;
+    padding-bottom : 1vh;
+}
 
 
 .entry-levelname-list {
