@@ -6045,7 +6045,7 @@ db = [
     "objectCount": 17254,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "jWYFyEdeOwk"
   },
   {
     "_id": "6a0a1a2aaac7d00c87c409ea",
@@ -6423,7 +6423,7 @@ db = [
     "objectCount": 14362,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "PuNbCqs1wZ8"
   },
   {
     "_id": "6a0a262ff0c18265b5ea47de",
@@ -6486,7 +6486,7 @@ db = [
     "objectCount": 35084,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "opU1UawfXmw"
   },
   {
     "_id": "6a0a4123f0c18265b5ea47e1",
@@ -6549,7 +6549,7 @@ db = [
     "objectCount": 12294,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "v81znrgUDOM"
   },
   {
     "_id": "6a0a8fa7f0c18265b5ea47e4",
@@ -6612,7 +6612,7 @@ db = [
     "objectCount": 1327,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "k20ZKPE184Y"
   },
   {
     "_id": "6a0a9457f0c18265b5ea47e7",
@@ -6738,7 +6738,7 @@ db = [
     "objectCount": 12113,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "dmt7WBMdems"
   },
   {
     "_id": "6a0a9907f0c18265b5ea47ed",
@@ -6801,7 +6801,7 @@ db = [
     "objectCount": 12858,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "AJc7lPa2oQM"
   },
   {
     "_id": "6a0a9a34f0c18265b5ea47f0",
@@ -6864,7 +6864,7 @@ db = [
     "objectCount": 2568,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "GVpem4VOI_w"
   },
   {
     "_id": "6a0ab404f0c18265b5ea47f3",
@@ -6927,7 +6927,7 @@ db = [
     "objectCount": 4898,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "40NLZ63Qxzs"
   },
   {
     "_id": "6a0ab788f0c18265b5ea47f6",
@@ -7242,7 +7242,7 @@ db = [
     "objectCount": 11393,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "_22hdYefNVU"
   },
   {
     "_id": "6a0b18d6f0c18265b5ea4805",
@@ -7620,7 +7620,7 @@ db = [
     "objectCount": 14555,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "TzQRHGDiUzo"
   },
   {
     "_id": "6a0b5a76f0c18265b5ea4817",
@@ -7683,7 +7683,7 @@ db = [
     "objectCount": 11759,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "myx4gZoS7PA"
   },
   {
     "_id": "6a0b5dfaf0c18265b5ea481a",
@@ -7935,7 +7935,7 @@ db = [
     "objectCount": 10588,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "_1l9KyFwR0c"
   },
   {
     "_id": "6a0b71f1f0c18265b5ea4826",
@@ -8061,7 +8061,7 @@ db = [
     "objectCount": 5890,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "9NIFMp3Pbxw"
   },
   {
     "_id": "6a0b7e2b8da3e93e28777da7",
@@ -8187,7 +8187,7 @@ db = [
     "objectCount": 33028,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "gElo-qIDFgg"
   },
   {
     "_id": "6a0b81ae8da3e93e28777dad",
@@ -8313,7 +8313,7 @@ db = [
     "objectCount": 1267,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "-B3XaaN3l-o"
   },
   {
     "_id": "6a0b82db8da3e93e28777db3",
@@ -8628,7 +8628,7 @@ db = [
     "objectCount": 3358,
     "jamNumber": 3,
     "updateRestricted": 1,
-    "showcase": ""
+    "showcase": "bLw_i_fDnH4"
   },
   {
     "_id": "6a0b8b178da3e93e28777dc2",
