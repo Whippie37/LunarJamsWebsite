@@ -5679,51 +5679,51 @@ db = [
       ""
     ],
     "discordUsername": "kstar_vr",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 19.95,
+    "placement": 53,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "1",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1.5",
+        0,
+        "1.25",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "0",
+        0,
+        "1",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "0",
+        0,
+        "2",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "0",
+        0,
+        "1",
+        "0"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool ideas just feels very unpolished and unplaytested. Also some sections are kind of unclear.",
+      "A bit unclear where to go but I see the vision.",
+      "Interesting base but doesn't expand on the theme",
+      "Ending was a bit confsuing, the level has some ideas it just needs a bit more fine tuning.",
+      "Not really a fan of the final result, the overall execution doesn’t feel very clear."
     ],
     "levelVersion": 1,
     "updateDate": "20 minutes",
@@ -5742,181 +5742,55 @@ db = [
       ""
     ],
     "discordUsername": "hypertr0ller",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 44.95,
+    "placement": 35,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3.5",
+        0,
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "2.5",
+        0,
+        "2.25",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1.5",
+        0,
+        "2",
+        "1.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Very unique idea for a clicker game, unfortunately gets stale very quickly.",
+      "Usual clicker game but plays as you'd expect. No problems.",
+      "Funky tycoon with an interesting gameplay mechanic",
+      "Really fun idea. Just a bit tedious, particularly near the end.",
+      "Didn’t expect a combination of Pac-Man with the current theme of this Jam… very interesting"
     ],
     "levelVersion": 4,
     "updateDate": "3 hours",
     "objectCount": 1528,
-    "jamNumber": 3,
-    "updateRestricted": 1,
-    "showcase": ""
-  },
-  {
-    "_id": "6a08fa0fd84c4e1873716bc9",
-    "levelID": 140499371,
-    "levelName": "the force on an area",
-    "creators": [
-      "Dffcfcc",
-      "",
-      ""
-    ],
-    "discordUsername": "rickroll6746",
-    "finalScore": -1,
-    "placement": -1,
-    "judgeScores": [
-      [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    ],
-    "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "levelVersion": 1,
-    "updateDate": "5 hours",
-    "objectCount": 650,
-    "jamNumber": 3,
-    "updateRestricted": 1,
-    "showcase": ""
-  },
-  {
-    "_id": "6a0913d8d84c4e1873716bcc",
-    "levelID": 140532615,
-    "levelName": "pressure rooms",
-    "creators": [
-      "dumplyn",
-      "",
-      ""
-    ],
-    "discordUsername": "dumplyn7",
-    "finalScore": -1,
-    "placement": -1,
-    "judgeScores": [
-      [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    ],
-    "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "levelVersion": 1,
-    "updateDate": "5 minutes",
-    "objectCount": 869,
     "jamNumber": 3,
     "updateRestricted": 1,
     "showcase": ""
@@ -5931,51 +5805,51 @@ db = [
       ""
     ],
     "discordUsername": "cardiogrammar_gd",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 45.2,
+    "placement": 33,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        "2",
+        "2.5",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        "2",
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3",
+        "2",
+        "3",
+        "2.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        "2",
+        "3",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1.5",
+        "2",
+        "2",
+        "1.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "VERY chokepoint heavy and unfortunately too difficult for the main gimmick to matter.",
+      "Cool level!",
+      "Well-rounded but has awkward difficulty spikes",
+      "I like the gimmick. The level feels like it relies too much on a certain type of difficult click for its gameplay which I was not as much of a fan of. I liked the ending.",
+      "Interesting idea, but the amount of chokepoints hurt the experience for me."
     ],
     "levelVersion": 1,
     "updateDate": "6 minutes",
@@ -5994,51 +5868,51 @@ db = [
       ""
     ],
     "discordUsername": "twinkx_",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 26.6,
+    "placement": 50,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "0",
+        "4",
+        0,
+        "3.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "2",
+        0,
+        "3.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "0.5",
+        "0",
+        0,
+        "3.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "0",
+        "3",
+        0,
+        "3",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "0",
+        "2",
+        0,
+        "3",
+        "1.5"
       ]
     ],
     "judgeComments": [
       "",
-      "",
-      "",
-      "",
-      ""
+      "I can totally relate to this level lol",
+      "Pretty strong visuals but doesn't have any gameplay/gimmicks gearing toward the contest, applying pressure to the story was cool though",
+      "Interesting idea for a level but it feels a bit on the nose with the pressure theme by explicitly mentioning it.",
+      "I can’t really comment much on the gameplay, but the atmosphere is pretty clean."
     ],
     "levelVersion": 1,
     "updateDate": "8 hours",
@@ -6057,51 +5931,51 @@ db = [
       ""
     ],
     "discordUsername": "unc1212",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 13.65,
+    "placement": 54,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1",
+        0,
+        "1",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "1",
+        0,
+        "0.75",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "0",
+        0,
+        "1",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "0",
+        0,
+        "0",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "0",
+        0,
+        "1",
+        "0"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "feels very rushed and the gimmick is barely used.",
+      "swag",
+      "Feels a bit incomplete",
+      "Strange and a bit confusing. Nice atmosphere though.",
+      "I was expecting more from this entry in terms of creativity and decoration, but at least the theme aspect is present."
     ],
     "levelVersion": 1,
     "updateDate": "13 hours",
@@ -6120,51 +5994,51 @@ db = [
       ""
     ],
     "discordUsername": "speedar435",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 45.9,
+    "placement": 31,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.25",
+        "2.5",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        0,
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1.5",
+        0,
+        "1.5",
+        "2"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Would feel way better if the steam particles weren't invisible 80% of the time. Feels very unfair because of it.",
+      "cool concept! I wish the timed section had an on screen timer, and that the levers to open the doors were more clear.",
+      "Relatively fun level with a pretty solid gimmick.",
+      "Pretty fun! I think the steam lingers for a bit longer than expected and the hitbox is also a bit larger than expected but it was overall a fun level, I enjoyed it!",
+      "Really enjoyable overall, though I don’t really see it as a Harder 7 personally."
     ],
     "levelVersion": 1,
     "updateDate": "1 hour",
@@ -6183,51 +6057,51 @@ db = [
       ""
     ],
     "discordUsername": "leonxstp",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 49.15,
+    "placement": 29,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        0,
+        "4",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        0,
+        "3.25",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3.5",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        0,
+        "3",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2",
+        0,
+        "2.5",
+        "2.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Would benefit a lot from some checkpoints in my opinion, especially after the tutorial section.",
+      "very awesome deco. The gimmick was a bit confusing to me.",
+      "Solid gimmick, strong visuals.",
+      "I like the idea but having three propellers that all serve different functions while looking very similar is a bit confusing and leads to some sections not feeling very intuitive.",
+      "I would’ve liked to see more variety in the deco, but everything else feels really fresh."
     ],
     "levelVersion": 1,
     "updateDate": "6 hours",
@@ -6246,51 +6120,51 @@ db = [
       ""
     ],
     "discordUsername": "",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 20.3,
+    "placement": 52,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "1",
+        0,
+        "1",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "2",
+        0,
+        "1.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "1",
+        0,
+        "1",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "2",
+        0,
+        "1",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "0",
+        0,
+        "0",
+        "0"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "this is really funny",
+      "hell yeah brother",
+      "Interesting premise for a tycoon but a little too basic.",
+      "It gave me a laugh",
+      "Not really a fan"
     ],
     "levelVersion": 1,
     "updateDate": "1 day",
@@ -6309,51 +6183,51 @@ db = [
       ""
     ],
     "discordUsername": "kalash99k_yes_its_me",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 34.7,
+    "placement": 43,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2",
+        0,
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2.25",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "2.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "0",
+        0,
+        "1",
+        "1"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "pressure roomslop",
+      "solid. I wish it had some color or deco changes but overall cool ideas.",
+      "Regular room plat with loose correlation to the theme",
+      "Fairly fun, the plates in room 9 should be fixed so it does not automatically kill you for standing still too long. Nice ideas though.",
+      "Interesting ideas despite being a room level, but it doesn’t really stand out much beyond the decoration and gimmicks."
     ],
     "levelVersion": 2,
     "updateDate": "1 hour",
@@ -6372,51 +6246,51 @@ db = [
       ""
     ],
     "discordUsername": "robotnipper",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 67.3,
+    "placement": 10,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "4.5",
+        "1",
+        "4",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        "1",
+        "4",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "2.5",
+        "1",
+        "3.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "1",
+        "3.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        "1",
+        "3.5",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Very fun tycoon/clicker level, just feel like some of the UI could use a bit more contrast.",
+      "awesome! a bit confuising at the start but quickly learnable. really awesome unique art style.",
+      "Fun flashy clicker game",
+      "Very fun tycoon level. Having to travel between several points on different layers of the ocean break up the monotonous feeling a lot of tycoon levels have, the art style is also fantastic.",
+      "This is genuinely really good in terms of subtheme implementation, gameplay, and decoration. Really creative overall!"
     ],
     "levelVersion": 1,
     "updateDate": "1 hour",
@@ -6424,69 +6298,6 @@ db = [
     "jamNumber": 3,
     "updateRestricted": 1,
     "showcase": "PuNbCqs1wZ8"
-  },
-  {
-    "_id": "6a0a262ff0c18265b5ea47de",
-    "levelID": 140606709,
-    "levelName": "Thinking eight",
-    "creators": [
-      "CaboUser",
-      "",
-      ""
-    ],
-    "discordUsername": "dro.csid",
-    "finalScore": -1,
-    "placement": -1,
-    "judgeScores": [
-      [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    ],
-    "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "levelVersion": 1,
-    "updateDate": "8 minutes",
-    "objectCount": 35084,
-    "jamNumber": 3,
-    "updateRestricted": 1,
-    "showcase": "opU1UawfXmw"
   },
   {
     "_id": "6a0a4123f0c18265b5ea47e1",
@@ -6498,51 +6309,51 @@ db = [
       ""
     ],
     "discordUsername": "weegio",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 32.3,
+    "placement": 44,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1.5",
+        0,
+        "1.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1",
+        0,
+        "1",
+        "0"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool classic platforming level, colors could use some work in my opinion though. Also wish the outside water gimmick was used a bit more.",
+      "seals :)",
+      "Interesting level with some cool basic mechanics.",
+      "The pressure gauge feels a bit like a glorified timer. I think having some way to regain durability or lose it would make it feel a bit more interactive rather than just being a timed level.",
+      "Decent level overall, but it doesn’t really stand out much to me in terms of gameplay and deco."
     ],
     "levelVersion": 1,
     "updateDate": "23 minutes",
@@ -6561,51 +6372,51 @@ db = [
       ""
     ],
     "discordUsername": "leoalas2011",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 36.85,
+    "placement": 41,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        "2",
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "2",
+        "2",
+        "2.25",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1.5",
+        "2",
+        "1.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        "2",
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        "2",
+        "1.5",
+        "1.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "could've been a little longer in my opinion",
+      "saved the cat first try lets go",
+      "Neat speedrun level",
+      "Cute level. Could use a bit more in the decoration department but not bad.",
+      "To be fair, I enjoyed it quite a bit, although a few sections were a little tedious."
     ],
     "levelVersion": 1,
     "updateDate": "12 minutes",
@@ -6624,51 +6435,51 @@ db = [
       ""
     ],
     "discordUsername": ".ysy.",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 65.4,
+    "placement": 12,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4",
+        "3",
+        "3.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "4",
+        "3",
+        "2",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "3",
+        "2.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "4",
+        "3",
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        "3",
+        "2",
+        "2"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Way too hard for me to enjoy but great idea and execution. Would be cool if the panels were a little more required though.",
+      "very awesome concept. I like this a lot!",
+      "Super fascinating micro management level, well done.",
+      "Awesome concept, definitely feeling the pressure theme on this one.",
+      "I really liked the implementation of the subthemes here, quite enjoyable!"
     ],
     "levelVersion": 7,
     "updateDate": "21 minutes",
@@ -6687,51 +6498,51 @@ db = [
       ""
     ],
     "discordUsername": "thearmyants",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 41,
+    "placement": 38,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        0,
+        "2.5",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "2.5",
+        0,
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "1.5",
+        0,
+        "3",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "0",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        0,
+        "2",
+        "1.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool needle level, like the atmosphere. Too hard for me though. Also that one pink orb sucks. You know which one.",
+      "despite it being needle I actually loved the vibe of this. difficult but somehow quite enjoyable.",
+      "Standard precision demon, has some interesting parts though.",
+      "Nice atmosphere, some jumps feel a bit unfair and it can be difficult to see sometimes. The softlock is also diabolical.",
+      "The atmosphere fits the theme nicely.. Interesting way of implementing it."
     ],
     "levelVersion": 1,
     "updateDate": "5 hours",
@@ -6750,51 +6561,51 @@ db = [
       ""
     ],
     "discordUsername": "thikngd",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 82.8,
+    "placement": 2,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "5",
+        "5",
+        "2",
+        "4.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4",
+        "2",
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4.5",
+        "2",
+        "3.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4.5",
+        "5",
+        "2",
+        "4",
+        "5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4.5",
+        "5",
+        "2",
+        "4.5",
+        "4.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "VERY good puzzle design and gimmick, well done.",
+      "very fun + very well made!",
+      "Phenomenal gimmick, interesting gameplay with slight flaws but decent decoration.",
+      "Fantastic gimmick that's entirely original. Amazing level and interpretation of the theme",
+      "Not much to say about the level overall that hasn’t already been said, genuinely excellent work!"
     ],
     "levelVersion": 2,
     "updateDate": "19 minutes",
@@ -6813,51 +6624,51 @@ db = [
       ""
     ],
     "discordUsername": "0gerpon",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 54.9,
+    "placement": 23,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "5",
+        0,
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        0,
+        "2.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "4",
+        0,
+        "3",
+        "3.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3.5",
+        0,
+        "3",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Neat idea, just wish it had a little bit more time and was randomized instead of being pure muscle memory.",
+      "I wish it was randomized. fun concept!",
+      "Pretty fun stuff, but lacks randomisation, making it a little repetitive.",
+      "Pretty tight time constraint and level requirement. the level relies a bit too much on knowledge of some slightly more obscure levels, but a pretty cool idea!",
+      "Genuinely a really good idea."
     ],
     "levelVersion": 1,
     "updateDate": "22 minutes",
@@ -6876,51 +6687,51 @@ db = [
       ""
     ],
     "discordUsername": "xeronit",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 52.1,
+    "placement": 25,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2",
+        "2",
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3.5",
+        "2",
+        "2.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3",
+        "2",
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2",
+        "2",
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        "2",
+        "2",
+        "2"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool ideas, unfortunately reused from last jam so a bit unoriginal. Definitely better executed this time though.",
+      "great stuff. fun to learn and cool how it explains what killed you on death.",
+      "Solid stuff, but feels a little unexplained, making initial runs confusing.",
+      "Neat level, timer is a bit long and it can feel a little repetitive.",
+      "That’s actually really cool."
     ],
     "levelVersion": 1,
     "updateDate": "11 minutes",
@@ -6928,6 +6739,69 @@ db = [
     "jamNumber": 3,
     "updateRestricted": 1,
     "showcase": "40NLZ63Qxzs"
+  },
+  {
+    "_id": "6a0ae411f0c18265b5ea47f9",
+    "levelID": 140638935,
+    "levelName": "Under Pressure",
+    "creators": [
+      "Tro6",
+      "",
+      ""
+    ],
+    "discordUsername": "tro05",
+    "finalScore": 64.1,
+    "placement": 14,
+    "judgeScores": [
+      [
+        "2",
+        "2.5",
+        "3",
+        "4",
+        "2.5"
+      ],
+      [
+        "4",
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      [
+        "3.5",
+        "3.5",
+        "3",
+        "3.5",
+        "3"
+      ],
+      [
+        "3",
+        "3.5",
+        "3",
+        "3",
+        "3"
+      ],
+      [
+        "2.5",
+        "2",
+        "3",
+        "3",
+        "2.5"
+      ]
+    ],
+    "judgeComments": [
+      "Some parts feel a little bit hard to see/read, other than that cool level.",
+      "awesome for a first plat. has really good tension and pressure. not a massive fan of how zoomed the camera at the end is.",
+      "Strong platforming gameplay with a decent gimmick and fun routing.",
+      "Pretty fun entry! Nice theming too.",
+      "The atmosphere in this level is definitely solid."
+    ],
+    "levelVersion": 1,
+    "updateDate": "6 minutes",
+    "objectCount": 32948,
+    "jamNumber": 3,
+    "updateRestricted": 1,
+    "showcase": ""
   },
   {
     "_id": "6a0aee9df0c18265b5ea47fc",
@@ -6939,51 +6813,51 @@ db = [
       ""
     ],
     "discordUsername": "yestez",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 30.15,
+    "placement": 49,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "2",
+        0,
+        "1.5",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1.5",
+        0,
+        "2.25",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        0,
+        "2.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "0",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1.5",
+        0,
+        "1",
+        "1"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Way too unforgiving to learn, especially with no practice mode.",
+      "I wish this had some form of practice mode so you can learn it. Cool level though!",
+      "Regular speedrun plat, not bad but doesnt cater much to the theme.",
+      "Very difficult entry, pretty neat speedrun level but lacking a bit in decoration and theming.",
+      "Not bad overall, although I'd have liked more detail in the decoration and theme."
     ],
     "levelVersion": 1,
     "updateDate": "3 minutes",
@@ -7002,51 +6876,51 @@ db = [
       ""
     ],
     "discordUsername": "darpy__",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 67.6,
+    "placement": 9,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3",
+        0,
+        "3.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.25",
+        "3.5",
+        0,
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4.5",
+        "4",
+        0,
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "4",
+        0,
+        "3.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "4",
+        0,
+        "4",
+        "4"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Very well designed puzzles, good job!",
+      "cool gimmick, fair and balanced. teaches the player well.",
+      "Really good.",
+      "Very fun level and gimmick!",
+      "This is so awesome"
     ],
     "levelVersion": 1,
     "updateDate": "6 minutes",
@@ -7065,51 +6939,51 @@ db = [
       ""
     ],
     "discordUsername": "dolph____",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 37.9,
+    "placement": 40,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        0,
+        "2.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2.5",
+        0,
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "2.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "0",
+        0,
+        "3",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        0,
+        "2.5",
+        "2"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Not the biggest fan of how heavy the jetpack feels at the beginning, cool jetpack extreme otherwise though.",
+      "Cool stuff. Too difficult for me to fully play but I appreciate the practice mode and love the vibe.",
+      "Precision jetpack demon, would've been nice to seen some theme implementation.",
+      "Cool precision level, theming could be better.",
+      "Really hard, though the level maintained a very consistent quality throughout, which impressed me a lot."
     ],
     "levelVersion": 1,
     "updateDate": "22 minutes",
@@ -7128,51 +7002,51 @@ db = [
       ""
     ],
     "discordUsername": "smirkymyjens",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 50.4,
+    "placement": 27,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "4",
+        0,
+        "4",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "4.25",
+        0,
+        "3.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        0,
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3",
+        0,
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        0,
+        "3",
+        "2"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Very funny but unfortunately the controls feel very unresponsive and annoying to use.",
+      "such a vibe. gameplay isn't anything crazy but the atmosphere is really really good.",
+      "Fascinating gameplay and premise, very unique.",
+      "It is simply a vibe",
+      "The atmosphere is definitely the strongest aspect of the level here, very interesting visually."
     ],
     "levelVersion": 1,
     "updateDate": "9 minutes",
@@ -7191,51 +7065,51 @@ db = [
       ""
     ],
     "discordUsername": "vulkanogrindergd",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 31.25,
+    "placement": 47,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "1",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "2.75",
+        0,
+        "1.75",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "2.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2.5",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "1",
+        0,
+        "1",
+        "1"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Not a fan of the lack of checkpoints.",
+      "love the quiz section unironically. I wish it was a bit longer with the flood gameplay. Cool ideas though.",
+      "Decent base but feels a little unfinished.",
+      "A little short and deco could be improved but not bad.",
+      "Interesting ideas, but I’m not really a fan of the final result."
     ],
     "levelVersion": 1,
     "updateDate": "6 minutes",
@@ -7254,51 +7128,51 @@ db = [
       ""
     ],
     "discordUsername": "mrsqueeg",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 60.1,
+    "placement": 18,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "5",
+        "3",
+        "2.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "4.5",
+        "3",
+        "2",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "2.5",
+        "3",
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3.5",
+        "3",
+        "2.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1.5",
+        "3",
+        "1.5",
+        "1"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Very funny concept and well executed, just way too many orders required.",
+      "average work experience. needs a lot of polish but fun and original. finish this",
+      "Interesting cooking game but introduces too many mechanics at once",
+      "Fun level but the amount of orders required to win is far too many.",
+      "Definitely needs more work, but I’m curious to see the final result."
     ],
     "levelVersion": 1,
     "updateDate": "6 minutes",
@@ -7317,51 +7191,51 @@ db = [
       ""
     ],
     "discordUsername": "salamandermonster",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 55.8,
+    "placement": 21,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.25",
+        "2",
+        "3",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.75",
+        "3",
+        "3",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3",
+        "3",
+        "3",
+        "1.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1.5",
+        "3",
+        "2",
+        "1.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool speedrun gameplay, like the use of momentum. Just wish the underwater gimmick controlled a little better.",
+      "quite fun, plays well!",
+      "Pretty cool stuff visually and decent gimmick, but feels a bit janky gameplay wise.",
+      "Pretty fun but has a few nasty chokepoints. I like the design style!",
+      "I really like the gimmick ideas, but the final execution feelss a bit abrupt."
     ],
     "levelVersion": 1,
     "updateDate": "12 minutes",
@@ -7380,51 +7254,51 @@ db = [
       ""
     ],
     "discordUsername": "penamations",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 50.3,
+    "placement": 28,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "1",
+        "2",
+        "2.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        "2",
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        "2",
+        "2.5",
+        "1.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "1",
+        "2",
+        "1.5",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool speedrun level.",
+      "good stuff. enjoyable and plays well.",
+      "Fun gameplay, feels a little weak for the theming though.",
+      "Decent entry with some familiar gimmicks.",
+      "Really a fan of the gameplay, I enjoyed it a lot."
     ],
     "levelVersion": 1,
     "updateDate": "40 minutes",
@@ -7443,51 +7317,51 @@ db = [
       "lownegd"
     ],
     "discordUsername": "axelaxolotl2024_85115",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 31.6,
+    "placement": 46,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "0",
+        "2",
+        "1.5",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "2.5",
+        "2",
+        "2",
+        "1.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        "2",
+        "1.5",
+        "0.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "0",
+        "2",
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "0",
+        "2",
+        "1",
+        "1"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "roomslop",
+      "has some cool ideas.",
+      "Not a bad level, just feels a little forced regarding the theme, timer feels out of place.",
+      "A bit repetitve and not very on theme even with just a timer which is way too lenient.",
+      "Pretty solid overall, but doesn’t stand out much to me in terms of theme and deco."
     ],
     "levelVersion": 1,
     "updateDate": "37 minutes",
@@ -7506,51 +7380,51 @@ db = [
       ""
     ],
     "discordUsername": "tntking531",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 70.25,
+    "placement": 7,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2",
+        "2",
+        "4",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "2.5",
+        "2",
+        "4.25",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3.5",
+        "2",
+        "3.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4",
+        "2",
+        "4",
+        "3.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "5",
+        "4",
+        "2",
+        "4.5",
+        "5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool gimmicks",
+      "fun and looks awesome.",
+      "Well-rounded level, no real complaints here.",
+      "Very nice entry, there are a few small issues in a softlock and some balancing near the end but still a great entry.",
+      "This might honestly be my favorite entry… extremely well done and genuinely impressive."
     ],
     "levelVersion": 2,
     "updateDate": "5 minutes",
@@ -7569,51 +7443,51 @@ db = [
       ""
     ],
     "discordUsername": "taguocintam",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 50.95,
+    "placement": 26,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        "2",
+        "1.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.25",
+        "2.5",
+        "2",
+        "2.25",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        "2",
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "2",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1.5",
+        "2",
+        "2",
+        "1"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Neat gimmick and good execution, just wish that some of the patterns felt a bit more fair.",
+      "very cool, I like how theres rng and how the lights on front move. well done!",
+      "Fun simple premise",
+      "Really nice idea, I like how the sub has just enough places to move around in to where it gives you a lot of options to avoid trhe spikes.",
+      "I like the concept, but I feel like the execution could’ve been polished more, especially the gameplay."
     ],
     "levelVersion": 1,
     "updateDate": "21 minutes",
@@ -7632,51 +7506,51 @@ db = [
       ""
     ],
     "discordUsername": "user_person2",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 45.1,
+    "placement": 34,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "3",
+        0,
+        "2",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        0,
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        0,
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        0,
+        "2.5",
+        "2.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Gimmick is extremely buggy and doesn't feel good to use at all unfortunately. Puzzles are well designed though.",
+      "cool idea with the grapple. it can be a bit annoying at times but the concept is really good.",
+      "Big fan of the grapple gimmick",
+      "Pretty fun but the grapple can be a bit janky and I never fully felt like I knew how it woirked, great ideas though especially the steam moving the hook!",
+      "Fun level overall with decent deco, although the gimmick feels a bit tedious sometimes."
     ],
     "levelVersion": 1,
     "updateDate": "7 minutes",
@@ -7695,51 +7569,51 @@ db = [
       ""
     ],
     "discordUsername": "2ItalianCats",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 61.7,
+    "placement": 15,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "4.5",
+        0,
+        "2.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        0,
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        0,
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3.5",
+        0,
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4",
+        0,
+        "2.5",
+        "3.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Very good atmosphere.",
+      "very cool progression, enjoyed playing through this quite a bit.",
+      "Nicely done, no complaints.",
+      "Nice entry, wish it was longer!",
+      "Very creative in every aspect, especially with the coin routes."
     ],
     "levelVersion": 6,
     "updateDate": "21 minutes",
@@ -7758,51 +7632,51 @@ db = [
       "ItsZii"
     ],
     "discordUsername": "arcadiacmaniac",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 79.1,
+    "placement": 3,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "5",
+        "3",
+        "3.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "4.25",
+        "3",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "5",
+        "4.5",
+        "3",
+        "4",
+        "5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "4",
+        "3",
+        "2",
+        "3.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "3",
+        "3",
+        "4"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Great ideas, just needs some balancing. Basic turrets feel way too powerful, and the stronger towers don't really help all that much.",
+      "cool stuff. looking forward to the finished version.",
+      "Amazing.",
+      "Pretty fun tower defense type of level, I can see the Terraria x Dungeon Defenders inspiration",
+      "I’m excited to see the final version soon, I really enjoyed this level honestly."
     ],
     "levelVersion": 2,
     "updateDate": "4 minutes",
@@ -7821,51 +7695,51 @@ db = [
       ""
     ],
     "discordUsername": "ratliffi",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 55,
+    "placement": 22,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        0,
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        0,
+        "3",
+        "3.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "2",
+        0,
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2",
+        0,
+        "3",
+        "2.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool use of gimmicks, feels a little on the shorter side though. Could've used another checkpoint or two in my opinion.",
+      "very much enjoyed this. the boxes add so much to the gameplay. details like the bats in bg are super cool.",
+      "Well put together, clean gameplay and decent gimmick.",
+      "Fun level, pretty standard gimmick with a bit too much waiting but not bad.",
+      "Despite not being very elaborate in terms of decoration, it’s still a good level."
     ],
     "levelVersion": 1,
     "updateDate": "31 minutes",
@@ -7884,51 +7758,51 @@ db = [
       ""
     ],
     "discordUsername": "skyebox_",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 76.3,
+    "placement": 5,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "3",
+        "4",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "3",
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "3",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "3",
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "3",
+        "3.5",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Big fan of the level design here, just wish the compression/turning down pressure gimmick was experimented with a little bit more.",
+      "wow this is actually awesome. no notes. ok maybe make the water sounds only play when water is on screen.",
+      "Interesting visuals and fun gameplay.",
+      "Very enjoyable, really like the gameplay in this one!",
+      "This is super cool and creative."
     ],
     "levelVersion": 1,
     "updateDate": "8 minutes",
@@ -7947,51 +7821,51 @@ db = [
       "NotReddish"
     ],
     "discordUsername": "pwak1",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 78.4,
+    "placement": 4,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "5",
+        "3",
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4",
+        "3",
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "4.5",
+        "3",
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "4.5",
+        "3",
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4",
+        "3",
+        "3",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Really cool gimmick and well designed puzzles but my brain is too small for this level.",
+      "awesome concept, deco, and execution. very enjoyable. I wish some walls were easier to seperate from background / deco.",
+      "Really cool mechanic, fun creative gameplay.",
+      "Fantastic idea for a gimmick, the illusion of the size change was pulled off very well and the gameplay was fun!",
+      "Takes a bit to solve, but outside of that, feels pretty creative overall."
     ],
     "levelVersion": 1,
     "updateDate": "9 minutes",
@@ -8010,51 +7884,51 @@ db = [
       ""
     ],
     "discordUsername": "electric_zeke",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 31.7,
+    "placement": 45,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1",
+        "2",
+        "1",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.25",
+        "2",
+        "2",
+        "2.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        "2",
+        "1.5",
+        "0.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "0",
+        "2",
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "0",
+        "2",
+        "1",
+        "2"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Very unfinished.",
+      "has a lot of charm. enjoyed this a lot!",
+      "Interesting idea but feels a bit incomplete.",
+      "Execution of the pressure theme could be improved and the gameplay had some rough areas.",
+      "I really like the concept, but why does the timer start before the animation even finishes?"
     ],
     "levelVersion": 4,
     "updateDate": "14 minutes",
@@ -8073,51 +7947,51 @@ db = [
       ""
     ],
     "discordUsername": "vospoy_68211",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 48.3,
+    "placement": 30,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3.5",
+        "1",
+        "2.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2.5",
+        "1",
+        "1.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "1",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3",
+        "1",
+        "2",
+        "2.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1.5",
+        "1",
+        "1",
+        "1"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Box feels very jank, and the level as a whole feels really unfinished. Would be cool to see bugfixed and turned into a full level though.",
+      "very cool idea but unpolished. has potential for sure.",
+      "Unique and pretty fun to solve.",
+      "Feels like a nice proof of concept, would like to see this longer and more ideas expanded upon.",
+      "Has a lot of potential, though I didn’t completely understand the gimmick."
     ],
     "levelVersion": 1,
     "updateDate": "16 minutes",
@@ -8136,51 +8010,51 @@ db = [
       ""
     ],
     "discordUsername": "fcmaslopl",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 68.5,
+    "placement": 8,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "4",
+        "1",
+        "3.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "1",
+        "2.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "1",
+        "3.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "1",
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "1",
+        "3",
+        "4"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool gimmick, great execution and very cool puzzles.",
+      "fun, well made, good puzzles. overall polished and cool.",
+      "Very fun and simple premise, but incredibly effective.",
+      "Nicely done gimmick, I enjoyed this one!",
+      "I’m not the biggest fan of the decoration, but I really like how creative this level is."
     ],
     "levelVersion": 1,
     "updateDate": "7 minutes",
@@ -8199,51 +8073,51 @@ db = [
       ""
     ],
     "discordUsername": "Pagajagamagawaga",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 45.4,
+    "placement": 32,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "0.5",
+        "4",
+        0,
+        "2",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "4",
+        0,
+        "2.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "0",
+        "4",
+        0,
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3",
+        0,
+        "2",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3.5",
+        0,
+        "3",
+        "3.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Very funny level.",
+      "peak",
+      "Entertaining and fun to go through",
+      "Pretty funny entry, I like it.",
+      "That spinner made me dizzy a ton."
     ],
     "levelVersion": 1,
     "updateDate": "4 minutes",
@@ -8262,51 +8136,51 @@ db = [
       "RGZ"
     ],
     "discordUsername": "ghhhgd",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 66.9,
+    "placement": 11,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3.5",
+        "3",
+        "4",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        "3",
+        "3.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "4",
+        "3",
+        "3.5",
+        "3.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3.5",
+        "3",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4",
+        "3",
+        "4",
+        "4"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Seems like it would be really fun when finished but unfortunately it's VERY unfinished at the moment.",
+      "lots of gimmick ideas and cool stuff, just unfinished. will be awesome when finished tho :)",
+      "Talking to myself was an enlightening experience",
+      "Nice ideas here but definitely needs to be polished up.",
+      "What is this… Absolute cinema."
     ],
     "levelVersion": 3,
     "updateDate": "33 seconds",
@@ -8325,51 +8199,51 @@ db = [
       ""
     ],
     "discordUsername": "tryd3ntt_",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 38.25,
+    "placement": 39,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3.5",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        0,
+        "1.75",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        0,
+        "1.5",
+        "0.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "1",
+        "1"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool ideas, unfortunately deco seems to be a bit unfinished.",
+      "actually awesome. unpolished but has a ton of cool ideas. huge fan of this, especially as a first level.",
+      "Interesting start but feels very incomplete.",
+      "Some neat ideas here, but needs a lot of polishing.",
+      "Interesting ideas, but I would’ve liked to see more work put into the deco."
     ],
     "levelVersion": 1,
     "updateDate": "7 minutes",
@@ -8388,51 +8262,51 @@ db = [
       ""
     ],
     "discordUsername": "yenebv",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 42.6,
+    "placement": 37,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "3",
+        "2",
+        "2.5",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1.5",
+        "2",
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        "2",
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        "2",
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2.5",
+        "2",
+        "3",
+        "2"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Feels very artifically extended with how much cycle-based gameplay there is, and the timer is far too strict.",
+      "lots of waiting and backtracking.",
+      "Decent level.",
+      "A bit tedious and the gameplay could be made a lot more interesting.",
+      "I really like the direction this level is taking, but the final result didn’t fully convince me."
     ],
     "levelVersion": 1,
     "updateDate": "9 minutes",
@@ -8451,51 +8325,51 @@ db = [
       ""
     ],
     "discordUsername": "gabriv4",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 58.65,
+    "placement": 19,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "4",
+        "2",
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3.5",
+        "2",
+        "3.25",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "2",
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "2",
+        "2",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        "2",
+        "3",
+        "2.5"
       ]
     ],
     "judgeComments": [
+      "Funny idea, pretty good execution.",
+      "enjoyable! cool atmosphere.",
       "",
-      "",
-      "",
-      "",
-      ""
+      "Not bad, the end trigger running away is funny.",
+      "This is creative and visually looks very polished, good work."
     ],
     "levelVersion": 1,
     "updateDate": "11 minutes",
@@ -8514,51 +8388,51 @@ db = [
       ""
     ],
     "discordUsername": "zacban.",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 84.5,
+    "placement": 1,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4.5",
+        "4.5",
+        "3",
+        "4",
+        "5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "5",
+        "3",
+        "3",
+        "5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4.5",
+        "4",
+        "3",
+        "3.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4.5",
+        "5",
+        "3",
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3.5",
+        "3",
+        "3.5",
+        "3.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Great idea and execution, but I'm WAYY too uncoordinated for this lol.",
+      "exceptionally awesome. this is so well made! enjoyed solving this a ton.",
+      "Complicated and intricate systems, pretty fun to play.",
+      "Phenomenal entry, one of the more fun resource management levels I have played. The codes were very intuitive and it was very satisfying to complete.",
+      "Huge fan of this style of levels."
     ],
     "levelVersion": 1,
     "updateDate": "3 minutes",
@@ -8577,51 +8451,51 @@ db = [
       ""
     ],
     "discordUsername": "moniker2279",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 21.85,
+    "placement": 51,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "3",
+        0,
+        "0.5",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1",
+        0,
+        "0.25",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "2",
+        "0.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "0",
+        0,
+        "1",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "0",
+        0,
+        "1.5",
+        "2"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Legitimately made me feel sick to play, the static effect is WAY too strong.",
+      "my eyes can't play this at all, the static effect is way too strong.",
+      "Not a bad level, but feels loose regarding theming.",
+      "Not a fan of the static.",
+      "This level really caught my attention, I’d love to see it finished."
     ],
     "levelVersion": 1,
     "updateDate": "9 minutes",
@@ -8640,51 +8514,51 @@ db = [
       ""
     ],
     "discordUsername": "ootka",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 30.8,
+    "placement": 48,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3",
+        0,
+        "1",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "2",
+        0,
+        "1",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        0,
+        "1",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "1",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1",
+        0,
+        "1",
+        "1"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Really liked the deco in the first part, unfortunate it stopped immediately.",
+      "Has some cool ideas. A but buggy and unfinished.",
+      "Promising start, but unfortunately incomplete.",
+      "Cool ideas but needs work.",
+      "Interesting mechanic, I’d like to see the final result."
     ],
     "levelVersion": 1,
     "updateDate": "7 minutes",
@@ -8703,51 +8577,51 @@ db = [
       ""
     ],
     "discordUsername": "yesevoi",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 61.2,
+    "placement": 16,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4",
+        "3",
+        "3.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        "3",
+        "2.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "3",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3.5",
+        "3",
+        "2.5",
+        "2.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "1.5",
+        "3",
+        "2",
+        "2"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool ideas just unfortunately a bit buggy.",
+      "enjoyable. unpolished in many gameplay areas but it is a demo so its chill. hope to see it fixed up and fully released.",
+      "Incomplete, but well done regardless.",
+      "I really like the ideas but it needs some polishing up.",
+      "Not bad, has solid ideas."
     ],
     "levelVersion": 1,
     "updateDate": "4 minutes",
@@ -8766,51 +8640,51 @@ db = [
       "S0meR4ndomguy"
     ],
     "discordUsername": "ozoneeo",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 54.15,
+    "placement": 24,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        "2",
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.25",
+        "3.5",
+        "2",
+        "2.25",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        "2",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "2.5",
+        "2",
+        "2",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1.5",
+        "2",
+        "1.5",
+        "2"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Good ideas, just needs some work to be fully finished.",
+      "please polish this this is so awesome I love this level actually. plays super well ands has awesome ideas. just needs to be polished.",
+      "Though unfinished, its pretty fun to play through",
+      "Pretty fun!",
+      "Simple concept, but it’s fun."
     ],
     "levelVersion": 2,
     "updateDate": "4 minutes",
@@ -8829,51 +8703,51 @@ db = [
       ""
     ],
     "discordUsername": "niosygd",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 44.55,
+    "placement": 36,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        0,
+        "3",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3.5",
+        0,
+        "2.25",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        0,
+        "3",
+        "3.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2.5",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "1.5",
+        "1"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Good puzzles and gimmicks, unfortunately very annoying to play.",
+      "air vents felt slightly unfair for cycles, but overall great puzzles and ideas here.",
+      "Funky stuff, nice work.",
+      "Great starting point but some section of gameplay can be very frustrating, especially with no way to tell when to line up cycles with the steam.",
+      "Honestly it’s not bad, but I’m not a big fan of the final result."
     ],
     "levelVersion": 1,
     "updateDate": "16 minutes",
@@ -8892,55 +8766,307 @@ db = [
       "cabriX09"
     ],
     "discordUsername": "ilxyz_gd",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 34.9,
+    "placement": 42,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        0,
+        "3.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        0,
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        0,
+        "2.5",
+        "0.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1.5",
+        0,
+        "1.5",
+        "1"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Neat theming, unfortunately very short and the gameplay is a bit awkward to play.",
+      "deco looks awesome, and this has some cool ideas.",
+      "Interesting but feels a little incoherent and incomplete.",
+      "A bit short but some nice ideas.",
+      "Quite confusing overall, but has creative ideas."
     ],
     "levelVersion": 1,
     "updateDate": "17 minutes",
     "objectCount": 4931,
+    "jamNumber": 3,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "6a0b95493e9d773e19f44592",
+    "levelID": 140674692,
+    "levelName": "overflow",
+    "creators": [
+      "NoLifeSadly",
+      "",
+      ""
+    ],
+    "discordUsername": "nolifesadly",
+    "finalScore": 55.91,
+    "placement": 20,
+    "judgeScores": [
+      [
+        "3.5",
+        "2",
+        0,
+        "3.6",
+        "4"
+      ],
+      [
+        "4",
+        "2.5",
+        0,
+        "3.25",
+        "4"
+      ],
+      [
+        "4",
+        "3.5",
+        0,
+        "3",
+        "3.5"
+      ],
+      [
+        "3.5",
+        "3",
+        0,
+        "3",
+        "3"
+      ],
+      [
+        "2.5",
+        "2",
+        0,
+        "2",
+        "2.5"
+      ]
+    ],
+    "judgeComments": [
+      "Big fan of simple levels like this, just wish it was maybe a little bit longer.",
+      "very enjoyable! awesome work",
+      "Simple but very enjoyable, clean visuals too",
+      "Short but fun, I enjoyed it.",
+      "Simple, but I like the general idea of the level. It doesn’t stand out much by itself, but it’s intuitive"
+    ],
+    "levelVersion": 2,
+    "updateDate": "17 minutes",
+    "objectCount": 13754,
+    "jamNumber": 3,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "6a0b99fa3e9d773e19f44595",
+    "levelID": 140674714,
+    "levelName": "stove",
+    "creators": [
+      "koshkamatew",
+      "",
+      ""
+    ],
+    "discordUsername": "koshkamatew",
+    "finalScore": 72.9,
+    "placement": 6,
+    "judgeScores": [
+      [
+        "3.5",
+        "5",
+        "3",
+        "3.5",
+        "4"
+      ],
+      [
+        "3",
+        "4.5",
+        "3",
+        "3",
+        "4"
+      ],
+      [
+        "3.5",
+        "3.5",
+        "3",
+        "3",
+        "3"
+      ],
+      [
+        "3.5",
+        "4",
+        "3",
+        "3",
+        "3"
+      ],
+      [
+        "3",
+        "3",
+        "3",
+        "2.5",
+        "3.5"
+      ]
+    ],
+    "judgeComments": [
+      "Awesome concept and execution, wish there were more than 3 dishes though.",
+      "wow this is peak",
+      "Neat cooking game, good work.",
+      "Very fun concept, really enjoyed this one.",
+      "I really like how creative this level is."
+    ],
+    "levelVersion": 1,
+    "updateDate": "1 hour",
+    "objectCount": 5090,
+    "jamNumber": 3,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "6a0ba8af0bf02cde7c7eb5fc",
+    "levelID": 140674848,
+    "levelName": "level kinda sendless",
+    "creators": [
+      "Ivelll",
+      "",
+      ""
+    ],
+    "discordUsername": "ivelll",
+    "finalScore": 64.5,
+    "placement": 13,
+    "judgeScores": [
+      [
+        "3.5",
+        "5",
+        "1",
+        "3",
+        "3"
+      ],
+      [
+        "2.5",
+        "4",
+        "1",
+        "2.5",
+        "3"
+      ],
+      [
+        "3",
+        "4",
+        "1",
+        "3.5",
+        "3.5"
+      ],
+      [
+        "4",
+        "3.5",
+        "1",
+        "3",
+        "4"
+      ],
+      [
+        "2",
+        "3",
+        "1",
+        "3",
+        "2"
+      ]
+    ],
+    "judgeComments": [
+      "this is a really funny concept, unfortunately the controls are a bit unresponsive at times.",
+      "fun, enjoyed. spycold blocked me.",
+      "Very enjoyable gimmick.",
+      "Fun level, the theming is pretty funny too.",
+      "Didn’t expect to see an idea like this in a level LOL"
+    ],
+    "levelVersion": 8,
+    "updateDate": "1 hour",
+    "objectCount": 9038,
+    "jamNumber": 3,
+    "updateRestricted": 1,
+    "showcase": ""
+  },
+  {
+    "_id": "6a0bd5370bf02cde7c7eb602",
+    "levelID": 140672800,
+    "levelName": "When i dont have a",
+    "creators": [
+      "Ruletoedus",
+      "",
+      ""
+    ],
+    "discordUsername": "Ruletoedus",
+    "finalScore": 60.3,
+    "placement": 17,
+    "judgeScores": [
+      [
+        "3.5",
+        "3.5",
+        "3",
+        "3",
+        "4"
+      ],
+      [
+        "2.5",
+        "3.5",
+        "3",
+        "2",
+        "3"
+      ],
+      [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      [
+        "1.5",
+        "2",
+        "3",
+        "2",
+        "1.5"
+      ]
+    ],
+    "judgeComments": [
+      "Great atmosphere, just wish that there was a bit more visual indication on how things worked, as well as of the current depth. Really great start here, hope to see it expanded into a full polished level at some point.",
+      "cool concept. needs a tutorial or better explanation really badly. also a bit unpolished, but the ideas are super cool.",
+      "Well-rounded experience, but did take some time to get the hang of it",
+      "Pretty neat, could use some better instructions to make it more understandable.",
+      "Interesting ideas, but the execution would’ve been much better with a clearer sense of the overall objective."
+    ],
+    "levelVersion": 2,
+    "updateDate": "5 hours",
+    "objectCount": 1928,
     "jamNumber": 3,
     "updateRestricted": 1,
     "showcase": ""
