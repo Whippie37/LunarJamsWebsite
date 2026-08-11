@@ -139,7 +139,7 @@ function loadData() {
     let judgeIcons = document.getElementsByClassName('judge-icon');
     let judgeNames = document.getElementsByClassName('judge-name');
     for (i = 0; i < 10; i++) {
-        judgeIcons[i].src = `./Assets/Staff Profile Pictures/${judges[jamNumber-1][i%5]}.png`
+        judgeIcons[i].src = `./Assets/Staff Profile Pictures/${judges[jamNumber-1][i%5].toLowerCase()}.png`
     }
     for (i = 0; i < 5; i++) {
         judgeNames[i].innerHTML = judges[jamNumber-1][i];
