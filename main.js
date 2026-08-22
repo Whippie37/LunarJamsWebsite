@@ -46,13 +46,13 @@ function setLang(langID) {
 }
 
 function init() {
-    let activeJam = true;
+    let activeJam = false;
     loadCookies();
     setBackground();
     let section = document.getElementById('homepage-section-left');
 
     let message = "Welcome to Lunar Jam.";
-    let message2 = "Next Jam - August 7th, 2026 6PM EST!";
+    let message2 = "Next Jam - December 18th, 2026 3PM EST!";
 
     let messageSection = document.createElement('div');
     messageSection.className = "message";
@@ -79,7 +79,7 @@ function init() {
         let video = document.createElement('iframe');
         video.classname = 'video';
         video.id = 'video';
-        video.src = 'https:\//www.youtube-nocookie.com/embed/KRN3rJCL9Lc';
+        video.src = 'https:\//www.youtube-nocookie.com/embed/Cg5dTZllS0w';
         video.title = "Youtube Video Player";
         video.frameborder = "0";
         video.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
