@@ -9081,51 +9081,51 @@ db = [
       ""
     ],
     "discordUsername": "KSTAR_VR",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 20,
+    "placement": 42,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "1",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1.5",
+        0,
+        "1.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1",
+        0,
+        "1.5",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "0.5",
+        "1",
+        0,
+        "0.5",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "0",
+        0,
+        "1",
+        "1.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Feels very uninspired and incohesive.",
+      "to be honest I don't know how 'switch' was involved in this lol",
+      "Good base to work off of, though currently very unfinished.",
+      "Funny monster face.",
+      "Not bad"
     ],
     "levelVersion": 1,
     "updateDate": "26 minutes",
@@ -9144,51 +9144,51 @@ db = [
       ""
     ],
     "discordUsername": "redbunny0313_88884",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 14.9,
+    "placement": 45,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "0",
+        "0",
+        0,
+        "0",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "2.25",
+        0,
+        "1",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "2",
+        0,
+        "0",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "1.5",
+        0,
+        "0",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "0",
+        0,
+        "0",
+        "0"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "-",
+      "cool concept but very unpolished and short",
+      "Fantastic gimmick with loads of opportunity, but incomplete.",
+      "Gimmick has potential!",
+      "Interesting idea, I would've liked to see more work put into it."
     ],
     "levelVersion": 1,
     "updateDate": "14 minutes",
@@ -9207,51 +9207,51 @@ db = [
       ""
     ],
     "discordUsername": "",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 27.8,
+    "placement": 41,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2.5",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "1",
+        0,
+        "1.5",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "1.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1",
+        0,
+        "1.5",
+        "1.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Whizkid adventures 1 was better",
+      "I wish it was a little longer but cool switching on/off movement gimmick.",
+      "Decent gimmick but doesn't reflect this contest's theming.",
+      "Not a bad start!",
+      "Has a lot of potential"
     ],
     "levelVersion": 1,
     "updateDate": "2 hours",
@@ -9270,51 +9270,51 @@ db = [
       ""
     ],
     "discordUsername": "smirkymyjens",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 61.4,
+    "placement": 18,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "2.5",
+        "Both",
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "Both",
+        "2.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3.5",
+        "Both",
+        "3",
+        "1.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        "Both",
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "1.5",
+        "Both",
+        "2",
+        "2"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Neat gimmick and well designed puzzles.",
+      "cool puzzles! ^.^",
+      "Interesting gimmick, visuals, and gameplay.",
+      "I like the looks of this one.",
+      "Fun gimmick, ngl. it has potential"
     ],
     "levelVersion": 1,
     "updateDate": "1 hour",
@@ -9333,51 +9333,51 @@ db = [
       ""
     ],
     "discordUsername": "thearmyants",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 66.15,
+    "placement": 13,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "Contrast",
+        "2.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4.5",
+        "4",
+        "Contrast",
+        "3.25",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "Contrast",
+        "3",
+        "1.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "4",
+        "Contrast",
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "2",
+        "Contrast",
+        "3",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool gimmick.",
+      "yeah this slapped so awesome so good",
+      "Very fun, and a pretty unique gimmick that keeps the visuals engaging too.",
+      "Cool ideas, plays pretty well!",
+      "Pretty fun to play; I really loved the concept!"
     ],
     "levelVersion": 1,
     "updateDate": "2 hours",
@@ -9396,51 +9396,51 @@ db = [
       ""
     ],
     "discordUsername": "kazkazka",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 59.8,
+    "placement": 21,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        "Both",
+        "3",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "Both",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3.5",
+        "Both",
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "4",
+        "Both",
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        "Both",
+        "2.5",
+        "2.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool ideas and puzzle design but my brain is too small for this. Also not sure why controls are inverted it makes it way harder than it would be otherwise.",
+      "difficult but really quite cool",
+      "Creative puzzles, and an entertaining premise, though odd choices regarding gameplay near the end.",
+      "A bit rough to play but nice idea!",
+      "Really cool gimmick, wasn’t expecting to see it in an entry"
     ],
     "levelVersion": 1,
     "updateDate": "24 minutes",
@@ -9459,51 +9459,51 @@ db = [
       ""
     ],
     "discordUsername": "slotharch",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 64.15,
+    "placement": 14,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4",
+        "Contrast",
+        "4",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "Contrast",
+        "2.75",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "4",
+        "Contrast",
+        "3.5",
+        "2.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3.5",
+        "Contrast",
+        "3.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3.5",
+        "Contrast",
+        "3",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Very good routing, unfortunately a lot of bugs, and desperately needs more checkpoints.",
+      "quite enjoyable, I like it",
+      "Fun and well though out stuff, though the gameplay can be unclear at times.",
+      "I'm a fan of these kinds of room levels, besides some balancing issues this was pretty fun!",
+      "The gimmick is really cool"
     ],
     "levelVersion": 1,
     "updateDate": "7 hours",
@@ -9522,51 +9522,51 @@ db = [
       ""
     ],
     "discordUsername": "theideakid",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 58.2,
+    "placement": 23,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3",
+        "Both",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3.5",
+        "Both",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "Both",
+        "2.5",
+        "2.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        "Both",
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2",
+        "Both",
+        "2.5",
+        "2.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Very cool idea and good puzzles.",
+      "I wish it expanded upon the concept a bit more but this is awesome",
+      "Well rounded gameplay, no complaints here.",
+      "Unique idea, but not quite developed enough, the gameplay was really repetitive.",
+      "The deco feels so clean"
     ],
     "levelVersion": 1,
     "updateDate": "7 hours",
@@ -9585,51 +9585,51 @@ db = [
       ""
     ],
     "discordUsername": "stegglie4247_13266",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 59.8,
+    "placement": 22,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "Connect",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        "Connect",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3.5",
+        "Connect",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        "Connect",
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        "Connect",
+        "3",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Neat gimmick, wish some things were a little bit more indicated, and the level as a whole could be a bit longer.",
+      "really clean, fun to play",
+      "Enjoyable experience, very easy to understand, though feels a bit short.",
+      "Wish it had a bit more of a puzzle element with what light switches to enable, but cool overall.",
+      "I really enjoyed this"
     ],
     "levelVersion": 3,
     "updateDate": "3 hours",
@@ -9648,51 +9648,51 @@ db = [
       ""
     ],
     "discordUsername": "",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 18.36,
+    "placement": 44,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "1",
+        0,
+        "0.1",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1.5",
+        0,
+        "1",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "0.5",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "0",
+        "1",
+        0,
+        "0",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1",
+        0,
+        "0",
+        "1"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Not a fan of the random difficulty spike halfway through.",
+      "indeed you do",
+      "Not bad, but lacks originality or decoration.",
+      "Basic gimmick, with some tweaks to balancing and room design (and making the level possible), could be an okay level!",
+      "Simple, but I would have liked to see some decoration in this."
     ],
     "levelVersion": 1,
     "updateDate": "3 hours",
@@ -9711,51 +9711,51 @@ db = [
       ""
     ],
     "discordUsername": "axelaxolotl2024_85115",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 19,
+    "placement": 43,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "3",
+        0,
+        "1",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "1",
+        0,
+        "1",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "0.5",
+        "0",
+        0,
+        "0.5",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "1",
+        0,
+        "1.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1",
+        0,
+        "1",
+        "1"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "three tungs and i'm on the floor",
+      "YEAH YEAH YEAH YEAH YEAH",
+      "No idea what I just played but it was something.",
+      "Tung Tung Sahur!",
+      "Triple T"
     ],
     "levelVersion": 1,
     "updateDate": "6 minutes",
@@ -9774,51 +9774,51 @@ db = [
       "Mazeexe"
     ],
     "discordUsername": "tiga_3000",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 37.75,
+    "placement": 35,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        0,
+        "2.25",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "3",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "1.5",
+        0,
+        "1.5",
+        "1.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "absolute cinema",
+      "certainly a switchup",
+      "Unique premise, and pretty funny too, wish it was expanded on in the gameplay aspect.",
+      "I'm broke too brother I get you.",
+      "Funny ideas"
     ],
     "levelVersion": 1,
     "updateDate": "26 minutes",
@@ -9837,51 +9837,51 @@ db = [
       ""
     ],
     "discordUsername": "SaxFranek",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 32.5,
+    "placement": 38,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2.25",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1",
+        0,
+        "1",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        0,
+        "2",
+        "2"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Neat interpretation of the celeste feather gimmick. Could do without the death screen though.",
+      "some cool ideas, I like the doors",
+      "Funky visuals, but the gameplay would benefit heavily from a more creative gimmick.",
+      "Interesting theming.",
+      "Cool atmosphere"
     ],
     "levelVersion": 1,
     "updateDate": "5 minutes",
@@ -9900,51 +9900,51 @@ db = [
       ""
     ],
     "discordUsername": "vulkanogrindergd",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 37.6,
+    "placement": 36,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        0,
+        "1.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.75",
+        "2",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1.5",
+        0,
+        "1.5",
+        "2"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Puzzles are unfortunately way too easy to be enjoyable, but really cool gimmick with a lot of potential.",
+      "I wish there were a bit more puzzles, as well as the rotation of the stick mattering more",
+      "Interesting and creative gimmick, but unfortunately doesn't do too much despite the potential of said gimmick.",
+      "If the gimmick was explored more with better level design it could be a really cool puzzle map!",
+      "Interesting ideas"
     ],
     "levelVersion": 1,
     "updateDate": "16 minutes",
@@ -9963,51 +9963,51 @@ db = [
       ""
     ],
     "discordUsername": "zacban.",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 77,
+    "placement": 5,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "Connect",
+        "3.5",
+        "3.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "5",
+        "5",
+        "Connect",
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "4",
+        "Connect",
+        "3.5",
+        "3.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "4",
+        "Connect",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "5",
+        "4",
+        "Connect",
+        "4",
+        "4"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Really good strategy game, unfortunately there's too few turns to execute any really cool or fun strategies.",
+      ":D",
+      "Very well rounded mini-game",
+      "Simple, but fun!",
+      "Dude…"
     ],
     "levelVersion": 1,
     "updateDate": "7 minutes",
@@ -10026,51 +10026,51 @@ db = [
       ""
     ],
     "discordUsername": "whiskers11",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 47.55,
+    "placement": 30,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        0,
+        "2",
+        "2.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3.5",
+        0,
+        "2.25",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        0,
+        "2",
+        "2.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Little bit finnicky to play but the concept is neat. Could've used some slightly more difficult puzzles though.",
+      "cool gimmick but a little short, cool stuff!",
+      "Solid gimmick based room plat, though suffers from a short length, needs to expand on itself more.",
+      "Decently enjoyable!",
+      "Definitely one of my favorites, it's really clean and solid"
     ],
     "levelVersion": 2,
     "updateDate": "58 minutes",
@@ -10089,51 +10089,51 @@ db = [
       ""
     ],
     "discordUsername": "user_person2",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 68.2,
+    "placement": 10,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        "Both",
+        "3.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4",
+        "Both",
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "Both",
+        "3.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "Both",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        "Both",
+        "3",
+        "4"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool gimmick, unfortunately a little bit buggy. Level could also be a bit longer and introduce a few more gimmicks.",
+      "actually so awesome",
+      "Strong visuals and decent gameplay, not much to say here.",
+      "Fun! Clean decoration as well.",
+      "Really like their interpretation of the theme."
     ],
     "levelVersion": 1,
     "updateDate": "6 minutes",
@@ -10152,51 +10152,51 @@ db = [
       ""
     ],
     "discordUsername": "kalash99k_yes_its_me",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 32.3,
+    "placement": 39,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "2",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1.75",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "2",
+        "0.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "1",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "1",
+        0,
+        "1.5",
+        "2"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Bossfight is really not engaging to play, level honestly would've been better without it.",
+      "swap blocks, but cool boss and difficult rooms",
+      "Decent, but unoriginal gimmick, so unfortunately the lack of creativity hits the scoring a bit here.",
+      "More enjoyable than I expected, not bad!",
+      "Not bad"
     ],
     "levelVersion": 1,
     "updateDate": "53 minutes",
@@ -10215,51 +10215,51 @@ db = [
       ""
     ],
     "discordUsername": "greg133.",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 60.6,
+    "placement": 20,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "Contrast",
+        "4",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3.5",
+        "Contrast",
+        "2.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3.5",
+        "Contrast",
+        "3.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        "Contrast",
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "2",
+        "Contrast",
+        "3",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Big fan of the ambience here",
+      "awesome stuff, gets you nervous",
+      "Very fun and easy to get the hang of, visuals are charming too.",
+      "Cool vibe!",
+      "Fun level!"
     ],
     "levelVersion": 1,
     "updateDate": "21 minutes",
@@ -10278,51 +10278,51 @@ db = [
       ""
     ],
     "discordUsername": "0waffle0",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 48.7,
+    "placement": 28,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3.5",
+        0,
+        "3",
+        "2.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2",
+        0,
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3.5",
+        0,
+        "1.5",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Neat mirror gimmick, and decently fun gameplay.",
+      "pretty solid, enjoyed",
+      "Pretty fun to learn, though might benefit from a .5s lingering afterimage of structures to make the gameplay more satisfying.",
+      "slop, yum!",
+      "Quite interesting!"
     ],
     "levelVersion": 1,
     "updateDate": "45 minutes",
@@ -10341,51 +10341,51 @@ db = [
       ""
     ],
     "discordUsername": "v1ewsh0t",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 86.8,
+    "placement": 2,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "5",
+        "Both",
+        "5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "4.5",
+        "Both",
+        "2.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "5",
+        "Both",
+        "4",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "5",
+        "4",
+        "Both",
+        "3.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "5",
+        "5",
+        "Both",
+        "4.5",
+        "4.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "insane wtf, you could sell this as a full game honestly",
+      "yeah just really awesome",
+      "Impressive work. strong game design, easy controls, and cool gradient illusions.",
+      "Insanely impressive, especially for being done in 3 days!",
+      "What?"
     ],
     "levelVersion": 1,
     "updateDate": "16 minutes",
@@ -10404,51 +10404,51 @@ db = [
       ""
     ],
     "discordUsername": "ratliffi",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 66.4,
+    "placement": 12,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3.5",
+        "Contrast",
+        "3.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4",
+        "Contrast",
+        "2.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "4",
+        "Contrast",
+        "3",
+        "3.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        "Contrast",
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "Contrast",
+        "3",
+        "3.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Neat puzzles and good execution, just a bit bright to look at.",
+      "really great. minimalistic but so fun.",
+      "Awesome gimmick and creative level design, nice work.",
+      "Clean!",
+      "A bit unbalanced in terms of GP, but the rest is really good"
     ],
     "levelVersion": 1,
     "updateDate": "1 hour",
@@ -10467,51 +10467,51 @@ db = [
       ""
     ],
     "discordUsername": "porqchopgd",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 48.2,
+    "placement": 29,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        0,
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3",
+        0,
+        "2",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3",
+        0,
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "2.5",
+        0,
+        "1.5",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        0,
+        "2.5",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Really cool gimmick, just wish it was expanded on a little bit more.",
+      "quite cool",
+      "Yet again, another funky but unique gimmick, no issues with this, but could of course, be expanded on.",
+      "Cool gimmick, do wish it was used more creatively though.",
+      "For your first rated level is pretty good ngl"
     ],
     "levelVersion": 1,
     "updateDate": "10 minutes",
@@ -10530,51 +10530,51 @@ db = [
       ""
     ],
     "discordUsername": "ruletoedus",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 52.7,
+    "placement": 26,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3.5",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3.5",
+        0,
+        "2.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3.5",
+        0,
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        0,
+        "2.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        0,
+        "2.5",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Interesting idea, unfortunatel lacks a bit of polishing and playtesting.",
+      "great stuff, decently unpolished but has some fantastic ideas and gameplay",
+      "Simple mechanics, but executed well.",
+      "Dash orbs !!!!!",
+      "Such a cool gimmick"
     ],
     "levelVersion": 1,
     "updateDate": "5 minutes",
@@ -10593,51 +10593,51 @@ db = [
       ""
     ],
     "discordUsername": "robotnipper",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 70.4,
+    "placement": 8,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "2.5",
+        0,
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "5",
+        0,
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "4",
+        0,
+        "3.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        0,
+        "4",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "5",
+        0,
+        "4",
+        "4.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Really good puzzle design and gimmick, nice job!",
+      "I mean come on is this not exceptional my goodness",
+      "Incredibly fun while still maintaining simplicity.",
+      "Super clean, very well made!",
+      "This is banger"
     ],
     "levelVersion": 1,
     "updateDate": "2 minutes",
@@ -10656,51 +10656,51 @@ db = [
       ""
     ],
     "discordUsername": "darpy__",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 63.4,
+    "placement": 15,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        "Connect",
+        "3.5",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "4",
+        "Connect",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3.5",
+        "Connect",
+        "3.5",
+        "3.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        "Connect",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "4",
+        "Connect",
+        "3.5",
+        "4"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool gimmick and execution, unfortunately really frustrating to play and desperately needs more checkpoints.",
+      "I actually raged at this lol, cool level",
+      "Well made gameplay and visuals, and an interesting gimmick.",
+      "Has some bugs, but overall cool level!",
+      "Super solid entry"
     ],
     "levelVersion": 3,
     "updateDate": "9 minutes",
@@ -10719,51 +10719,51 @@ db = [
       ""
     ],
     "discordUsername": "tqhoud",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 50.15,
+    "placement": 27,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2.5",
+        0,
+        "2.25",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "2.5",
+        0,
+        "3",
+        "3.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        0,
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2",
+        0,
+        "2",
+        "4"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool puzzles, although some parts are a bit unintuitive",
+      "cool ideas",
+      "Very simple system, but the gameplay flows well and is creatively thought out.",
+      "Overall decent, enjoyed it!",
+      "I really enjoyed it, fun gimmick"
     ],
     "levelVersion": 1,
     "updateDate": "10 minutes",
@@ -10782,51 +10782,51 @@ db = [
       ""
     ],
     "discordUsername": "stretcho",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 46,
+    "placement": 32,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        0,
+        "2.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2.5",
+        0,
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3.5",
+        0,
+        "2.5",
+        "3.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Neat gimmick, feels a little samey to a few of the other entries though.",
+      "laggy but cool switching gimmick",
+      "Solid all-around, though not an entirely unique gimmick, and feels like it ends a little abruptly.",
+      "Do wish the gimmick was utilized in a more interesting way, not bad though.",
+      "Super evil Coins def"
     ],
     "levelVersion": 1,
     "updateDate": "5 minutes",
@@ -10845,51 +10845,51 @@ db = [
       ""
     ],
     "discordUsername": "12345poop",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 53.3,
+    "placement": 25,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "5",
+        "Both",
+        "2",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2.5",
+        "Both",
+        "1.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        "Both",
+        "2",
+        "2.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        "Both",
+        "3",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        "Both",
+        "1.5",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "absolute cinema",
+      "gang",
+      "pretty unique concept all around, could be executed better in some aspects, like more creative routing, but still a fun experience.",
+      "Fun vibes, do wish the gameplay section was longer because it had potential.",
+      "Good animations"
     ],
     "levelVersion": 1,
     "updateDate": "3 minutes",
@@ -10908,51 +10908,51 @@ db = [
       ""
     ],
     "discordUsername": "moniker2279",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 41.25,
+    "placement": 33,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "3",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2.5",
+        0,
+        "2.25",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "1",
+        0,
+        "3",
+        "0.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "1.5",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3.5",
+        0,
+        "2.5",
+        "2.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Too fast to really understand what's happening, not very intuitive.",
+      "learny but has cool ideas. unpolished with a lot of force block stuff",
+      "Decent gameplay and visuals, however, it feels like the general theme of the contest wasn't reflected well here.",
+      "Cool! With some more time to clean up this would be a pretty fun auto-scroller level!",
+      "Really creative stuff, there’s still a lot to polish, especially the deco and gameplay, but it has some really good ideas."
     ],
     "levelVersion": 1,
     "updateDate": "9 minutes",
@@ -10971,51 +10971,51 @@ db = [
       ""
     ],
     "discordUsername": "skyebox_",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 79.7,
+    "placement": 4,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4.5",
+        "4.5",
+        "Both",
+        "4",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4.5",
+        "4.5",
+        "Both",
+        "3.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "Both",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "Both",
+        "3.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "Both",
+        "3.5",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Really creative take on the generic switch blocks!",
+      "so exceptionally awesome well done",
+      "Very fun routing and a simple yet effective gimmick.",
+      "Really well made, very fun!",
+      "Cool deco!"
     ],
     "levelVersion": 1,
     "updateDate": "6 minutes",
@@ -11034,51 +11034,51 @@ db = [
       ""
     ],
     "discordUsername": "velvet222.",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 46.9,
+    "placement": 31,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "2.5",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        0,
+        "2.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        0,
+        "2",
+        "0.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2.5",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2.5",
+        0,
+        "2",
+        "2.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "A bit buggy, but unique idea of splitting the player into 2",
+      "really cool stuff, enjoyed a lot",
+      "Solid base to work off of, but feels a little odd in terms of control scheme, and some gimmicks aren't too unique.",
+      "Not bad, was fairly enjoyable and the gimmick was cool.",
+      "Pretty decent deco, cool ideas"
     ],
     "levelVersion": 1,
     "updateDate": "19 minutes",
@@ -11097,51 +11097,51 @@ db = [
       ""
     ],
     "discordUsername": "mrsqueeg",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 67,
+    "placement": 11,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.75",
+        "3.5",
+        "Both",
+        "2.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3.5",
+        "Both",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "Both",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "4",
+        "Both",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "1.5",
+        "Both",
+        "2",
+        "2.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Fun gimmick, could've been a little bit longer though.",
+      "cool puzzles, very chill",
+      "Simple premise, but the puzzles and gimmick are executed very tastefully.",
+      "Nice and easy puzzle map!",
+      "Not bad; it's actually very intuitive imo"
     ],
     "levelVersion": 1,
     "updateDate": "5 minutes",
@@ -11160,51 +11160,51 @@ db = [
       ""
     ],
     "discordUsername": "ootka",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 30.45,
+    "placement": 40,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        0,
+        "2.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1.5",
+        0,
+        "1.75",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "1",
+        0,
+        "2.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1",
+        0,
+        "1",
+        "1"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Feels very unfinished, but nice start.",
+      "cool idea, just unfinished",
+      "Very promising start, but unfortunately incomplete.",
+      "Sadly quite unfinished, but it has potential!",
+      "Interesting idea"
     ],
     "levelVersion": 1,
     "updateDate": "9 minutes",
@@ -11223,51 +11223,51 @@ db = [
       ""
     ],
     "discordUsername": "tntking531",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 72.1,
+    "placement": 7,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2.5",
+        "Both",
+        "4",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4",
+        "Both",
+        "3.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3",
+        "Both",
+        "4",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "Both",
+        "4",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "5",
+        "Both",
+        "4.5",
+        "4.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Main gimmick is unfortunately extremely poorly executed which makes the level really unfun to play.",
+      "really great.",
+      "Excellent visuals, but gameplay can be a little unclear at times due to the lack of strong contrasting in worlds/swaps",
+      "Impressive for 3 days! Pretty cool overall. It can be difficult to tell what layer you are on.",
+      "Definitely one of my favorites, it's really clean and solid"
     ],
     "levelVersion": 1,
     "updateDate": "4 minutes",
@@ -11286,51 +11286,51 @@ db = [
       ""
     ],
     "discordUsername": "ghhhgd",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 89,
+    "placement": 1,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4.5",
+        "4.5",
+        "Contrast",
+        "4.5",
+        "5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "5",
+        "5",
+        "Contrast",
+        "4",
+        "5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "5",
+        "4.5",
+        "Contrast",
+        "4",
+        "5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "5",
+        "Contrast",
+        "4.5",
+        "5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "5",
+        "4.5",
+        "Contrast",
+        "5",
+        "5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Really creative gimmick and great level design!",
+      "holllllllly",
+      "Absolutely fantastic, amazing gimmick and puzzle solving, as well as strong visuals.",
+      "Absolutely phenomal, really creative!",
+      "I can't find the words to describe just how good this level is"
     ],
     "levelVersion": 1,
     "updateDate": "2 minutes",
@@ -11349,51 +11349,51 @@ db = [
       ""
     ],
     "discordUsername": "arcadiacmaniac",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 82.35,
+    "placement": 3,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4.5",
+        "4",
+        "Connect",
+        "4",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "5",
+        "Connect",
+        "3.25",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4.5",
+        "4",
+        "Connect",
+        "4",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "5",
+        "Connect",
+        "4",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4.5",
+        "4.5",
+        "Connect",
+        "4.5",
+        "4.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Very fun gimmick and good puzzle design!",
+      "super awesome, great work",
+      "Great experience all around, no critiques to be had.",
+      "Really creative gimmick, plays pretty well too!",
+      "It's so peak"
     ],
     "levelVersion": 1,
     "updateDate": "7 minutes",
@@ -11412,51 +11412,51 @@ db = [
       ""
     ],
     "discordUsername": "astralgi",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 62.5,
+    "placement": 17,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2",
+        "Both",
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        "Both",
+        "2.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "Both",
+        "3",
+        "3.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        "Both",
+        "2.5",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3",
+        "Both",
+        "2.5",
+        "3.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "A bit simple, but not bad.",
+      "end is unpolished but great level",
+      "Fun and interesting puzzles, though some sections feel a little more rushed gameplay wise.",
+      "Does need a lot of cleaning up, but has potential!",
+      "Pretty fun overall"
     ],
     "levelVersion": 1,
     "updateDate": "8 minutes",
@@ -11475,51 +11475,51 @@ db = [
       ""
     ],
     "discordUsername": "TheCab09",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 41.25,
+    "placement": 34,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1",
+        "3",
+        "Contrast",
+        "2",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "2",
+        "Contrast",
+        "1.75",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        "Contrast",
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "3",
+        "Contrast",
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2",
+        "Contrast",
+        "2",
+        "2"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "unique concept but the shaders unfortunately make it extremely disorienting and unfun to play.",
+      "I see the vision but it is very hard to figure out",
+      "Pretty strong base, but unfortunately incomplete.",
+      "Unfortunately pretty short, honestly it's a cool idea and with some good polish it could be sick!",
+      "Not bad not bad"
     ],
     "levelVersion": 2,
     "updateDate": "19 minutes",
@@ -11538,51 +11538,51 @@ db = [
       ""
     ],
     "discordUsername": "yesevoi",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 61.2,
+    "placement": 19,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "5",
+        0,
+        "3.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3.5",
+        0,
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3.5",
+        0,
+        "3.5",
+        "3.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3",
+        0,
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3.5",
+        0,
+        "3",
+        "3.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "i want a vine boom to play every time i swap to moai mode please i need that to happen thanks",
+      "cool stuff, just unfinished",
+      "Cool theming and decent gameplay, puzzle solving is simple but effective.",
+      "Not bad! Definitely had potential, just needed a bit more time to clean up.",
+      "Moái Moái Moái"
     ],
     "levelVersion": 2,
     "updateDate": "4 minutes",
@@ -11601,51 +11601,51 @@ db = [
       "theflyingjet"
     ],
     "discordUsername": "pwak1",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 76.51,
+    "placement": 6,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "5",
+        "Both",
+        "3.5",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.75",
+        "5",
+        "Both",
+        "3.35",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "Both",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "4",
+        "Both",
+        "3",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4",
+        "Both",
+        "3",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Really unique idea, and just long enough to not get annoying having to exit the level.",
+      "yeah this is rather awesome actually",
+      "Solid gameplay and a very unique premise with the LDM being used.",
+      "Quite creative! Fun to play as well!",
+      "Awesome ideas"
     ],
     "levelVersion": 1,
     "updateDate": "21 minutes",
@@ -11664,51 +11664,51 @@ db = [
       ""
     ],
     "discordUsername": "mkomeg",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 62.55,
+    "placement": 16,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "1",
+        "Contrast",
+        "4",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "Contrast",
+        "3.25",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3",
+        "Contrast",
+        "3.5",
+        "3.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "2",
+        "Contrast",
+        "3.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3",
+        "Contrast",
+        "3.5",
+        "4"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Neat designs and puzzles, some parts are a little bit confusing though.",
+      "awesome style and puzzles, really fun and enjoyable",
+      "Gimmick feels like an expansion on the swap block gimmick, but it's done very well here. Deco is strong and the gameplay is satisfying.",
+      "Clean, and fun! Perhaps a bit on the short end though.",
+      "Really good, fire gameplay"
     ],
     "levelVersion": 1,
     "updateDate": "18 minutes",
@@ -11727,51 +11727,51 @@ db = [
       ""
     ],
     "discordUsername": "harperanna_",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 57,
+    "placement": 24,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "2",
+        "Connect",
+        "3.5",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2",
+        "2.5",
+        "Connect",
+        "3",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3",
+        "3.5",
+        "Connect",
+        "4",
+        "3.5"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "2",
+        "Connect",
+        "3.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "Connect",
+        "3",
+        "3.5"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Far too long, too many gimmicks, and too confusing to be enjoyable.",
+      "way too many orbs for me personally but cool stuff and ideas for sure",
+      "Tons of gimmicks, meaning that sometimes it can get a little confusing. Other than that, fun and creative mechanics.",
+      "Pretty fun to pull off, wow that last checkpoint is a quite the difficulty spike to learn though.",
+      "Pretty creative"
     ],
     "levelVersion": 1,
     "updateDate": "52 minutes",
@@ -11790,51 +11790,51 @@ db = [
       ""
     ],
     "discordUsername": "koshkamatew",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 69.5,
+    "placement": 9,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "4",
+        "Contrast",
+        "3.5",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3.5",
+        "Contrast",
+        "2.5",
+        "3"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4",
+        "3.5",
+        "Contrast",
+        "4",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "4.5",
+        "4",
+        "Contrast",
+        "3",
+        "4"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "3.5",
+        "3",
+        "Contrast",
+        "2.5",
+        "3"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Neat gimmick use and fun puzzles.",
+      "a little hard to get the timings but cool concept",
+      "Very fun mechanics; gameplay feels satisfying, nothing is confusing though practice certainly helps on early runs.",
+      "This is SO FUN! Super satifsying movement!",
+      "I've really enjoyed playing this. Great job!"
     ],
     "levelVersion": 1,
     "updateDate": "1 hour",
@@ -11853,51 +11853,51 @@ db = [
       ""
     ],
     "discordUsername": "(mew mew) ChainCh0mp :3",
-    "finalScore": -1,
-    "placement": -1,
+    "finalScore": 36,
+    "placement": 37,
     "judgeScores": [
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "2",
+        0,
+        "3",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "3",
+        0,
+        "2",
+        "2"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "2.5",
+        "3",
+        0,
+        "2",
+        "1"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "2.5",
+        0,
+        "2",
+        "0"
       ],
       [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
+        "1.5",
+        "1",
+        0,
+        "1",
+        "1"
       ]
     ],
     "judgeComments": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cool gimmick but is very unintuitive to learn and use.",
+      "super difficult to understand but cool idea",
+      "Decent overall, but feels a little weak regarding gameplay, and the visuals are a little basic.",
+      "Interesting gimmick, quite weird to get used to though.",
+      "Not bad; I like the ideas in this level"
     ],
     "levelVersion": 2,
     "updateDate": "3 minutes",
